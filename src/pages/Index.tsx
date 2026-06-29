@@ -6,6 +6,7 @@ import { StatsSection } from "@/components/home/StatsSection";
 import { TrainingGallerySection } from "@/components/home/TrainingGallerySection";
 import { SolutionsSection } from "@/components/home/SolutionsSection";
 import { WhyChooseSection } from "@/components/home/WhyChooseSection";
+import { CasesSection } from "@/components/home/CasesSection";
 import { CTASection } from "@/components/home/CTASection";
 import { OrganizationSchema } from "@/components/seo/StructuredData";
 const Index = () => {
@@ -36,10 +37,11 @@ const Index = () => {
       <Layout>
         <HeroSection />
         <ClientLogos />
-        <StatsSection />
-        <TrainingGallerySection />
         <SolutionsSection />
+        <StatsSection />
         <WhyChooseSection />
+        <CasesSection />
+        <TrainingGallerySection />
         <CTASection />
       </Layout>
     </>

@@ -27,6 +27,21 @@ const Cookies = lazy(() => import("./pages/Cookies"));
 const AvisoLegal = lazy(() => import("./pages/AvisoLegal"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
+// Sub-pages lazy load
+const PDL = lazy(() => import("./pages/treinamento/PDL"));
+const TreinamentoLideranca = lazy(() => import("./pages/treinamento/Lideranca"));
+const TreinamentoComercial = lazy(() => import("./pages/treinamento/Comercial"));
+const TreinamentoVendas = lazy(() => import("./pages/treinamento/Vendas"));
+const TreinamentoCapacitacao = lazy(() => import("./pages/treinamento/Capacitacao"));
+const TreinamentoImersao = lazy(() => import("./pages/treinamento/Imersao"));
+const TreinamentosPersonalizados = lazy(() => import("./pages/treinamento/Personalizados"));
+
+const ConsultoriaEmpresarial = lazy(() => import("./pages/consultoria/Empresarial"));
+const ConsultoriaComercial = lazy(() => import("./pages/consultoria/Comercial"));
+const ConsultoriaRH = lazy(() => import("./pages/consultoria/RH"));
+const ConsultoriaSistemica = lazy(() => import("./pages/consultoria/Sistemica"));
+const ConsultoriaVarejo = lazy(() => import("./pages/consultoria/Varejo"));
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -40,7 +55,21 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/consultoria" element={<Consultoria />} />
+              <Route path="/consultoria/empresarial" element={<ConsultoriaEmpresarial />} />
+              <Route path="/consultoria/comercial" element={<ConsultoriaComercial />} />
+              <Route path="/consultoria/rh" element={<ConsultoriaRH />} />
+              <Route path="/consultoria/sistemica" element={<ConsultoriaSistemica />} />
+              <Route path="/consultoria/varejo" element={<ConsultoriaVarejo />} />
+              
               <Route path="/treinamento" element={<Treinamento />} />
+              <Route path="/treinamento/pdl" element={<PDL />} />
+              <Route path="/treinamento/lideranca" element={<TreinamentoLideranca />} />
+              <Route path="/treinamento/comercial" element={<TreinamentoComercial />} />
+              <Route path="/treinamento/vendas" element={<TreinamentoVendas />} />
+              <Route path="/treinamento/capacitacao" element={<TreinamentoCapacitacao />} />
+              <Route path="/treinamento/imersao" element={<TreinamentoImersao />} />
+              <Route path="/treinamento/personalizados" element={<TreinamentosPersonalizados />} />
+
               <Route path="/quem-somos" element={<QuemSomos />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:slug" element={<BlogPost />} />

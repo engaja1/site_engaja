@@ -21,12 +21,12 @@ export function SolutionsSection() {
         </div>
 
         {/* 2 Vertentes Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Card 1: Consultoria */}
           <Link to="/consultoria" className="group animate-fade-up block">
             <Card className="h-full border-border/50 hover:border-primary/30 hover:shadow-lg transition-all duration-500 card-hover overflow-hidden relative bg-card p-6 sm:p-8 flex flex-col justify-between">
               <span className="absolute -top-0 right-6 bg-accent text-accent-foreground px-3 py-1.5 rounded-b-lg text-xs font-bold shadow-md z-10">
-                Soluções Sob Medida
+                Gestão & Processos
               </span>
               <div>
                 {/* Header info */}
@@ -36,54 +36,50 @@ export function SolutionsSection() {
                   </div>
                   <div>
                     <h3 className="text-xl sm:text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
-                      Consultoria Estratégica
+                      Consultoria
                     </h3>
                     <p className="text-accent font-medium text-xs sm:text-sm mt-0.5">
-                      Diagnóstico & Implementação
+                      Diagnóstico & Estrutura
                     </p>
                   </div>
                 </div>
 
-                <p className="text-muted-foreground text-sm sm:text-base mb-6 leading-relaxed">
-                  Projetos consultivos exclusivos desenhados sob medida para os desafios operacionais e de crescimento da sua empresa. Atuamos de forma prática na estruturação de processos, gestão, finanças, vendas, pessoas e tecnologia.
-                </p>
+                <div className="text-muted-foreground text-sm sm:text-base mb-6 space-y-4 leading-relaxed">
+                  <p>
+                    Empresas em crescimento chegam a um ponto em que a estrutura de gestão não acompanha mais o ritmo da operação. Decisões se concentram nos sócios, os processos perdem consistência e os resultados deixam de ser previsíveis.
+                  </p>
+                  <p>
+                    Nossas consultorias partem de um diagnóstico aprofundado da operação para estruturar processos, indicadores e responsabilidades — construindo uma gestão capaz de crescer com previsibilidade e menos dependência da presença dos donos.
+                  </p>
+                  <p className="text-xs sm:text-sm italic font-medium text-foreground/70">
+                    Todo o trabalho é conduzido in company, conectado à realidade e à rotina da empresa.
+                  </p>
+                </div>
 
                 {/* Sub-areas list */}
                 <div className="space-y-3 mb-8">
                   <h4 className="text-xs font-semibold text-foreground/45 uppercase tracking-wider">
-                    O que trabalhamos de forma personalizada:
+                    Principais frentes de consultoria:
                   </h4>
-                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-sm text-foreground/80">
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Consultoria de RH</span>
+                  <ul className="space-y-3 text-sm text-foreground/80">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span><strong>Consultoria Comercial:</strong> estruturação do funil de vendas, CRM e indicadores para um crescimento previsível</span>
                     </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Consultoria Financeira</span>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span><strong>Consultoria Empresarial:</strong> organização de processos, gestão e indicadores de desempenho</span>
                     </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Consultoria Comercial</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Recrutamento & Seleção</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Inteligência Artificial</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Agência de Marketing</span>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span><strong>Consultoria de RH:</strong> atração, desenvolvimento e retenção de talentos</span>
                     </li>
                   </ul>
                 </div>
               </div>
 
               <div className="flex items-center text-primary font-semibold text-sm mt-4 group-hover:text-accent transition-colors pt-4 border-t border-border/40">
-                Conhecer Consultorias Personalizadas
+                Conhecer Consultorias
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
               </div>
             </Card>
@@ -93,7 +89,7 @@ export function SolutionsSection() {
           <Link to="/treinamento" className="group animate-fade-up block" style={{ animationDelay: "0.15s" }}>
             <Card className="h-full border-border/50 hover:border-primary/30 hover:shadow-lg transition-all duration-500 card-hover overflow-hidden relative bg-card p-6 sm:p-8 flex flex-col justify-between">
               <span className="absolute -top-0 right-6 bg-accent text-accent-foreground px-3 py-1.5 rounded-b-lg text-xs font-bold shadow-md z-10">
-                Mais Procurado
+                Capacitação Prática
               </span>
               <div>
                 {/* Header info */}
@@ -103,54 +99,47 @@ export function SolutionsSection() {
                   </div>
                   <div>
                     <h3 className="text-xl sm:text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
-                      Treinamentos Corporativos
+                      Treinamento
                     </h3>
                     <p className="text-accent font-medium text-xs sm:text-sm mt-0.5">
-                      Desenvolvimento & Capacitação
+                      Liderança & Vendas
                     </p>
                   </div>
                 </div>
 
-                <p className="text-muted-foreground text-sm sm:text-base mb-6 leading-relaxed">
-                  Programas educacionais desenvolvidos sob medida para líderes e equipes, focando nas reais lacunas de competências da empresa, utilizando metodologia ativa para aplicação prática imediata.
-                </p>
+                <div className="text-muted-foreground text-sm sm:text-base mb-6 space-y-4 leading-relaxed">
+                  <p>
+                    Equipes sem método e líderes despreparados comprometem diretamente os resultados em produtividade, em vendas e no engajamento das pessoas.
+                  </p>
+                  <p>
+                    Nossos programas de liderança, vendas e capacitação são desenhados sob medida e orientados à prática. As equipes desenvolvem competências aplicáveis ao dia a dia, com impacto direto na operação, sem conteúdo genérico e sem teoria descolada da realidade do negócio.
+                  </p>
+                </div>
 
                 {/* Sub-areas list */}
                 <div className="space-y-3 mb-8">
                   <h4 className="text-xs font-semibold text-foreground/45 uppercase tracking-wider">
-                    O que trabalhamos de forma personalizada:
+                    Principais programas de treinamento:
                   </h4>
-                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-sm text-foreground/80">
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Treinamentos de Liderança</span>
+                  <ul className="space-y-3 text-sm text-foreground/80">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span><strong>PDL:</strong> Programa de Desenvolvimento de Liderança jornada estruturada de formação de líderes e sucessores</span>
                     </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Treinamento Comercial</span>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span><strong>Treinamento de Liderança:</strong> desenvolvimento de competências para engajar equipes e gerar resultados</span>
                     </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Imersões Práticas</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Capacitação Comportamental</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Treinamentos de Vendas</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0" />
-                      <span>Treinamentos Sob Medida</span>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <span><strong>Treinamento Comercial:</strong> técnicas de prospecção, negociação e fechamento para times de vendas</span>
                     </li>
                   </ul>
                 </div>
               </div>
 
               <div className="flex items-center text-primary font-semibold text-sm mt-4 group-hover:text-accent transition-colors pt-4 border-t border-border/40">
-                Conhecer Treinamentos Personalizados
+                Conhecer Treinamentos
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
               </div>
             </Card>

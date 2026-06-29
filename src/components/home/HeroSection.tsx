@@ -19,11 +19,11 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">
-              Soluções sob medida para <span className="text-accent">sua empresa</span> crescer
+              Tire a empresa das <span className="text-accent">suas costas</span>.
             </h1>
 
             <p className="text-base sm:text-lg md:text-lg text-primary-foreground/90 max-w-xl leading-relaxed">
-              Desenvolvemos projetos e treinamentos 100% personalizados para a realidade e individualidade do seu negócio, garantindo resultados reais.
+              Consultoria e treinamentos que organizam a gestão, preparam líderes e fazem o negócio crescer sem depender só de você.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
