@@ -49,7 +49,7 @@ export function SolutionsSection() {
                     Empresas em crescimento chegam a um ponto em que a estrutura de gestão não acompanha mais o ritmo da operação. Decisões se concentram nos sócios, os processos perdem consistência e os resultados deixam de ser previsíveis.
                   </p>
                   <p>
-                    Nossas consultorias partem de um diagnóstico aprofundado da operação para estruturar processos, indicadores e responsabilidades — construindo uma gestão capaz de crescer com previsibilidade e menos dependência da presença dos donos.
+                    Nossas consultorias partem de um diagnóstico aprofundado da operação para estruturar processos, indicadores e responsabilidades construindo uma gestão capaz de crescer com previsibilidade e menos dependência da presença dos donos.
                   </p>
                   <p className="text-xs sm:text-sm italic font-medium text-foreground/70">
                     Todo o trabalho é conduzido in company, conectado à realidade e à rotina da empresa.
