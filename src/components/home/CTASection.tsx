@@ -54,12 +54,6 @@ export function CTASection() {
                   <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
-              <Button asChild variant="hero" size="lg" className="w-full h-12 sm:h-14 px-4 sm:px-8">
-                <a href="https://wa.me/5511978153276" target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="mr-2 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
-                  Entre em Contato
-                </a>
-              </Button>
             </div>
           </div>
         </div>
