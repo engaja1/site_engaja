@@ -15,7 +15,7 @@ export function HeroSection() {
           <div className="text-primary-foreground space-y-5 sm:space-y-6 animate-fade-up">
             <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm">
               <Award className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-accent" />
-              <span>Soluções Corporativas Práticas</span>
+              <span>20 anos no mercado</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">
@@ -28,14 +28,9 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Button asChild size="lg" className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90 btn-glow text-sm sm:text-base font-semibold h-11 sm:h-12 px-5 sm:px-6 group">
-                <a href="https://wa.me/5511978153276" target="_blank" rel="noopener noreferrer">
-                  <span className="flex flex-col items-center">
-                    <span className="flex items-center">
-                      Fale Conosco
-                      <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
-                    </span>
-                    <span className="text-[10px] sm:text-xs opacity-80 font-normal">Sem compromisso • Resposta em 24h</span>
-                  </span>
+                <a href="https://wa.me/5511978153276" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                  Fale Conosco
+                  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
               <Button asChild variant="hero" size="lg" className="w-full sm:w-auto h-11 sm:h-12 px-5 sm:px-6">
@@ -44,14 +39,6 @@ export function HeroSection() {
                   Conheça Nossas Soluções
                 </Link>
               </Button>
-            </div>
-
-            {/* Urgency Badge */}
-            <div className="inline-flex items-center gap-2 bg-accent/20 text-accent px-3 sm:px-4 py-1.5 sm:py-2 rounded-full animate-pulse">
-              <Clock className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
-              <span className="text-xs sm:text-sm font-medium">
-                Agenda limitada para {new Date().toLocaleString('pt-BR', { month: 'long' }).charAt(0).toUpperCase() + new Date().toLocaleString('pt-BR', { month: 'long' }).slice(1)}
-              </span>
             </div>
 
             {/* Trust indicators */}
@@ -91,7 +78,7 @@ export function HeroSection() {
                     <TrendingUp className="h-6 w-6 text-accent" />
                   </div>
                   <div>
-                    <p className="text-foreground font-bold text-lg">+45%</p>
+                    <p className="text-foreground font-bold text-lg">+52%</p>
                     <p className="text-muted-foreground text-sm">Produtividade</p>
                   </div>
                 </div>
@@ -103,7 +90,7 @@ export function HeroSection() {
                     <Users className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <p className="text-foreground font-bold text-lg">98%</p>
+                    <p className="text-foreground font-bold text-lg">99%</p>
                     <p className="text-muted-foreground text-sm">Satisfação</p>
                   </div>
                 </div>
