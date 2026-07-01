@@ -15,7 +15,7 @@ export function HeroSection() {
           <div className="text-primary-foreground space-y-5 sm:space-y-6 animate-fade-up">
             <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm">
               <Award className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-accent" />
-              <span>20 anos no mercado</span>
+              <span>+20 anos no mercado</span>
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">
