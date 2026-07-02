@@ -189,7 +189,7 @@ const BlogPost = () => {
               </p>
               <Button asChild size="lg" className="h-14 px-10 text-base font-semibold">
                 <a
-                  href="https://wa.me/5511978153276?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Engaja."
+                  href="https://wa.me/5519998051046?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Engaja."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

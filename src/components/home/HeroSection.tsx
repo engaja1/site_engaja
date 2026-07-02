@@ -28,7 +28,7 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Button asChild size="lg" className="w-full sm:w-auto bg-accent text-accent-foreground hover:bg-accent/90 btn-glow text-sm sm:text-base font-semibold h-11 sm:h-12 px-5 sm:px-6 group">
-                <a href="https://wa.me/5511978153276" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                <a href="https://wa.me/5519998051046" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                   Fale Conosco
                   <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
                 </a>

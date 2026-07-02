@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import logoHeader from "@/assets/logo-header-blue.png";
 
-const WHATSAPP_URL = "https://wa.me/5511978153276";
+const WHATSAPP_URL = "https://wa.me/5519998051046";
 
 const navigation = [
   { name: "Consultoria", href: "/consultoria" },

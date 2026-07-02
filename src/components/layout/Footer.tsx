@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Linkedin, Instagram } from "lucide-react";
 import logoHeader from "@/assets/logo-header.webp";
 
-const WHATSAPP_URL = "https://wa.me/5511978153276";
+const WHATSAPP_URL = "https://wa.me/5519998051046";
 
 const solutions = [
   { name: "Consultoria Empresarial", href: "/consultoria" },
@@ -95,7 +95,7 @@ export function Footer() {
               <li>
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 sm:gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm sm:text-base">
                   <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-accent" />
-                  (11) 97815-3276
+                  (19) 99805-1046
                 </a>
               </li>
               <li>

@@ -48,7 +48,7 @@ export function CTASection() {
 
             <div className="flex flex-col gap-3 sm:gap-4 lg:justify-end w-full min-w-0">
               <Button asChild size="lg" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 btn-glow h-12 sm:h-14 px-4 sm:px-8 text-sm sm:text-base font-semibold group">
-                <a href="https://wa.me/5511978153276" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5519998051046" target="_blank" rel="noopener noreferrer">
                   <span className="sm:hidden">Fale Conosco</span>
                   <span className="hidden sm:inline">Fale Conosco pelo WhatsApp</span>
                   <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0 group-hover:translate-x-1 transition-transform" />

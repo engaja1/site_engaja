@@ -183,7 +183,7 @@ export function CasesSection() {
                   Quer ver resultados reais como estes na operação do seu negócio?
                 </p>
                 <Button asChild className="bg-primary hover:bg-primary/95 text-white shadow-md w-full sm:w-auto h-11 sm:h-12 px-6">
-                  <a href="https://wa.me/5511978153276" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/5519998051046" target="_blank" rel="noopener noreferrer">
                     Solicitar um Diagnóstico
                     <ArrowRight className="ml-2 h-4.5 w-4.5" />
                   </a>

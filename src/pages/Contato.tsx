@@ -14,7 +14,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Telefone / WhatsApp",
-    details: ["(19) 3631-3858", "(11) 97815-3276"],
+    details: ["(19) 3631-3858", "(19) 99805-1046"],
   },
   {
     icon: Mail,

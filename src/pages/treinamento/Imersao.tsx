@@ -13,7 +13,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5511978153276";
+const WHATSAPP_LINK = "https://wa.me/5519998051046";
 
 const Imersao = () => {
   return (
