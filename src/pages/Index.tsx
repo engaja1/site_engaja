@@ -13,17 +13,17 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Engaja Soluções Corporativas | Consultoria, Treinamentos e RH</title>
+        <title>Engaja Soluções Corporativas | Consultoria, Treinamentos</title>
         <meta
           name="description"
-          content="Há mais de 18 anos transformando empresas através de consultoria em RH, treinamentos personalizados, marketing digital e gestão empresarial. Solicite uma proposta!"
+          content="Há mais de 18 anos transformando empresas através de consultoria e treinamentos personalizados. Solicite uma proposta!"
         />
-        <meta name="keywords" content="consultoria empresarial, treinamentos corporativos, RH, marketing digital, recrutamento e seleção" />
+        <meta name="keywords" content="consultoria empresarial, treinamentos corporativos" />
         <link rel="canonical" href="https://www.engaja.com.br/" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Engaja Soluções Corporativas | Consultoria, Treinamentos e RH" />
-        <meta property="og:description" content="Há mais de 18 anos transformando empresas através de consultoria em RH, treinamentos personalizados, marketing digital e gestão empresarial." />
+        <meta property="og:title" content="Engaja Soluções Corporativas | Consultoria, Treinamentos" />
+        <meta property="og:description" content="Há mais de 18 anos transformando empresas através de consultoria e treinamentos personalizados." />
         <meta property="og:url" content="https://www.engaja.com.br/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.engaja.com.br/og-image.jpg" />
@@ -31,7 +31,7 @@ const Index = () => {
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Engaja Soluções Corporativas" />
-        <meta name="twitter:description" content="Consultoria empresarial, treinamentos corporativos e soluções em RH" />
+        <meta name="twitter:description" content="Consultoria empresarial e treinamentos corporativos" />
       </Helmet>
       <OrganizationSchema />
       <Layout>
