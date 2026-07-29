@@ -90,33 +90,28 @@ const trainingPrograms = [
 const journeySteps = [
   {
     step: "1",
-    title: "Diagnóstico e Alinhamento Estratégico",
-    description: "Briefing do desafio real diretamente com a diretoria para mapear as principais dores.",
+    title: "Reunião de Alinhamento",
+    description: "Antes de qualquer conteúdo, entendemos os objetivos da empresa, o perfil dos participantes e os resultados esperados. É o que garante um treinamento alinhado à sua realidade, e não um modelo de prateleira.",
   },
   {
     step: "2",
-    title: "Mapeamento e Assessments",
-    description: "Avaliação comportamental e técnica da equipe para identificar lacunas de competência.",
+    title: "Diagnóstico das Necessidades",
+    description: "Mapeamos os reais desafios da equipe e identificamos exatamente quais competências precisam ser desenvolvidas para focar o treinamento onde ele gera mais impacto.",
   },
   {
     step: "3",
-    title: "Desenho de Conteúdo Sob Medida",
-    description: "Customização completa dos materiais e dinâmicas focados na cultura e rotina da empresa.",
+    title: "Desenvolvimento Personalizado",
+    description: "Adaptamos conteúdo, exemplos, dinâmicas e materiais ao dia a dia da sua empresa. Cada treinamento é construído sob medida, para que a equipe reconheça a própria rotina no que está aprendendo.",
   },
   {
     step: "4",
-    title: "Facilitação In Company",
-    description: "Aplicação presencial dos treinamentos através de metodologias ativas e simulações práticas.",
+    title: "Aplicação do Treinamento",
+    description: "Conduzimos um treinamento dinâmico, participativo e focado na prática. Mais do que teoria, estimulamos reflexão, troca de experiências e desenvolvimento real das equipes.",
   },
   {
     step: "5",
-    title: "Definição de Planos de Ação",
-    description: "Criação de compromissos individuais com metas claras de aplicação no dia a dia operacional.",
-  },
-  {
-    step: "6",
-    title: "Mensuração de KPIs e Impacto",
-    description: "Avaliação contínua da evolução das métricas de retenção e resultados de performance.",
+    title: "Avaliação e Plano de Continuidade",
+    description: "Ao final, medimos os resultados, coletamos feedbacks e entregamos recomendações práticas para que o aprendizado se sustente depois que o treinamento acaba.",
   },
 ];
 
@@ -263,10 +258,10 @@ const Treinamento = () => {
                 </div>
                 <div className="space-y-2">
                   <h3 className="text-lg sm:text-xl font-bold text-foreground uppercase tracking-wider">
-                    Pós Treinamento
+                    Pós-Treinamento: O acompanhamento que faz a diferença
                   </h3>
                   <p className="text-muted-foreground text-sm sm:text-base leading-relaxed">
-                    Acompanhamento contínuo e checkpoints de fixação para garantir que o aprendizado vire rotina definitiva, consolidando novos comportamentos e sustentando resultados na operação.
+                    O trabalho não termina no último encontro. Seguimos à disposição da liderança para tirar dúvidas e orientar a continuidade garantindo que o conhecimento se transforme, de fato, em resultado para a empresa.
                   </p>
                 </div>
               </div>

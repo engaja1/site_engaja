@@ -19,11 +19,11 @@ export function HeroSection() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">
-              Tire a empresa das <span className="text-accent">suas costas</span>.
+              Sua empresa pronta para crescer com <span className="text-accent">organização e previsibilidade</span>.
             </h1>
 
             <p className="text-base sm:text-lg md:text-lg text-primary-foreground/90 max-w-xl leading-relaxed">
-              Consultoria e treinamentos que organizam a gestão, preparam líderes e fazem o negócio crescer sem depender só de você.
+              Consultoria e treinamentos que organizam a gestão, preparam líderes e constroem um negócio mais previsível, forte e preparado para crescer.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">

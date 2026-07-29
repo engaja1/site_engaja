@@ -68,33 +68,28 @@ const consultingPrograms = [
 const journeySteps = [
   {
     step: "1",
-    title: "Diagnóstico e Imersão Aprofundada",
-    description: "Mapeamento completo da realidade, rotinas, relatórios e fluxos operacionais atuais.",
+    title: "Imersão na Empresa",
+    description: "Conhecemos de perto a realidade do negócio: visitas técnicas, entrevistas com direção, lideranças e colaboradores, observação dos processos e levantamento das oportunidades de melhoria. Diagnóstico de verdade começa dentro da empresa.",
   },
   {
     step: "2",
-    title: "Desenho da Nova Estrutura",
-    description: "Modelagem teórica de novos processos, funis comerciais, organogramas e políticas de controle.",
+    title: "Diagnóstico Estratégico",
+    description: "Transformamos tudo o que foi levantado em um diagnóstico completo da organização, identificando gargalos, potencialidades, riscos e prioridades para um crescimento sustentável.",
   },
   {
     step: "3",
-    title: "Definição de Indicadores e KPIs",
-    description: "Mapeamento e estabelecimento de painéis de medição e metas claras para cada setor.",
+    title: "Planejamento da Transformação",
+    description: "Construímos um plano de ação personalizado, com objetivos, prioridades, cronograma, indicadores de desempenho e responsáveis por cada etapa. Você sai com clareza total de onde chegar e como.",
   },
   {
     step: "4",
-    title: "Implantação Assistida In Company",
-    description: "Colocação em prática dos novos fluxos junto ao time, acompanhando a execução presencialmente.",
+    title: "Implantação das Soluções",
+    description: "Atuamos lado a lado com a sua equipe na implantação das melhorias, conectando pessoas, processos, gestão, liderança, financeiro, comercial, RH e cultura. Aqui o plano vira prática.",
   },
   {
     step: "5",
-    title: "Capacitação da Equipe",
-    description: "Treinamento prático das pessoas nos novos padrões de processos e ferramentas recomendadas.",
-  },
-  {
-    step: "6",
-    title: "Passagem de Bastão e Autonomia",
-    description: "Auditoria final e consolidação do modelo de gestão para operação sustentável e independente.",
+    title: "Acompanhamento de Resultados",
+    description: "Reuniões periódicas para acompanhar indicadores, apoiar as lideranças e corrigir a rota quando necessário garantindo que cada ação gere resultado concreto.",
   },
 ];
 
@@ -241,10 +236,10 @@ const Consultoria = () => {
                 </div>
                 <div className="space-y-2">
                   <h3 className="text-lg sm:text-xl font-bold text-foreground uppercase tracking-wider">
-                    Pós Consultoria
+                    Pós-Consultoria: crescimento contínuo
                   </h3>
                   <p className="text-muted-foreground text-sm sm:text-base leading-relaxed">
-                    Suporte contínuo de governança corporativa e checkpoints periódicos para auditar os resultados, garantindo a sustentação e evolução definitiva da nova rotina operacional estruturada.
+                    Continuamos próximos com suporte estratégico, acompanhamento da evolução e apoio em novos desafios consolidando uma cultura permanente de melhoria contínua na sua empresa.
                   </p>
                 </div>
               </div>

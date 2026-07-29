@@ -42,6 +42,11 @@ const ConsultoriaRH = lazy(() => import("./pages/consultoria/RH"));
 const ConsultoriaSistemica = lazy(() => import("./pages/consultoria/Sistemica"));
 const ConsultoriaVarejo = lazy(() => import("./pages/consultoria/Varejo"));
 
+// Cases lazy load
+const GrupoTriboCase = lazy(() => import("./pages/cases/GrupoTribo"));
+const SantaIzabelCase = lazy(() => import("./pages/cases/SantaIzabel"));
+const KometudoCase = lazy(() => import("./pages/cases/Kometudo"));
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -69,6 +74,11 @@ const App = () => (
               <Route path="/treinamento/capacitacao" element={<TreinamentoCapacitacao />} />
               <Route path="/treinamento/imersao" element={<TreinamentoImersao />} />
               <Route path="/treinamento/personalizados" element={<TreinamentosPersonalizados />} />
+
+              {/* Cases */}
+              <Route path="/cases/grupo-tribo" element={<GrupoTriboCase />} />
+              <Route path="/cases/santa-izabel" element={<SantaIzabelCase />} />
+              <Route path="/cases/kometudo" element={<KometudoCase />} />
 
               <Route path="/quem-somos" element={<QuemSomos />} />
               <Route path="/blog" element={<Blog />} />

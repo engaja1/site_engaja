@@ -1,68 +1,55 @@
 import { useState } from "react";
-import { AlertCircle, ShieldAlert, ArrowRight, CheckCircle2, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
+import { ArrowRight, TrendingUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-interface CaseStudy {
+interface CaseStudySummary {
   id: string;
   tabTitle: string;
-  industry: string;
-  scenario: string;
-  action: string;
-  result: string;
-  indicator: string;
+  title: string;
+  subtitle: string;
+  summary: string;
+  highlightStat: string;
+  highlightLabel: string;
+  slug: string;
 }
 
-const cases: CaseStudy[] = [
+const cases: CaseStudySummary[] = [
   {
-    id: "industria",
-    tabTitle: "Indústria Metalúrgica",
-    industry: "Indústria de Manufatura",
-    scenario: "Linha de produção com gargalos operacionais frequentes, falta de padronização nos turnos de trabalho, desperdício de matéria-prima elevado e ausência de indicadores chaves (KPIs) para mensurar o desempenho dos operadores no dia a dia.",
-    action: "Mapeamento completo do fluxo produtivo in company, cronoanálise de todas as etapas de fabricação, implantação de painéis de gestão visual (Lean Manufacturing) e treinamento prático de lideranças de linha para acompanhamento de metas operacionais.",
-    result: "Aumento de 28% na produtividade global dos equipamentos (OEE) e redução de 40% no desperdício de matéria-prima nas linhas produtivas.",
-    indicator: "Aumento de 28% na produtividade",
+    id: "grupo-tribo",
+    tabTitle: "Grupo Tribo",
+    title: "Grupo Tribo",
+    subtitle: "PDL: Programa de Desenvolvimento de Liderança",
+    summary: "De 3 para mais de 30 lojas. Uma jornada contínua de desenvolvimento que preparou as lideranças do Grupo Tribo para sustentar a expansão da rede formando gestores, mapeando talentos e estruturando o plano de sucessão.",
+    highlightStat: "10x",
+    highlightLabel: "De 3 para 30+ lojas",
+    slug: "grupo-tribo",
   },
   {
-    id: "distribuidora",
-    tabTitle: "Distribuidora de Alimentos",
-    industry: "Comércio & Distribuição",
-    scenario: "Vendas altamente instáveis, dependentes do humor do mercado e sem previsibilidade de receita. A equipe externa de vendas atuava de forma reativa, sem roteirização clara de visitas e sem uso estruturado de ferramenta de CRM, centralizando todo o histórico de clientes em agendas individuais.",
-    action: "Mapeamento e estruturação de todo o funil de vendas, implantação e customização completa de CRM de vendas, definição de indicadores comerciais por vendedor e treinamento comercial in company com técnicas práticas de negociação e prospecção ativa.",
-    result: "Crescimento de 35% no faturamento comercial em 8 meses e aumento de 22% no ticket médio das vendas realizadas pela equipe comercial.",
-    indicator: "+35% de Faturamento Comercial",
+    id: "santa-izabel",
+    tabTitle: "Santa Izabel",
+    title: "Santa Izabel Agro Indústria",
+    subtitle: "Consultoria de RH · Desenvolvimento Organizacional",
+    summary: "Quatro anos estruturando a gestão de pessoas de uma indústria em plena expansão. Da criação do DHO e da avaliação de desempenho ao desenvolvimento de lideranças uma parceria que se ampliou para marketing e comercial.",
+    highlightStat: "4 anos",
+    highlightLabel: "de parceria estratégica",
+    slug: "santa-izabel",
   },
   {
-    id: "varejo",
-    tabTitle: "Rede de Varejo",
-    industry: "Varejo de Bens de Consumo",
-    scenario: "Descontrole severo de estoque com quebras constantes (falta de produto no ponto de venda) e simultaneamente excesso de itens parados de baixa rotação. O atendimento nas lojas físicas carecia de padronização, gerando perdas na taxa de conversão diária.",
-    action: "Revisão sistêmica do fluxo de entrada e saída de mercadorias, implementação de rotina de inventário rotativo, estruturação do manual de padronização de atendimento da marca e aplicação prática de workshops de vendas e experiência de compra com equipes de loja.",
-    result: "Redução de 18% no capital imobilizado em estoque e aumento de 15% na taxa média de conversão de clientes no ponto de venda.",
-    indicator: "-18% de Estoque Parado",
-  },
-  {
-    id: "tecnologia",
-    tabTitle: "Empresa de Tecnologia",
-    industry: "Serviços de Tecnologia",
-    scenario: "Turnover (rotatividade) elevado superior a 30% ao ano, provocando perda de conhecimento técnico, custos altos de contratação e desalinhamento cultural nas equipes de engenharia. Líderes técnicos foram promovidos mas não possuíam preparo em gestão de pessoas.",
-    action: "Estruturação das políticas internas de Recursos Humanos com planos de carreira claros (cargos e salários), implantação de rotinas estruturadas de avaliação de desempenho e aplicação do Programa de Desenvolvimento de Liderança (PDL) focado em feedback e engajamento de equipes.",
-    result: "Queda expressiva de 65% na taxa de turnover corporativo em 12 meses e melhoria no índice de satisfação interna (eNPS) de 12 para 68 pontos.",
-    indicator: "Queda de 65% no Turnover",
-  },
-  {
-    id: "saude",
-    tabTitle: "Clínicas de Saúde",
-    industry: "Prestação de Serviços de Saúde",
-    scenario: "Descentralização de gestão inexistente, onde todas as decisões operacionais e financeiras dependiam exclusivamente da presença dos sócios fundadores. Processos administrativos manuais confusos, gerando atrasos no atendimento e glosas financeiras.",
-    action: "Diagnóstico sistêmico completo em todas as áreas, mapeamento de processos administrativos e financeiros, definição de níveis de alçada decisória com organograma funcional estruturado, recrutamento de gestores-chave e acompanhamento contínuo da operação.",
-    result: "Descentralização total da rotina diária (redução de 80% do tempo dos sócios focado em operação) e aumento de 24% na rentabilidade líquida do negócio.",
-    indicator: "Liberação de 80% do tempo dos sócios",
+    id: "kometudo",
+    tabTitle: "Kometudo Alimentos",
+    title: "Kometudo Alimentos",
+    subtitle: "Consultoria Sistêmica · Sucessão Familiar e Governança",
+    summary: "Uma empresa com mais de 35 anos de história conduzindo a transição entre gerações. Quatro anos estruturando sucessão, governança, lideranças e cultura para crescer sem perder a essência familiar.",
+    highlightStat: "35+ anos",
+    highlightLabel: "de história consolidada",
+    slug: "kometudo",
   },
 ];
 
 export function CasesSection() {
-  const [activeTab, setActiveTab] = useState("industria");
+  const [activeTab, setActiveTab] = useState("grupo-tribo");
   const currentCase = cases.find((c) => c.id === activeTab) || cases[0];
 
   return (
@@ -108,71 +95,43 @@ export function CasesSection() {
               <div className="flex flex-wrap items-center justify-between gap-4 mb-6 sm:mb-8 border-b border-border/40 pb-4 sm:pb-6">
                 <div>
                   <span className="text-xs font-semibold text-accent uppercase tracking-wider">
-                    {currentCase.industry}
+                    {currentCase.subtitle}
                   </span>
                   <h3 className="text-xl sm:text-2xl font-bold text-foreground mt-1">
-                    {currentCase.tabTitle}
+                    {currentCase.title}
                   </h3>
                 </div>
                 <div className="inline-flex items-center gap-2 bg-accent/15 text-accent-foreground font-bold text-xs sm:text-sm px-4 py-2 rounded-full border border-accent/25">
                   <TrendingUp className="h-4 w-4 text-accent" />
-                  <span>{currentCase.indicator}</span>
+                  <span>{currentCase.highlightLabel}</span>
                 </div>
               </div>
 
-              {/* Grid 3 Columns */}
-              <div className="grid md:grid-cols-3 gap-6 sm:gap-8">
-                {/* Column 1: Cenário Inicial */}
-                <div className="bg-destructive/5 rounded-2xl p-5 sm:p-6 border border-destructive/10 flex flex-col justify-between h-full">
-                  <div>
-                    <div className="flex items-center gap-3 mb-4 text-destructive">
-                      <ShieldAlert className="h-5 w-5 flex-shrink-0" />
-                      <h4 className="font-bold text-sm sm:text-base uppercase tracking-wider">
-                        Cenário Inicial
-                      </h4>
-                    </div>
-                    <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
-                      {currentCase.scenario}
-                    </p>
-                  </div>
-                  <div className="text-[10px] text-destructive/70 font-semibold mt-4">
-                    O desafio de gestão antes da Engaja
-                  </div>
+              {/* Grid 2 Columns for Stat Highlight and Description */}
+              <div className="grid md:grid-cols-3 gap-6 sm:gap-8 items-center">
+                {/* Column 1: Stat Highlight */}
+                <div className="bg-primary/5 rounded-2xl p-6 sm:p-8 border border-primary/10 flex flex-col justify-center items-center text-center h-full min-h-[180px]">
+                  <span className="text-4xl sm:text-5xl font-black text-primary leading-none">
+                    {currentCase.highlightStat}
+                  </span>
+                  <span className="text-xs sm:text-sm font-semibold text-muted-foreground mt-3 leading-snug">
+                    {currentCase.highlightLabel}
+                  </span>
                 </div>
 
-                {/* Column 2: Atuação da Engaja */}
-                <div className="bg-primary/5 rounded-2xl p-5 sm:p-6 border border-primary/10 flex flex-col justify-between h-full">
+                {/* Column 2 & 3: Description and Link */}
+                <div className="md:col-span-2 space-y-5">
+                  <p className="text-muted-foreground text-sm sm:text-base leading-relaxed">
+                    {currentCase.summary}
+                  </p>
+                  
                   <div>
-                    <div className="flex items-center gap-3 mb-4 text-primary">
-                      <CheckCircle2 className="h-5 w-5 flex-shrink-0" />
-                      <h4 className="font-bold text-sm sm:text-base uppercase tracking-wider">
-                        Atuação da Engaja
-                      </h4>
-                    </div>
-                    <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
-                      {currentCase.action}
-                    </p>
-                  </div>
-                  <div className="text-[10px] text-primary/70 font-semibold mt-4">
-                    Diagnóstico, estruturação e implementação in company
-                  </div>
-                </div>
-
-                {/* Column 3: Resultado alcançado */}
-                <div className="bg-accent/5 rounded-2xl p-5 sm:p-6 border border-accent/10 flex flex-col justify-between h-full">
-                  <div>
-                    <div className="flex items-center gap-3 mb-4 text-accent-foreground">
-                      <TrendingUp className="h-5 w-5 flex-shrink-0 text-accent" />
-                      <h4 className="font-bold text-sm sm:text-base uppercase tracking-wider">
-                        Resultado Alcançado
-                      </h4>
-                    </div>
-                    <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed font-medium">
-                      {currentCase.result}
-                    </p>
-                  </div>
-                  <div className="text-[10px] text-accent/70 font-semibold mt-4">
-                    Indicador concreto alcançado in company
+                    <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold group">
+                      <Link to={`/cases/${currentCase.slug}`}>
+                        Ver case completo
+                        <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      </Link>
+                    </Button>
                   </div>
                 </div>
               </div>
