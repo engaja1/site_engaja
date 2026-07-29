@@ -232,9 +232,9 @@ const GrupoTriboCase = () => {
                   </Button>
                   <Button
                     asChild
-                    variant="outline"
+                    variant="hero"
                     size="lg"
-                    className="border-white/20 text-white hover:bg-white/10 font-bold h-12 sm:h-14 px-8 text-sm sm:text-base"
+                    className="font-bold h-12 sm:h-14 px-8 text-sm sm:text-base"
                   >
                     <Link to="/">
                       Ver outros cases
