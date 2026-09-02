@@ -25,6 +25,7 @@ const Contato = lazy(() => import("./pages/Contato"));
 const Privacidade = lazy(() => import("./pages/Privacidade"));
 const Cookies = lazy(() => import("./pages/Cookies"));
 const AvisoLegal = lazy(() => import("./pages/AvisoLegal"));
+const Talentos = lazy(() => import("./pages/Talentos"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Sub-pages lazy load
@@ -87,6 +88,7 @@ const App = () => (
               <Route path="/privacidade" element={<Privacidade />} />
               <Route path="/cookies" element={<Cookies />} />
               <Route path="/aviso-legal" element={<AvisoLegal />} />
+              <Route path="/talentos" element={<Talentos />} />
               {/* Admin */}
               <Route path="/admin/login" element={<AdminLogin />} />
               <Route path="/admin" element={<AdminDashboard />} />
