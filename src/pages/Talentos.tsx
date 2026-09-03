@@ -5,12 +5,18 @@ import {
   AREAS_LIST,
   MOCK_CANDIDATES,
   Candidate,
-  AreaOption,
 } from "@/data/talentosData";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import {
   Dialog,
   DialogContent,
@@ -42,11 +48,9 @@ import {
   Search,
   MapPin,
   Briefcase,
-  User,
   Calendar,
   Car,
   Clock,
-  ExternalLink,
   MessageSquare,
   Mail,
   CheckCircle2,
@@ -54,6 +58,9 @@ import {
   Building2,
   ChevronRight,
   Filter,
+  UserCheck,
+  Target,
+  SlidersHorizontal,
 } from "lucide-react";
 
 // Icon mapping helper
@@ -80,41 +87,93 @@ const ICON_MAP: Record<string, any> = {
   Wheat,
 };
 
+// Helper function to check if candidate matches an area by Experience
+const candidateMatchesExperience = (cand: Candidate, areaName: string): boolean => {
+  if (cand.areas_ultima_experiencia?.includes(areaName)) return true;
+  
+  // Keyword check in past roles & activities
+  const areaKeywords = areaName.toLowerCase().split("/").map(k => k.trim());
+  const searchText = [
+    cand.ultimo_cargo,
+    cand.atividades_ultima_experiencia,
+    cand.ferramentas_ultima_experiencia,
+    cand.conhecimentos,
+    ...(cand.experiencias_anteriores?.map(e => `${e.cargo} ${e.atividades}`) || [])
+  ].filter(Boolean).join(" ").toLowerCase();
+
+  return areaKeywords.some(kw => kw.length > 3 && searchText.includes(kw));
+};
+
+// Helper function to check if candidate matches an area by Interest
+const candidateMatchesInterest = (cand: Candidate, areaName: string): boolean => {
+  return (
+    cand.area_principal_interesse === areaName ||
+    (cand.areas_adicionais_interesse?.includes(areaName) ?? false)
+  );
+};
+
 export default function Talentos() {
   const [selectedArea, setSelectedArea] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCandidate, setSelectedCandidate] = useState<Candidate | null>(null);
 
-  // Calculate candidate count per area
+  // Filtering options: default filter mode is "experiencia"
+  const [filterMode, setFilterMode] = useState<"experiencia" | "interesse" | "ambos">("experiencia");
+  const [tempoExp, setTempoExp] = useState<string>("todos");
+  const [tipoTrabalho, setTipoTrabalho] = useState<string>("todos");
+
+  // Calculate candidate count per area dynamically based on filterMode
   const candidateCountsByArea = useMemo(() => {
     const counts: Record<string, number> = {};
     MOCK_CANDIDATES.forEach((cand) => {
-      // Primary area
-      const primary = cand.area_principal_interesse;
-      counts[primary] = (counts[primary] || 0) + 1;
-
-      // Additional areas
-      cand.areas_adicionais_interesse?.forEach((addArea) => {
-        counts[addArea] = (counts[addArea] || 0) + 1;
+      AREAS_LIST.forEach((area) => {
+        let matches = false;
+        if (filterMode === "experiencia") {
+          matches = candidateMatchesExperience(cand, area.name);
+        } else if (filterMode === "interesse") {
+          matches = candidateMatchesInterest(cand, area.name);
+        } else {
+          matches = candidateMatchesExperience(cand, area.name) || candidateMatchesInterest(cand, area.name);
+        }
+        if (matches) {
+          counts[area.name] = (counts[area.name] || 0) + 1;
+        }
       });
     });
     return counts;
-  }, []);
+  }, [filterMode]);
 
-  // Filter candidates based on selected area and search query
+  // Filter candidates based on selected area, filterMode, niche filters, and search query
   const filteredCandidates = useMemo(() => {
     return MOCK_CANDIDATES.filter((cand) => {
-      // Filter by area
+      // 1. Filter by Area according to active filterMode
       if (selectedArea) {
-        const matchesPrimary = cand.area_principal_interesse === selectedArea;
-        const matchesAdditional = cand.areas_adicionais_interesse?.includes(selectedArea);
-        const matchesExpArea = cand.areas_ultima_experiencia?.includes(selectedArea);
-        if (!matchesPrimary && !matchesAdditional && !matchesExpArea) {
-          return false;
+        let matchesArea = false;
+        if (filterMode === "experiencia") {
+          matchesArea = candidateMatchesExperience(cand, selectedArea);
+        } else if (filterMode === "interesse") {
+          matchesArea = candidateMatchesInterest(cand, selectedArea);
+        } else {
+          matchesArea = candidateMatchesExperience(cand, selectedArea) || candidateMatchesInterest(cand, selectedArea);
         }
+        if (!matchesArea) return false;
       }
 
-      // Filter by search query
+      // 2. Filter by Experience Duration (tempo_ultima_funcao)
+      if (tempoExp !== "todos") {
+        if (!cand.tempo_ultima_funcao) return false;
+        if (tempoExp === "1_2" && !cand.tempo_ultima_funcao.includes("1 a 2")) return false;
+        if (tempoExp === "2_5" && !cand.tempo_ultima_funcao.includes("2 a 5")) return false;
+        if (tempoExp === "5_10" && !cand.tempo_ultima_funcao.includes("5 a 10")) return false;
+        if (tempoExp === "mais_10" && !cand.tempo_ultima_funcao.includes("Mais de 10")) return false;
+      }
+
+      // 3. Filter by Work Type (tipo_trabalho)
+      if (tipoTrabalho !== "todos") {
+        if (cand.tipo_trabalho !== tipoTrabalho) return false;
+      }
+
+      // 4. Filter by Search Query
       if (searchQuery.trim()) {
         const query = searchQuery.toLowerCase();
         const matchesName = cand.nome_completo.toLowerCase().includes(query);
@@ -124,15 +183,16 @@ export default function Talentos() {
           f.toLowerCase().includes(query)
         );
         const matchesTools = cand.ferramentas_ultima_experiencia?.toLowerCase().includes(query) || false;
+        const matchesKnowledge = cand.conhecimentos?.toLowerCase().includes(query) || false;
 
-        if (!matchesName && !matchesCity && !matchesRole && !matchesFunctions && !matchesTools) {
+        if (!matchesName && !matchesCity && !matchesRole && !matchesFunctions && !matchesTools && !matchesKnowledge) {
           return false;
         }
       }
 
       return true;
     });
-  }, [selectedArea, searchQuery]);
+  }, [selectedArea, filterMode, tempoExp, tipoTrabalho, searchQuery]);
 
   return (
     <Layout>
@@ -155,7 +215,7 @@ export default function Talentos() {
               Conectando Empresas aos Melhores Profissionais
             </h1>
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Consulte nosso banco de dados curado por área de atuação. Filtre por setor, analise as experiências e acesse o currículo completo de cada candidato.
+              Consulte nosso banco de dados por áreas técnicas e corporativas. Filtre por <strong className="text-foreground">experiência prática</strong> ou <strong className="text-foreground">área de interesse</strong> para encontrar o candidato ideal.
             </p>
 
             {/* Global Search Bar */}
@@ -164,7 +224,7 @@ export default function Talentos() {
                 <Search className="absolute left-4 h-5 w-5 text-muted-foreground pointer-events-none" />
                 <Input
                   type="text"
-                  placeholder="Pesquise por nome, cargo, cidade ou habilidade (ex: Andradas, Operador, TOTVS)..."
+                  placeholder="Pesquise por nome, cargo, cidade, software ou habilidade (ex: Andradas, Operador, SAP)..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="pl-12 pr-4 h-14 text-base rounded-2xl bg-card border-border shadow-md focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
@@ -185,15 +245,121 @@ export default function Talentos() {
 
       {/* Main Content Area */}
       <section className="py-10 bg-background min-h-screen">
-        <div className="container mx-auto px-4 max-w-7xl space-y-10">
+        <div className="container mx-auto px-4 max-w-7xl space-y-8">
+          
+          {/* Main Filter Control Card (Experiência x Interesse x Nichos) */}
+          <div className="bg-card border border-border rounded-2xl p-5 shadow-sm space-y-4">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-border pb-4">
+              <div>
+                <span className="text-xs font-bold text-primary uppercase tracking-wider block mb-1">
+                  Critério de Busca
+                </span>
+                <h3 className="text-lg font-bold text-foreground flex items-center gap-2">
+                  <SlidersHorizontal className="h-5 w-5 text-primary" /> Modo de Filtragem por Área
+                </h3>
+              </div>
+
+              {/* Filter Mode Selector Buttons */}
+              <div className="inline-flex flex-wrap p-1 rounded-xl bg-muted border border-border gap-1">
+                <button
+                  onClick={() => setFilterMode("experiencia")}
+                  className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all ${
+                    filterMode === "experiencia"
+                      ? "bg-primary text-primary-foreground shadow-md font-bold"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  <UserCheck className="h-4 w-4" /> Por Experiência (Padrão)
+                </button>
+                <button
+                  onClick={() => setFilterMode("interesse")}
+                  className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all ${
+                    filterMode === "interesse"
+                      ? "bg-primary text-primary-foreground shadow-md font-bold"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  <Target className="h-4 w-4" /> Por Área de Interesse
+                </button>
+                <button
+                  onClick={() => setFilterMode("ambos")}
+                  className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold transition-all ${
+                    filterMode === "ambos"
+                      ? "bg-primary text-primary-foreground shadow-md font-bold"
+                      : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  <Users className="h-4 w-4" /> Experiência ou Interesse
+                </button>
+              </div>
+            </div>
+
+            {/* Niche Dropdown Filters */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-1">
+              <div>
+                <label className="text-xs font-semibold text-muted-foreground block mb-1.5">
+                  Tempo de Experiência na Função
+                </label>
+                <Select value={tempoExp} onValueChange={setTempoExp}>
+                  <SelectTrigger className="bg-background border-border text-xs sm:text-sm">
+                    <SelectValue placeholder="Todas as vivências" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="todos">Todos os tempos de experiência</SelectItem>
+                    <SelectItem value="1_2">1 a 2 anos</SelectItem>
+                    <SelectItem value="2_5">2 a 5 anos</SelectItem>
+                    <SelectItem value="5_10">5 a 10 anos</SelectItem>
+                    <SelectItem value="mais_10">Mais de 10 anos</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div>
+                <label className="text-xs font-semibold text-muted-foreground block mb-1.5">
+                  Modelo de Trabalho Pretendido
+                </label>
+                <Select value={tipoTrabalho} onValueChange={setTipoTrabalho}>
+                  <SelectTrigger className="bg-background border-border text-xs sm:text-sm">
+                    <SelectValue placeholder="Todos os modelos" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="todos">Todos os modelos</SelectItem>
+                    <SelectItem value="Presencial">Presencial</SelectItem>
+                    <SelectItem value="Híbrido">Híbrido</SelectItem>
+                    <SelectItem value="Remoto">Remoto</SelectItem>
+                    <SelectItem value="Indiferente">Indiferente</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
+
+              <div className="flex items-end">
+                {(selectedArea || searchQuery || tempoExp !== "todos" || tipoTrabalho !== "todos" || filterMode !== "experiencia") && (
+                  <Button
+                    variant="outline"
+                    onClick={() => {
+                      setSelectedArea(null);
+                      setSearchQuery("");
+                      setTempoExp("todos");
+                      setTipoTrabalho("todos");
+                      setFilterMode("experiencia");
+                    }}
+                    className="w-full text-xs border-dashed border-border text-muted-foreground hover:text-foreground"
+                  >
+                    Resetar Filtros
+                  </Button>
+                )}
+              </div>
+            </div>
+          </div>
+
           {/* Section Title & Area Summary Header */}
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-border">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-2 border-b border-border">
             <div>
-              <h2 className="text-2xl font-bold text-foreground flex items-center gap-2">
-                <Filter className="h-6 w-6 text-primary" /> Sumário de Áreas Profissionais
+              <h2 className="text-xl font-bold text-foreground flex items-center gap-2">
+                <Filter className="h-5 w-5 text-primary" /> Sumário de Áreas Profissionais
               </h2>
-              <p className="text-sm text-muted-foreground">
-                Selecione uma área abaixo para filtrar os currículos disponíveis.
+              <p className="text-xs sm:text-sm text-muted-foreground">
+                Exibindo contagem baseada no modo: <strong className="text-foreground">{filterMode === "experiencia" ? "Experiência Prática" : filterMode === "interesse" ? "Área de Interesse" : "Experiência ou Interesse"}</strong>.
               </p>
             </div>
             {selectedArea && (
@@ -203,7 +369,7 @@ export default function Talentos() {
                 onClick={() => setSelectedArea(null)}
                 className="self-start md:self-auto border-primary/40 text-primary hover:bg-primary/10"
               >
-                Limpar Filtro de Área
+                Limpar Área Selecionada
               </Button>
             )}
           </div>
@@ -266,16 +432,34 @@ export default function Talentos() {
 
           {/* Active Filters Bar */}
           <div className="flex flex-wrap items-center justify-between bg-muted/50 p-4 rounded-xl border border-border gap-3">
-            <div className="flex items-center gap-2 flex-wrap">
-              <span className="text-sm font-semibold text-foreground">Resultados:</span>
-              <Badge className="bg-primary text-primary-foreground font-bold text-sm px-3 py-0.5">
-                {filteredCandidates.length} {filteredCandidates.length === 1 ? "candidato encontrado" : "candidatos encontrados"}
+            <div className="flex items-center gap-2 flex-wrap text-xs">
+              <span className="font-bold text-foreground">Resultados:</span>
+              <Badge className="bg-primary text-primary-foreground font-bold text-xs px-3 py-0.5">
+                {filteredCandidates.length} {filteredCandidates.length === 1 ? "candidato" : "candidatos"}
               </Badge>
+              
+              <Badge variant="secondary" className="bg-muted text-foreground border border-border gap-1">
+                Filtragem: {filterMode === "experiencia" ? "Por Experiência (Padrão)" : filterMode === "interesse" ? "Por Área de Interesse" : "Experiência ou Interesse"}
+              </Badge>
+
               {selectedArea && (
-                <Badge variant="outline" className="bg-background border-primary/40 text-primary gap-1">
+                <Badge variant="outline" className="bg-background border-primary/40 text-primary font-semibold gap-1">
                   Área: {selectedArea}
                 </Badge>
               )}
+
+              {tempoExp !== "todos" && (
+                <Badge variant="outline" className="bg-background border-border gap-1">
+                  Exp: {tempoExp === "1_2" ? "1-2 anos" : tempoExp === "2_5" ? "2-5 anos" : tempoExp === "5_10" ? "5-10 anos" : "+10 anos"}
+                </Badge>
+              )}
+
+              {tipoTrabalho !== "todos" && (
+                <Badge variant="outline" className="bg-background border-border gap-1">
+                  Modelo: {tipoTrabalho}
+                </Badge>
+              )}
+
               {searchQuery && (
                 <Badge variant="outline" className="bg-background border-muted-foreground/40 gap-1">
                   Busca: "{searchQuery}"
@@ -283,13 +467,16 @@ export default function Talentos() {
               )}
             </div>
 
-            {(selectedArea || searchQuery) && (
+            {(selectedArea || searchQuery || tempoExp !== "todos" || tipoTrabalho !== "todos" || filterMode !== "experiencia") && (
               <Button
                 variant="ghost"
                 size="sm"
                 onClick={() => {
                   setSelectedArea(null);
                   setSearchQuery("");
+                  setTempoExp("todos");
+                  setTipoTrabalho("todos");
+                  setFilterMode("experiencia");
                 }}
                 className="text-xs text-muted-foreground hover:text-foreground"
               >
@@ -333,12 +520,28 @@ export default function Talentos() {
                     {/* Primary Interest Area */}
                     <div>
                       <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block mb-1">
-                        Área Principal
+                        Área de Interesse Principal
                       </span>
                       <Badge className="bg-primary/10 text-primary hover:bg-primary/20 border-primary/20 text-xs font-semibold">
                         {candidate.area_principal_interesse}
                       </Badge>
                     </div>
+
+                    {/* Areas of Practical Experience */}
+                    {candidate.areas_ultima_experiencia && candidate.areas_ultima_experiencia.length > 0 && (
+                      <div>
+                        <span className="text-xs font-semibold text-muted-foreground uppercase tracking-wider block mb-1 flex items-center gap-1">
+                          <UserCheck className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" /> Experiência Prática
+                        </span>
+                        <div className="flex flex-wrap gap-1">
+                          {candidate.areas_ultima_experiencia.map((expArea, idx) => (
+                            <Badge key={idx} variant="secondary" className="bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-emerald-500/20 text-[11px]">
+                              {expArea}
+                            </Badge>
+                          ))}
+                        </div>
+                      </div>
+                    )}
 
                     {/* Role / Last Role */}
                     {candidate.ultimo_cargo && (
@@ -421,13 +624,16 @@ export default function Talentos() {
                 Nenhum candidato encontrado
               </h3>
               <p className="text-sm text-muted-foreground">
-                Não encontramos profissionais correspondentes ao filtro selecionado. Tente pesquisar por outro termo ou alterar a área.
+                Não encontramos profissionais correspondentes ao filtro de <strong className="text-foreground">{filterMode === "experiencia" ? "experiência" : "área de interesse"}</strong> selecionado. Tente pesquisar por outro termo ou alterar o modo de filtragem.
               </p>
               <Button
                 variant="outline"
                 onClick={() => {
                   setSelectedArea(null);
                   setSearchQuery("");
+                  setTempoExp("todos");
+                  setTipoTrabalho("todos");
+                  setFilterMode("experiencia");
                 }}
                 className="border-primary text-primary hover:bg-primary/10"
               >
@@ -527,7 +733,7 @@ export default function Talentos() {
               {/* 2. OBJETIVO PROFISSIONAL E ÁREAS */}
               <div className="space-y-3">
                 <h4 className="text-base font-bold text-foreground flex items-center gap-2 border-b border-border pb-2">
-                  <Briefcase className="h-5 w-5 text-primary" /> Objetivo Profissional
+                  <Briefcase className="h-5 w-5 text-primary" /> Objetivo Profissional & Áreas
                 </h4>
                 
                 <div className="space-y-2">
@@ -596,6 +802,21 @@ export default function Talentos() {
                         Tempo: {selectedCandidate.tempo_ultima_funcao}
                       </Badge>
                     </div>
+
+                    {selectedCandidate.areas_ultima_experiencia && selectedCandidate.areas_ultima_experiencia.length > 0 && (
+                      <div>
+                        <span className="text-xs text-muted-foreground font-semibold block mb-1">
+                          Áreas da Experiência:
+                        </span>
+                        <div className="flex flex-wrap gap-1">
+                          {selectedCandidate.areas_ultima_experiencia.map((a, i) => (
+                            <Badge key={i} className="bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-emerald-500/20 text-xs">
+                              {a}
+                            </Badge>
+                          ))}
+                        </div>
+                      </div>
+                    )}
 
                     {selectedCandidate.atividades_ultima_experiencia && (
                       <div>

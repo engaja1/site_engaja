@@ -137,8 +137,7 @@ export const MOCK_CANDIDATES: Candidate[] = [
       {
         "empresa": "Refracon",
         "cargo": "Cuidar da saída e entradas de produtos",
-        "periodo": "Fev/2019 a abril/2020",
-        "atividades": ""
+        "periodo": "Fev/2019 a abril/2020"
       }
     ],
     "experiencias_adicionais": "",
@@ -192,21 +191,15 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "experiencias_anteriores": [
       {
         "empresa": "Aptiv",
-        "cargo": "",
-        "periodo": "",
-        "atividades": ""
+        "cargo": ""
       },
       {
         "empresa": "Avícola são Sebastião",
-        "cargo": "Auxiliar de produção",
-        "periodo": "",
-        "atividades": ""
+        "cargo": "Auxiliar de produção"
       },
       {
         "empresa": "Siamp Brasil industria",
-        "cargo": "Auxiliar de produção na injeção plástica",
-        "periodo": "",
-        "atividades": ""
+        "cargo": "Auxiliar de produção na injeção plástica"
       }
     ],
     "experiencias_adicionais": "",
@@ -254,8 +247,8 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "ultima_empresa": "Kohler",
     "ultimo_cargo": "Técnico de Processos Sênior",
     "tempo_ultima_funcao": "2 a 5 anos",
-    "atividades_ultima_experiencia": "Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\nControle de análise das etapas do processo produtivo;\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\nDefloculação de amostras;\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\nConhecimento em aparelhos laboratoriais de alta precisão;\nDeterminação de cloretos;\nDeterminação de matéria orgânica;\nAnálise de dilatação térmica da massa;\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\nControle de processos;\nCaracterização de matérias-primas;\nDeterminação de métodos;\nAnálises químicas;\nDesenvolvimento de novos produtos;\nDesenvolvimento de gráficos e pré-controles;\nAnálise de dados e auditorias;\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\nAplicação de ferramentas Lean e 5S;\nProatividade e senso de dono;\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.",
-    "ferramentas_ultima_experiencia": "Dilatômetro\nSedígrafo\nPorosímetro\nAnalisador de Área Superficial BET\nEspectrofotômetro\nGlossímetro\nViscosímetro\nAgitadores\nDiluidores\nMoinhos de Massa e Esmalte\nEmpilhadeira\nExcel Avançado\nAplicação de ferramentas Lean e 5S\nAuditorias de Processo\nInglês Intermediário",
+    "atividades_ultima_experiencia": "Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\r\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\r\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\r\nControle de análise das etapas do processo produtivo;\r\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\r\nDefloculação de amostras;\r\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\r\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\r\nConhecimento em aparelhos laboratoriais de alta precisão;\r\nDeterminação de cloretos;\r\nDeterminação de matéria orgânica;\r\nAnálise de dilatação térmica da massa;\r\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\r\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\r\nControle de processos;\r\nCaracterização de matérias-primas;\r\nDeterminação de métodos;\r\nAnálises químicas;\r\nDesenvolvimento de novos produtos;\r\nDesenvolvimento de gráficos e pré-controles;\r\nAnálise de dados e auditorias;\r\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\r\nAplicação de ferramentas Lean e 5S;\r\nProatividade e senso de dono;\r\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.",
+    "ferramentas_ultima_experiencia": "Dilatômetro\r\nSedígrafo\r\nPorosímetro\r\nAnalisador de Área Superficial BET\r\nEspectrofotômetro\r\nGlossímetro\r\nViscosímetro\r\nAgitadores\r\nDiluidores\r\nMoinhos de Massa e Esmalte\r\nEmpilhadeira\r\nExcel Avançado\r\nAplicação de ferramentas Lean e 5S\r\nAuditorias de Processo\r\nInglês Intermediário",
     "areas_ultima_experiencia": [
       "Produção / Operações",
       "Qualidade",
@@ -267,37 +260,34 @@ export const MOCK_CANDIDATES: Candidate[] = [
       {
         "empresa": "TIKTak Indústria Gráfica",
         "cargo": "Operador de Guilhotina",
-        "periodo": "Agosto 2012 a junho 2022",
-        "atividades": ""
+        "periodo": "Agosto 2012 a junho 2022"
       },
       {
         "empresa": "Icasa",
         "cargo": "Estagiário",
-        "periodo": "2 meses ( 2018)",
-        "atividades": ""
+        "periodo": "2 meses ( 2018)"
       },
       {
         "empresa": "LANAGRO /Laboratório de Análise de Bebidas e Vinagres (LABV) Laboratório Federal de Defesa Agropecuária de Minas Gerais (LFDA/MG)",
         "cargo": "Estagiário",
-        "periodo": "",
-        "atividades": "Métodos e Procedimentos:\n\nAcidez (Total, Volátil e Fixa);\nGrau Alcoólico Real;\nAçúcares Totais e Redutores: verificação do teor residual de açúcar no produto;\nExtrato Seco e Extrato Seco Reduzido: medição dos componentes sólidos não voláteis da bebida para atestar sua consistência e pureza;\nDióxido de Enxofre (Livre e Total): controle do conservante (sulfito) utilizado para evitar a oxidação bacteriana;\nAvaliação de pH e Densidade: parâmetros básicos de integridade química;\nPesquisa de Adulterantes: análise de corantes artificiais, conservantes proibidos ou excesso de metais pesados."
+        "atividades": "Métodos e Procedimentos:\r\n\r\nAcidez (Total, Volátil e Fixa);\r\nGrau Alcoólico Real;\r\nAçúcares Totais e Redutores: verificação do teor residual de açúcar no produto;\r\nExtrato Seco e Extrato Seco Reduzido: medição dos componentes sólidos não voláteis da bebida para atestar sua consistência e pureza;\r\nDióxido de Enxofre (Livre e Total): controle do conservante (sulfito) utilizado para evitar a oxidação bacteriana;\r\nAvaliação de pH e Densidade: parâmetros básicos de integridade química;\r\nPesquisa de Adulterantes: análise de corantes artificiais, conservantes proibidos ou excesso de metais pesados."
       }
     ],
     "experiencias_adicionais": "",
     "escolaridade": "Superior completo",
     "curso_formacao": "Engenharia Química",
     "instituicao_ensino": "UNIFAE",
-    "cursos_qualificacoes": "NR 12\nNR 35\nExcel Avançado\nLean",
+    "cursos_qualificacoes": "NR 12\r\nNR 35\r\nExcel Avançado\r\nLean",
     "conhecimentos": "Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade",
     "maquinas_equipamentos": "",
     "caracteristicas": "Organizado(a), Proativo(a), Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal",
-    "lideranca": "Líder de Laboratório\nLíder de Produção de Massa\nLíder de Produção de Esmalte",
+    "lideranca": "Líder de Laboratório\r\nLíder de Produção de Massa\r\nLíder de Produção de Esmalte",
     "regiao_interesse": "",
     "disponibilidade_horario": "Comercial",
     "pretensao_salarial": "5.800,00",
     "inicio_imediato": "Sim",
-    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos Sênior na empresa Kohler, com 2 a 5 anos na função. Vivência em Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\nControle de análise das etapas do processo produtivo;\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\nDefloculação de amostras;\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\nConhecimento em aparelhos laboratoriais de alta precisão;\nDeterminação de cloretos;\nDeterminação de matéria orgânica;\nAnálise de dilatação térmica da massa;\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\nControle de processos;\nCaracterização de matérias-primas;\nDeterminação de métodos;\nAnálises químicas;\nDesenvolvimento de novos produtos;\nDesenvolvimento de gráficos e pré-controles;\nAnálise de dados e auditorias;\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\nAplicação de ferramentas Lean e 5S;\nProatividade e senso de dono;\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: NR 12\nNR 35\nExcel Avançado\nLean. Características profissionais declaradas: Organizado(a), Proativo(a), Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal.",
-    "curriculo_texto": "RAFAEL FRIZO ALVES\nAndradas / MG\nWhatsApp: 35991592707 | E-mail: rafaelfrizo@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nTécnico(a) da Qualidade, Técnico(a), Engenheiro(a), Líder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos Sênior na empresa Kohler, com 2 a 5 anos na função. Vivência em Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\nControle de análise das etapas do processo produtivo;\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\nDefloculação de amostras;\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\nConhecimento em aparelhos laboratoriais de alta precisão;\nDeterminação de cloretos;\nDeterminação de matéria orgânica;\nAnálise de dilatação térmica da massa;\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\nControle de processos;\nCaracterização de matérias-primas;\nDeterminação de métodos;\nAnálises químicas;\nDesenvolvimento de novos produtos;\nDesenvolvimento de gráficos e pré-controles;\nAnálise de dados e auditorias;\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\nAplicação de ferramentas Lean e 5S;\nProatividade e senso de dono;\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: NR 12\nNR 35\nExcel Avançado\nLean. Características profissionais declaradas: Organizado(a), Proativo(a), Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Técnico de Processos Sênior — Kohler (2 a 5 anos)\nPrincipais atividades: Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\nControle de análise das etapas do processo produtivo;\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\nDefloculação de amostras;\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\nConhecimento em aparelhos laboratoriais de alta precisão;\nDeterminação de cloretos;\nDeterminação de matéria orgânica;\nAnálise de dilatação térmica da massa;\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\nControle de processos;\nCaracterização de matérias-primas;\nDeterminação de métodos;\nAnálises químicas;\nDesenvolvimento de novos produtos;\nDesenvolvimento de gráficos e pré-controles;\nAnálise de dados e auditorias;\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\nAplicação de ferramentas Lean e 5S;\nProatividade e senso de dono;\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.\nFerramentas/sistemas: Dilatômetro\nSedígrafo\nPorosímetro\nAnalisador de Área Superficial BET\nEspectrofotômetro\nGlossímetro\nViscosímetro\nAgitadores\nDiluidores\nMoinhos de Massa e Esmalte\nEmpilhadeira\nExcel Avançado\nAplicação de ferramentas Lean e 5S\nAuditorias de Processo\nInglês Intermediário\n\n2. Operador de Guilhotina — TIKTak Indústria Gráfica (Agosto 2012 a junho 2022)\n\n3. Estagiário — Icasa (2 meses ( 2018))\n\n4. Estagiário — LANAGRO /Laboratório de Análise de Bebidas e Vinagres (LABV) Laboratório Federal de Defesa Agropecuária de Minas Gerais (LFDA/MG)\nPrincipais atividades: Métodos e Procedimentos:\n\nAcidez (Total, Volátil e Fixa);\nGrau Alcoólico Real;\nAçúcares Totais e Redutores: verificação do teor residual de açúcar no produto;\nExtrato Seco e Extrato Seco Reduzido: medição dos componentes sólidos não voláteis da bebida para atestar sua consistência e pureza;\nDióxido de Enxofre (Livre e Total): controle do conservante (sulfito) utilizado para evitar a oxidação bacteriana;\nAvaliação de pH e Densidade: parâmetros básicos de integridade química;\nPesquisa de Adulterantes: análise de corantes artificiais, conservantes proibidos ou excesso de metais pesados.\n\nFORMAÇÃO\nSuperior completo — Engenharia Química — UNIFAE\n\nCURSOS E QUALIFICAÇÕES\nNR 12\nNR 35\nExcel Avançado\nLean\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Estoque, Produção, Operação de máquinas, Qualidade\n\nINFORMAÇÕES ADICIONAIS"
+    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos Sênior na empresa Kohler, com 2 a 5 anos na função. Vivência em Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\r\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\r\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\r\nControle de análise das etapas do processo produtivo;\r\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\r\nDefloculação de amostras;\r\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\r\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\r\nConhecimento em aparelhos laboratoriais de alta precisão;\r\nDeterminação de cloretos;\r\nDeterminação de matéria orgânica;\r\nAnálise de dilatação térmica da massa;\r\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\r\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\r\nControle de processos;\r\nCaracterização de matérias-primas;\r\nDeterminação de métodos;\r\nAnálises químicas;\r\nDesenvolvimento de novos produtos;\r\nDesenvolvimento de gráficos e pré-controles;\r\nAnálise de dados e auditorias;\r\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\r\nAplicação de ferramentas Lean e 5S;\r\nProatividade e senso de dono;\r\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: NR 12\r\nNR 35\r\nExcel Avançado\r\nLean. Características profissionais declaradas: Organizado(a), Proativo(a), Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal.",
+    "curriculo_texto": "RAFAEL FRIZO ALVES\nAndradas / MG\nWhatsApp: 35991592707 | E-mail: rafaelfrizo@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nTécnico(a) da Qualidade, Técnico(a), Engenheiro(a), Líder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos Sênior na empresa Kohler, com 2 a 5 anos na função. Vivência em Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\r\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\r\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\r\nControle de análise das etapas do processo produtivo;\r\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\r\nDefloculação de amostras;\r\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\r\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\r\nConhecimento em aparelhos laboratoriais de alta precisão;\r\nDeterminação de cloretos;\r\nDeterminação de matéria orgânica;\r\nAnálise de dilatação térmica da massa;\r\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\r\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\r\nControle de processos;\r\nCaracterização de matérias-primas;\r\nDeterminação de métodos;\r\nAnálises químicas;\r\nDesenvolvimento de novos produtos;\r\nDesenvolvimento de gráficos e pré-controles;\r\nAnálise de dados e auditorias;\r\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\r\nAplicação de ferramentas Lean e 5S;\r\nProatividade e senso de dono;\r\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: NR 12\r\nNR 35\r\nExcel Avançado\r\nLean. Características profissionais declaradas: Organizado(a), Proativo(a), Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Técnico de Processos Sênior — Kohler (2 a 5 anos)\nPrincipais atividades: Análise de amostras de carga recebida, realizando pré-testes no laboratório de amostragem para verificação de umidade, resíduos, viscosidade e peso específico, realizando a respectiva caracterização;\r\nAbsorção de corpos de prova (fragmentos cerâmicos) utilizando porosímetro;\r\nResponsável pelo tratamento de efluentes da fábrica e resíduos químicos, com o objetivo de preservar o meio ambiente;\r\nControle de análise das etapas do processo produtivo;\r\nExecução de fórmulas desenvolvidas, através de pesagem e processos pré-definidos, visando ao desenvolvimento de novos produtos;\r\nDefloculação de amostras;\r\nAcompanhamento das análises do processo produtivo, avaliação diária de resultados, verificação de problemas e identificação de causa raiz;\r\nDeterminação instrumental do índice de azul de metileno em argilas e caulins;\r\nConhecimento em aparelhos laboratoriais de alta precisão;\r\nDeterminação de cloretos;\r\nDeterminação de matéria orgânica;\r\nAnálise de dilatação térmica da massa;\r\nExtração de sais solúveis de pegmatitos moídos, argilas, caulins e filitos para determinação de sulfato, cálcio e magnésio;\r\nDeterminação de teor de cálcio e magnésio em água e outras matérias-primas;\r\nControle de processos;\r\nCaracterização de matérias-primas;\r\nDeterminação de métodos;\r\nAnálises químicas;\r\nDesenvolvimento de novos produtos;\r\nDesenvolvimento de gráficos e pré-controles;\r\nAnálise de dados e auditorias;\r\nManuseio de equipamentos laboratoriais de alta precisão (Espectrofotômetro, Sedígrafo, Dilatômetro e Micromeritics);\r\nAplicação de ferramentas Lean e 5S;\r\nProatividade e senso de dono;\r\nLiderança e gestão, com experiência e domínio pleno nas áreas de laboratório, produção de massa, produção de esmalte, estação de tratamento de água e efluentes.\nFerramentas/sistemas: Dilatômetro\r\nSedígrafo\r\nPorosímetro\r\nAnalisador de Área Superficial BET\r\nEspectrofotômetro\r\nGlossímetro\r\nViscosímetro\r\nAgitadores\r\nDiluidores\r\nMoinhos de Massa e Esmalte\r\nEmpilhadeira\r\nExcel Avançado\r\nAplicação de ferramentas Lean e 5S\r\nAuditorias de Processo\r\nInglês Intermediário\n\n2. Operador de Guilhotina — TIKTak Indústria Gráfica (Agosto 2012 a junho 2022)\n\n3. Estagiário — Icasa (2 meses ( 2018))\n\n4. Estagiário — LANAGRO /Laboratório de Análise de Bebidas e Vinagres (LABV) Laboratório Federal de Defesa Agropecuária de Minas Gerais (LFDA/MG)\nPrincipais atividades: Métodos e Procedimentos:\r\n\r\nAcidez (Total, Volátil e Fixa);\r\nGrau Alcoólico Real;\r\nAçúcares Totais e Redutores: verificação do teor residual de açúcar no produto;\r\nExtrato Seco e Extrato Seco Reduzido: medição dos componentes sólidos não voláteis da bebida para atestar sua consistência e pureza;\r\nDióxido de Enxofre (Livre e Total): controle do conservante (sulfito) utilizado para evitar a oxidação bacteriana;\r\nAvaliação de pH e Densidade: parâmetros básicos de integridade química;\r\nPesquisa de Adulterantes: análise de corantes artificiais, conservantes proibidos ou excesso de metais pesados.\n\nFORMAÇÃO\nSuperior completo — Engenharia Química — UNIFAE\n\nCURSOS E QUALIFICAÇÕES\nNR 12\r\nNR 35\r\nExcel Avançado\r\nLean\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Estoque, Produção, Operação de máquinas, Qualidade\n\nINFORMAÇÕES ADICIONAIS"
   },
   {
     "id": "CV-1788263279271-adilson-roberto-de-sousa-adilsonrobertod",
@@ -332,15 +322,11 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "experiencias_anteriores": [
       {
         "empresa": "Trabalhei por 18 anos na Icasa fábrica de louça sanitária",
-        "cargo": "Fundidor de moldes",
-        "periodo": "",
-        "atividades": ""
+        "cargo": "Fundidor de moldes"
       },
       {
         "empresa": "Trabalhei em uma adega de bebidas",
-        "cargo": "Entregador",
-        "periodo": "",
-        "atividades": ""
+        "cargo": "Entregador"
       }
     ],
     "experiencias_adicionais": "",
@@ -389,8 +375,8 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "ultima_empresa": "Kohler",
     "ultimo_cargo": "Eng pleno de desenvolvimento de novos produtos",
     "tempo_ultima_funcao": "5 a 10 anos",
-    "atividades_ultima_experiencia": "Liderar projetos\nCoordenação de equipe\nDesenvolvimento de soluções \nGestão de risco\nGestão de cronograma \nDesenvolvimento de desenhos 2d e 3d",
-    "ferramentas_ultima_experiencia": "Creo parametric/ inventor/ autocad para desenhos 2d e 3d\nPFMEA\nLean\n5s",
+    "atividades_ultima_experiencia": "Liderar projetos\r\nCoordenação de equipe\r\nDesenvolvimento de soluções \r\nGestão de risco\r\nGestão de cronograma \r\nDesenvolvimento de desenhos 2d e 3d",
+    "ferramentas_ultima_experiencia": "Creo parametric/ inventor/ autocad para desenhos 2d e 3d\r\nPFMEA\r\nLean\r\n5s",
     "areas_ultima_experiencia": [
       "Produção / Operações",
       "Qualidade",
@@ -412,8 +398,8 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "disponibilidade_horario": "Comercial",
     "pretensao_salarial": "6.850",
     "inicio_imediato": "Sim",
-    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Administrativo, Liderança / Gestão. Profissional com experiência como Eng pleno de desenvolvimento de novos produtos na empresa Kohler, com 5 a 10 anos na função. Vivência em Liderar projetos\nCoordenação de equipe\nDesenvolvimento de soluções \nGestão de risco\nGestão de cronograma \nDesenvolvimento de desenhos 2d e 3d. Conhecimentos em Excel, Word, Qualidade, Outro: Autocad, power bi, inventor, creo parametric. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.",
-    "curriculo_texto": "JOEL RODRIGUES DA COSTA\nPoços de caldas / MG\nWhatsApp: 35997682664 | E-mail: joeljrcrodrigues12@outlook.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nEngenheiro(a), Líder / Encarregado(a), Supervisor(a) / Coordenador(a), Outro, Projetista\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Administrativo, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Administrativo, Liderança / Gestão. Profissional com experiência como Eng pleno de desenvolvimento de novos produtos na empresa Kohler, com 5 a 10 anos na função. Vivência em Liderar projetos\nCoordenação de equipe\nDesenvolvimento de soluções \nGestão de risco\nGestão de cronograma \nDesenvolvimento de desenhos 2d e 3d. Conhecimentos em Excel, Word, Qualidade, Outro: Autocad, power bi, inventor, creo parametric. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Eng pleno de desenvolvimento de novos produtos — Kohler (5 a 10 anos)\nPrincipais atividades: Liderar projetos\nCoordenação de equipe\nDesenvolvimento de soluções \nGestão de risco\nGestão de cronograma \nDesenvolvimento de desenhos 2d e 3d\nFerramentas/sistemas: Creo parametric/ inventor/ autocad para desenhos 2d e 3d\nPFMEA\nLean\n5s\n\nFORMAÇÃO\nSuperior completo — Engenharia mecânica — Faculdade Pitagoras\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Qualidade, Outro: Autocad, power bi, inventor, creo parametric\n\nINFORMAÇÕES ADICIONAIS"
+    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Administrativo, Liderança / Gestão. Profissional com experiência como Eng pleno de desenvolvimento de novos produtos na empresa Kohler, com 5 a 10 anos na função. Vivência em Liderar projetos\r\nCoordenação de equipe\r\nDesenvolvimento de soluções \r\nGestão de risco\r\nGestão de cronograma \r\nDesenvolvimento de desenhos 2d e 3d. Conhecimentos em Excel, Word, Qualidade, Outro: Autocad, power bi, inventor, creo parametric. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.",
+    "curriculo_texto": "JOEL RODRIGUES DA COSTA\nPoços de caldas / MG\nWhatsApp: 35997682664 | E-mail: joeljrcrodrigues12@outlook.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nEngenheiro(a), Líder / Encarregado(a), Supervisor(a) / Coordenador(a), Outro, Projetista\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Administrativo, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Qualidade, Administrativo, Liderança / Gestão. Profissional com experiência como Eng pleno de desenvolvimento de novos produtos na empresa Kohler, com 5 a 10 anos na função. Vivência em Liderar projetos\r\nCoordenação de equipe\r\nDesenvolvimento de soluções \r\nGestão de risco\r\nGestão de cronograma \r\nDesenvolvimento de desenhos 2d e 3d. Conhecimentos em Excel, Word, Qualidade, Outro: Autocad, power bi, inventor, creo parametric. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Eng pleno de desenvolvimento de novos produtos — Kohler (5 a 10 anos)\nPrincipais atividades: Liderar projetos\r\nCoordenação de equipe\r\nDesenvolvimento de soluções \r\nGestão de risco\r\nGestão de cronograma \r\nDesenvolvimento de desenhos 2d e 3d\nFerramentas/sistemas: Creo parametric/ inventor/ autocad para desenhos 2d e 3d\r\nPFMEA\r\nLean\r\n5s\n\nFORMAÇÃO\nSuperior completo — Engenharia mecânica — Faculdade Pitagoras\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Qualidade, Outro: Autocad, power bi, inventor, creo parametric\n\nINFORMAÇÕES ADICIONAIS"
   },
   {
     "id": "CV-1788268252999-joao-otavio-bernardes-torres-joao-b-torr",
@@ -448,7 +434,7 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "ultimo_cargo": "Engenheiro de Projetos Sr",
     "tempo_ultima_funcao": "5 a 10 anos",
     "atividades_ultima_experiencia": "Como gestor das áreas de Projetos e Inovação Digital fui responsável por liderar e conduzir as atividades dos dois times além de ser responsável pela gestão do portfólio dos projetos de capital e projetos digitais da empresa, também pela gestão de escopo, custos, prazos, stakeholders e comunicações. Nos últimos 5 anos gerenciamos e executamos mais de 100 projetos e um budget de aproximadamente 20 milhões de dólares.",
-    "ferramentas_ultima_experiencia": "METODOLOGIAS DE GESTÃO DE PROJETOS:\nPMBOK (PMI)\nFEL\nScrum\nKanban\nPRINCE2\nWaterfall (Cascata)\nAgile\nSAFe (Scaled Agile Framework)\nDesign Thinking\n\n\nGERENCIAMENTO DE PROJETOS:\nMS Project\nTrello\nPlanner\nPrimavera P6\n\nGESTÃO ÁGIL / SCRUM:\nJira (Scrum/Kanban boards)\n\nCOMUNICAÇÃO E COLABORAÇÃO:\nMicrosoft Teams\nGoogle Workspace (Docs, Sheets, Slides)\nZoom / Google Meet\n\nANÁLISE DE DADOS / RELATÓRIOS\nExcel (avançado: tabelas dinâmicas, macros, Power Query)\nPower BI\n\nDOCUMENTAÇÃO E GESTÃO DE CONHECIMENTO\nSharePoint\nNotion\n\nGESTÃO FINANCEIRA/ORÇAMENTÁRIA DE PROJETOS\nSAP\nExcel (modelagem financeira)\n\nDIAGRAMAÇÃO E PLANEJAMENTO VISUAL\nVisio\n\nFERRAMENTAS DE ENGENHARIA CIVIL\nProjeto e Modelagem\nAutoCAD\nRevit (BIM)\nCivil 3D\nCálculo Estrutural\nTQS\n\nTopografia e Geoprocessamento\nAutoCAD Civil 3D\nQGIS\n\nFERRAMENTAS DE ENGENHARIA\nModelagem e Simulação de Processos\nFlexSim\n\nQualidade e Melhoria Contínua\nMinitab (estatística para Six Sigma)\nExcel (para, 5W2H, Ishikawa, etc.)",
+    "ferramentas_ultima_experiencia": "METODOLOGIAS DE GESTÃO DE PROJETOS:\r\nPMBOK (PMI)\r\nFEL\r\nScrum\r\nKanban\r\nPRINCE2\r\nWaterfall (Cascata)\r\nAgile\r\nSAFe (Scaled Agile Framework)\r\nDesign Thinking\r\n\r\n\r\nGERENCIAMENTO DE PROJETOS:\r\nMS Project\r\nTrello\r\nPlanner\r\nPrimavera P6\r\n\r\nGESTÃO ÁGIL / SCRUM:\r\nJira (Scrum/Kanban boards)\r\n\r\nCOMUNICAÇÃO E COLABORAÇÃO:\r\nMicrosoft Teams\r\nGoogle Workspace (Docs, Sheets, Slides)\r\nZoom / Google Meet\r\n\r\nANÁLISE DE DADOS / RELATÓRIOS\r\nExcel (avançado: tabelas dinâmicas, macros, Power Query)\r\nPower BI\r\n\r\nDOCUMENTAÇÃO E GESTÃO DE CONHECIMENTO\r\nSharePoint\r\nNotion\r\n\r\nGESTÃO FINANCEIRA/ORÇAMENTÁRIA DE PROJETOS\r\nSAP\r\nExcel (modelagem financeira)\r\n\r\nDIAGRAMAÇÃO E PLANEJAMENTO VISUAL\r\nVisio\r\n\r\nFERRAMENTAS DE ENGENHARIA CIVIL\r\nProjeto e Modelagem\r\nAutoCAD\r\nRevit (BIM)\r\nCivil 3D\r\nCálculo Estrutural\r\nTQS\r\n\r\nTopografia e Geoprocessamento\r\nAutoCAD Civil 3D\r\nQGIS\r\n\r\nFERRAMENTAS DE ENGENHARIA\r\nModelagem e Simulação de Processos\r\nFlexSim\r\n\r\nQualidade e Melhoria Contínua\r\nMinitab (estatística para Six Sigma)\r\nExcel (para, 5W2H, Ishikawa, etc.)",
     "areas_ultima_experiencia": [
       "Financeiro",
       "Compras / Suprimentos",
@@ -479,7 +465,7 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "pretensao_salarial": "9500",
     "inicio_imediato": "Sim",
     "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Qualidade, Financeiro, Compras / Suprimentos, Tecnologia / TI, Liderança / Gestão. Profissional com experiência como Engenheiro de Projetos Sr na empresa Kohler, com 5 a 10 anos na função. Vivência em Como gestor das áreas de Projetos e Inovação Digital fui responsável por liderar e conduzir as atividades dos dois times além de ser responsável pela gestão do portfólio dos projetos de capital e projetos digitais da empresa, também pela gestão de escopo, custos, prazos, stakeholders e comunicações. Nos últimos 5 anos gerenciamos e executamos mais de 100 projetos e um budget de aproximadamente 20 milhões de dólares.. Conhecimentos em Excel, Word, Informática, Sistemas ERP, Elétrica, Mecânica, Qualidade, Financeiro, Outro: Gestão de Projetos, Gestão de Pessoas, Gestão de custos,. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas.",
-    "curriculo_texto": "JOÃO OTÁVIO BERNARDES TORRES\nAndradas / MG\nWhatsApp: 35988013580 | E-mail: joao.b_torres@hotmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nAnalista Financeiro, Comprador(a) / Suprimentos, Técnico(a), Engenheiro(a), Supervisor(a) / Coordenador(a), Gerente\nÁreas de interesse: Engenharia / Técnico, Qualidade, Financeiro, Compras / Suprimentos, Tecnologia / TI, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Qualidade, Financeiro, Compras / Suprimentos, Tecnologia / TI, Liderança / Gestão. Profissional com experiência como Engenheiro de Projetos Sr na empresa Kohler, com 5 a 10 anos na função. Vivência em Como gestor das áreas de Projetos e Inovação Digital fui responsável por liderar e conduzir as atividades dos dois times além de ser responsável pela gestão do portfólio dos projetos de capital e projetos digitais da empresa, também pela gestão de escopo, custos, prazos, stakeholders e comunicações. Nos últimos 5 anos gerenciamos e executamos mais de 100 projetos e um budget de aproximadamente 20 milhões de dólares.. Conhecimentos em Excel, Word, Informática, Sistemas ERP, Elétrica, Mecânica, Qualidade, Financeiro, Outro: Gestão de Projetos, Gestão de Pessoas, Gestão de custos,. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Engenheiro de Projetos Sr — Kohler (5 a 10 anos)\nPrincipais atividades: Como gestor das áreas de Projetos e Inovação Digital fui responsável por liderar e conduzir as atividades dos dois times além de ser responsável pela gestão do portfólio dos projetos de capital e projetos digitais da empresa, também pela gestão de escopo, custos, prazos, stakeholders e comunicações. Nos últimos 5 anos gerenciamos e executamos mais de 100 projetos e um budget de aproximadamente 20 milhões de dólares.\nFerramentas/sistemas: METODOLOGIAS DE GESTÃO DE PROJETOS:\nPMBOK (PMI)\nFEL\nScrum\nKanban\nPRINCE2\nWaterfall (Cascata)\nAgile\nSAFe (Scaled Agile Framework)\nDesign Thinking\n\n\nGERENCIAMENTO DE PROJETOS:\nMS Project\nTrello\nPlanner\nPrimavera P6\n\nGESTÃO ÁGIL / SCRUM:\nJira (Scrum/Kanban boards)\n\nCOMUNICAÇÃO E COLABORAÇÃO:\nMicrosoft Teams\nGoogle Workspace (Docs, Sheets, Slides)\nZoom / Google Meet\n\nANÁLISE DE DADOS / RELATÓRIOS\nExcel (avançado: tabelas dinâmicas, macros, Power Query)\nPower BI\n\nDOCUMENTAÇÃO E GESTÃO DE CONHECIMENTO\nSharePoint\nNotion\n\nGESTÃO FINANCEIRA/ORÇAMENTÁRIA DE PROJETOS\nSAP\nExcel (modelagem financeira)\n\nDIAGRAMAÇÃO E PLANEJAMENTO VISUAL\nVisio\n\nFERRAMENTAS DE ENGENHARIA CIVIL\nProjeto e Modelagem\nAutoCAD\nRevit (BIM)\nCivil 3D\nCálculo Estrutural\nTQS\n\nTopografia e Geoprocessamento\nAutoCAD Civil 3D\nQGIS\n\nFERRAMENTAS DE ENGENHARIA\nModelagem e Simulação de Processos\nFlexSim\n\nQualidade e Melhoria Contínua\nMinitab (estatística para Six Sigma)\nExcel (para, 5W2H, Ishikawa, etc.)\n\n2. Analista de Desenvolvimento de Produtos — Kohler (mai/2019 a mar/2021)\nPrincipais atividades: Atuei diretamente na industrialização de novos produtos — desenvolvendo processos de fabricação, ferramental e equipamentos, validando protótipos e apoiando o ramp-up de produção — garantindo a conformidade com normas técnicas e certificando os critérios de qualidade para a produção em larga escala\n\nFORMAÇÃO\nPós-graduação — MBA em Gestão de Projetos — USP\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Sistemas ERP, Elétrica, Mecânica, Qualidade, Financeiro, Outro: Gestão de Projetos, Gestão de Pessoas, Gestão de custos,\n\nINFORMAÇÕES ADICIONAIS"
+    "curriculo_texto": "JOÃO OTÁVIO BERNARDES TORRES\nAndradas / MG\nWhatsApp: 35988013580 | E-mail: joao.b_torres@hotmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nAnalista Financeiro, Comprador(a) / Suprimentos, Técnico(a), Engenheiro(a), Supervisor(a) / Coordenador(a), Gerente\nÁreas de interesse: Engenharia / Técnico, Qualidade, Financeiro, Compras / Suprimentos, Tecnologia / TI, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Qualidade, Financeiro, Compras / Suprimentos, Tecnologia / TI, Liderança / Gestão. Profissional com experiência como Engenheiro de Projetos Sr na empresa Kohler, com 5 a 10 anos na função. Vivência em Como gestor das áreas de Projetos e Inovação Digital fui responsável por liderar e conduzir as atividades dos dois times além de ser responsável pela gestão do portfólio dos projetos de capital e projetos digitais da empresa, também pela gestão de escopo, custos, prazos, stakeholders e comunicações. Nos últimos 5 anos gerenciamos e executamos mais de 100 projetos e um budget de aproximadamente 20 milhões de dólares.. Conhecimentos em Excel, Word, Informática, Sistemas ERP, Elétrica, Mecânica, Qualidade, Financeiro, Outro: Gestão de Projetos, Gestão de Pessoas, Gestão de custos,. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Foco em resultados, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Engenheiro de Projetos Sr — Kohler (5 a 10 anos)\nPrincipais atividades: Como gestor das áreas de Projetos e Inovação Digital fui responsável por liderar e conduzir as atividades dos dois times além de ser responsável pela gestão do portfólio dos projetos de capital e projetos digitais da empresa, também pela gestão de escopo, custos, prazos, stakeholders e comunicações. Nos últimos 5 anos gerenciamos e executamos mais de 100 projetos e um budget de aproximadamente 20 milhões de dólares.\nFerramentas/sistemas: METODOLOGIAS DE GESTÃO DE PROJETOS:\r\nPMBOK (PMI)\r\nFEL\r\nScrum\r\nKanban\r\nPRINCE2\r\nWaterfall (Cascata)\r\nAgile\r\nSAFe (Scaled Agile Framework)\r\nDesign Thinking\r\n\r\n\r\nGERENCIAMENTO DE PROJETOS:\r\nMS Project\r\nTrello\r\nPlanner\r\nPrimavera P6\r\n\r\nGESTÃO ÁGIL / SCRUM:\r\nJira (Scrum/Kanban boards)\r\n\r\nCOMUNICAÇÃO E COLABORAÇÃO:\r\nMicrosoft Teams\r\nGoogle Workspace (Docs, Sheets, Slides)\r\nZoom / Google Meet\r\n\r\nANÁLISE DE DADOS / RELATÓRIOS\r\nExcel (avançado: tabelas dinâmicas, macros, Power Query)\r\nPower BI\r\n\r\nDOCUMENTAÇÃO E GESTÃO DE CONHECIMENTO\r\nSharePoint\r\nNotion\r\n\r\nGESTÃO FINANCEIRA/ORÇAMENTÁRIA DE PROJETOS\r\nSAP\r\nExcel (modelagem financeira)\r\n\r\nDIAGRAMAÇÃO E PLANEJAMENTO VISUAL\r\nVisio\r\n\r\nFERRAMENTAS DE ENGENHARIA CIVIL\r\nProjeto e Modelagem\r\nAutoCAD\r\nRevit (BIM)\r\nCivil 3D\r\nCálculo Estrutural\r\nTQS\r\n\r\nTopografia e Geoprocessamento\r\nAutoCAD Civil 3D\r\nQGIS\r\n\r\nFERRAMENTAS DE ENGENHARIA\r\nModelagem e Simulação de Processos\r\nFlexSim\r\n\r\nQualidade e Melhoria Contínua\r\nMinitab (estatística para Six Sigma)\r\nExcel (para, 5W2H, Ishikawa, etc.)\n\n2. Analista de Desenvolvimento de Produtos — Kohler (mai/2019 a mar/2021)\nPrincipais atividades: Atuei diretamente na industrialização de novos produtos — desenvolvendo processos de fabricação, ferramental e equipamentos, validando protótipos e apoiando o ramp-up de produção — garantindo a conformidade com normas técnicas e certificando os critérios de qualidade para a produção em larga escala\n\nFORMAÇÃO\nPós-graduação — MBA em Gestão de Projetos — USP\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Sistemas ERP, Elétrica, Mecânica, Qualidade, Financeiro, Outro: Gestão de Projetos, Gestão de Pessoas, Gestão de custos,\n\nINFORMAÇÕES ADICIONAIS"
   },
   {
     "id": "CV-1788268333659-carlos-eduardo-de-oliveira-peres-mendes-",
@@ -667,7 +653,7 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "ultima_empresa": "Kohler",
     "ultimo_cargo": "Engenheiro de Processos Pleno",
     "tempo_ultima_funcao": "1 a 2 anos",
-    "atividades_ultima_experiencia": "•\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\n•\tApontamento e controle de produção;\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\n•\tPesquisa e desenvolvimento de novas matérias-primas;\n•\tFormulação, desenvolvimento e implementação de massas e esmaltes cerâmicos, com foco na avaliação e correção de cores e texturas;\n•\tControle de qualidade nos recebimentos e liberação de matérias-primas a serem utilizadas nos processos;\n•\tFormulação de reparos a frio para louças cerâmicas;\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\n•\tGestão e liderança de equipes com foco no resultado e crescimento técnico da equipe;\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.",
+    "atividades_ultima_experiencia": "•\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\r\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\r\n•\tPesquisa e desenvolvimento de novas matérias-primas;\r\n•\tFormulação, desenvolvimento e implementação de massas e esmaltes cerâmicos, com foco na avaliação e correção de cores e texturas;\r\n•\tControle de qualidade nos recebimentos e liberação de matérias-primas a serem utilizadas nos processos;\r\n•\tFormulação de reparos a frio para louças cerâmicas;\r\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\r\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\r\n•\tGestão e liderança de equipes com foco no resultado e crescimento técnico da equipe;\r\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.",
     "ferramentas_ultima_experiencia": "SAP, Excel, Power BI, Power Apps, Power Poing e Word",
     "areas_ultima_experiencia": [
       "Produção / Operações",
@@ -684,26 +670,26 @@ export const MOCK_CANDIDATES: Candidate[] = [
         "empresa": "Kohler",
         "cargo": "Engenheira de Processos Júnior",
         "periodo": "07/2022 a 03/2025",
-        "atividades": "•\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\n•\tApontamento e controle de produção;\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global."
+        "atividades": "•\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\r\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\r\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\r\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\r\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global."
       },
       {
         "empresa": "Kohler",
         "cargo": "Analista de Processos",
         "periodo": "05/2021 a 02/2022",
-        "atividades": "•\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\n•\tApontamento e controle de produção;\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\n•\tCriação, controle e análise de dados de indicadores chaves;\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global;\n•\tControle e medição de testes de queima;\n•\tLançamento e conferência de dados gerados pelo laboratório;\n•\tTestes em linha de produção de novos produtos de massa e esmalte."
+        "atividades": "•\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tCriação, controle e análise de dados de indicadores chaves;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global;\r\n•\tControle e medição de testes de queima;\r\n•\tLançamento e conferência de dados gerados pelo laboratório;\r\n•\tTestes em linha de produção de novos produtos de massa e esmalte."
       },
       {
         "empresa": "Kohler",
         "cargo": "Assistente de Laboratório",
         "periodo": "02/2020 a 08/2020",
-        "atividades": "•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tControle e medição de testes de queima;\n•\tLançamento e conferência de dados gerados pelo laboratório;\n•\tTestes em linha de produção de novos produtos de massa e esmalte."
+        "atividades": "•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tControle e medição de testes de queima;\r\n•\tLançamento e conferência de dados gerados pelo laboratório;\r\n•\tTestes em linha de produção de novos produtos de massa e esmalte."
       }
     ],
-    "experiencias_adicionais": "Cargo: Assistente de Controle de Processos – 02/2020 – 08/2020\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos.",
+    "experiencias_adicionais": "Cargo: Assistente de Controle de Processos – 02/2020 – 08/2020\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos.",
     "escolaridade": "Superior completo",
     "curso_formacao": "Bacharel em Engenharia Química",
     "instituicao_ensino": "Unifae",
-    "cursos_qualificacoes": "Treinamento para Liderança - Engaja - 2025\nMasterMind Lince (Treinamento para Liderança) - MasterMind - 2024\nGreen Belt - RL & Associados – 2017",
+    "cursos_qualificacoes": "Treinamento para Liderança - Engaja - 2025\r\nMasterMind Lince (Treinamento para Liderança) - MasterMind - 2024\r\nGreen Belt - RL & Associados – 2017",
     "conhecimentos": "Excel, Word, Informática, Atendimento ao cliente, Estoque, Produção, Qualidade, Compras, Outro: Power BI, Power Point, Power Apps, Excel, Word e SAP",
     "maquinas_equipamentos": "",
     "caracteristicas": "Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal",
@@ -712,8 +698,8 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "disponibilidade_horario": "Comercial",
     "pretensao_salarial": "R$8.000",
     "inicio_imediato": "Sim",
-    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Engenheiro de Processos Pleno na empresa Kohler, com 1 a 2 anos na função. Vivência em •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\n•\tApontamento e controle de produção;\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\n•\tPesquisa e desenvolvimento de novas matérias-primas;\n•\tFormulação, desenvolvimento e implementação de massas e esmaltes cerâmicos, com foco na avaliação e correção de cores e texturas;\n•\tControle de qualidade nos recebimentos e liberação de matérias-primas a serem utilizadas nos processos;\n•\tFormulação de reparos a frio para louças cerâmicas;\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\n•\tGestão e liderança de equipes com foco no resultado e crescimento técnico da equipe;\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Estoque, Produção, Qualidade, Compras, Outro: Power BI, Power Point, Power Apps, Excel, Word e SAP. Qualificações: Treinamento para Liderança - Engaja - 2025\nMasterMind Lince (Treinamento para Liderança) - MasterMind - 2024\nGreen Belt - RL & Associados – 2017. Características profissionais declaradas: Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal.",
-    "curriculo_texto": "JÉSSICA CONSTANTINO\nAndradas / MG\nWhatsApp: 35991797966 | E-mail: jessicaconstantino@hotmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nEngenheiro(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Engenheiro de Processos Pleno na empresa Kohler, com 1 a 2 anos na função. Vivência em •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\n•\tApontamento e controle de produção;\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\n•\tPesquisa e desenvolvimento de novas matérias-primas;\n•\tFormulação, desenvolvimento e implementação de massas e esmaltes cerâmicos, com foco na avaliação e correção de cores e texturas;\n•\tControle de qualidade nos recebimentos e liberação de matérias-primas a serem utilizadas nos processos;\n•\tFormulação de reparos a frio para louças cerâmicas;\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\n•\tGestão e liderança de equipes com foco no resultado e crescimento técnico da equipe;\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.\nFerramentas/sistemas: SAP, Excel, Power BI, Power Apps, Power Poing e Word\n\n2. Engenheira de Processos Júnior — Kohler (07/2022 a 03/2025)\nPrincipais atividades: •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\n•\tApontamento e controle de produção;\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.\n\n3. Analista de Processos — Kohler (05/2021 a 02/2022)\nPrincipais atividades: •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\n•\tApontamento e controle de produção;\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\n•\tCriação, controle e análise de dados de indicadores chaves;\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global;\n•\tControle e medição de testes de queima;\n•\tLançamento e conferência de dados gerados pelo laboratório;\n•\tTestes em linha de produção de novos produtos de massa e esmalte.\n\n4. Assistente de Laboratório — Kohler (02/2020 a 08/2020)\nPrincipais atividades: •\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\n•\tControle e medição de testes de queima;\n•\tLançamento e conferência de dados gerados pelo laboratório;\n•\tTestes em linha de produção de novos produtos de massa e esmalte.\n\nOutras experiências:\nCargo: Assistente de Controle de Processos – 02/2020 – 08/2020\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos.\n\nFORMAÇÃO\nSuperior completo — Bacharel em Engenharia Química — Unifae\n\nCURSOS E QUALIFICAÇÕES\nTreinamento para Liderança - Engaja - 2025\nMasterMind Lince (Treinamento para Liderança) - MasterMind - 2024\nGreen Belt - RL & Associados – 2017\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Atendimento ao cliente, Estoque, Produção, Qualidade, Compras, Outro: Power BI, Power Point, Power Apps, Excel, Word e SAP\n\nINFORMAÇÕES ADICIONAIS\nInglês - nível intermediário (Cursando)\nMBA em Engenharia e Gestão da Qualidade - Unifae - Concluído em 2022"
+    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Engenheiro de Processos Pleno na empresa Kohler, com 1 a 2 anos na função. Vivência em •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\r\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\r\n•\tPesquisa e desenvolvimento de novas matérias-primas;\r\n•\tFormulação, desenvolvimento e implementação de massas e esmaltes cerâmicos, com foco na avaliação e correção de cores e texturas;\r\n•\tControle de qualidade nos recebimentos e liberação de matérias-primas a serem utilizadas nos processos;\r\n•\tFormulação de reparos a frio para louças cerâmicas;\r\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\r\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\r\n•\tGestão e liderança de equipes com foco no resultado e crescimento técnico da equipe;\r\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Estoque, Produção, Qualidade, Compras, Outro: Power BI, Power Point, Power Apps, Excel, Word e SAP. Qualificações: Treinamento para Liderança - Engaja - 2025\r\nMasterMind Lince (Treinamento para Liderança) - MasterMind - 2024\r\nGreen Belt - RL & Associados – 2017. Características profissionais declaradas: Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal.",
+    "curriculo_texto": "JÉSSICA CONSTANTINO\nAndradas / MG\nWhatsApp: 35991797966 | E-mail: jessicaconstantino@hotmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nEngenheiro(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Engenheiro de Processos Pleno na empresa Kohler, com 1 a 2 anos na função. Vivência em •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\r\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\r\n•\tPesquisa e desenvolvimento de novas matérias-primas;\r\n•\tFormulação, desenvolvimento e implementação de massas e esmaltes cerâmicos, com foco na avaliação e correção de cores e texturas;\r\n•\tControle de qualidade nos recebimentos e liberação de matérias-primas a serem utilizadas nos processos;\r\n•\tFormulação de reparos a frio para louças cerâmicas;\r\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\r\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\r\n•\tGestão e liderança de equipes com foco no resultado e crescimento técnico da equipe;\r\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Estoque, Produção, Qualidade, Compras, Outro: Power BI, Power Point, Power Apps, Excel, Word e SAP. Qualificações: Treinamento para Liderança - Engaja - 2025\r\nMasterMind Lince (Treinamento para Liderança) - MasterMind - 2024\r\nGreen Belt - RL & Associados – 2017. Características profissionais declaradas: Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Foco em resultados, Facilidade para resolver problemas, Bom relacionamento interpessoal.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Engenheiro de Processos Pleno — Kohler (1 a 2 anos)\nPrincipais atividades: •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\r\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\r\n•\tPesquisa e desenvolvimento de novas matérias-primas;\r\n•\tFormulação, desenvolvimento e implementação de massas e esmaltes cerâmicos, com foco na avaliação e correção de cores e texturas;\r\n•\tControle de qualidade nos recebimentos e liberação de matérias-primas a serem utilizadas nos processos;\r\n•\tFormulação de reparos a frio para louças cerâmicas;\r\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\r\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\r\n•\tGestão e liderança de equipes com foco no resultado e crescimento técnico da equipe;\r\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.\nFerramentas/sistemas: SAP, Excel, Power BI, Power Apps, Power Poing e Word\n\n2. Engenheira de Processos Júnior — Kohler (07/2022 a 03/2025)\nPrincipais atividades: •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tDesenvolvimento, implementação e otimização de novos layouts operacionais com aumento de produtividade;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tGestão de BOM (Bill of Materials) com estruturação, controle e atualização do indicador anual;\r\n•\tCriação, controle e análise de dados de indicadores chaves desenvolvidos com dashboards integrados utilizando Power Bi, Excel e Power Apps;\r\n•\tGestão financeira OPEX com controle e previsibilidade de despesas operacionais;\r\n•\tLiderança e execução de projetos focados em redução de custos e otimização de recursos;\r\n•\tNegociação, cotação e compra de suprimentos adicionais para as equipes;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global.\n\n3. Analista de Processos — Kohler (05/2021 a 02/2022)\nPrincipais atividades: •\tTratamento de não conformidades e defeitos na linha de produção, com foco na análise da causa raiz e resolução utilizando ferramentas da metodologia Lean Manufacturing e Shainin;\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tSupervisão e auditorias nos processos para garantia da qualidade e padronização do produto final;\r\n•\tApontamento e controle de produção;\r\n•\tGestão de estoque com controle de inventário, balanço de materiais e otimização dos níveis de armazenagem;\r\n•\tCriação, controle e análise de dados de indicadores chaves;\r\n•\tDesenvolvimento e apresentação de relatórios, indicadores e materiais estratégicos para o time corporativo global;\r\n•\tControle e medição de testes de queima;\r\n•\tLançamento e conferência de dados gerados pelo laboratório;\r\n•\tTestes em linha de produção de novos produtos de massa e esmalte.\n\n4. Assistente de Laboratório — Kohler (02/2020 a 08/2020)\nPrincipais atividades: •\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos;\r\n•\tControle e medição de testes de queima;\r\n•\tLançamento e conferência de dados gerados pelo laboratório;\r\n•\tTestes em linha de produção de novos produtos de massa e esmalte.\n\nOutras experiências:\nCargo: Assistente de Controle de Processos – 02/2020 – 08/2020\r\n•\tElaboração de procedimentos operacionais padrão, implementação e padronização de novos fluxos de trabalhos.\n\nFORMAÇÃO\nSuperior completo — Bacharel em Engenharia Química — Unifae\n\nCURSOS E QUALIFICAÇÕES\nTreinamento para Liderança - Engaja - 2025\r\nMasterMind Lince (Treinamento para Liderança) - MasterMind - 2024\r\nGreen Belt - RL & Associados – 2017\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Atendimento ao cliente, Estoque, Produção, Qualidade, Compras, Outro: Power BI, Power Point, Power Apps, Excel, Word e SAP\n\nINFORMAÇÕES ADICIONAIS\nInglês - nível intermediário (Cursando)\r\nMBA em Engenharia e Gestão da Qualidade - Unifae - Concluído em 2022"
   },
   {
     "id": "CV-1788287917572-fernando-a-alexandre-fernandoalexandre44",
@@ -769,16 +755,14 @@ export const MOCK_CANDIDATES: Candidate[] = [
       },
       {
         "empresa": "C Q Sab Lanches",
-        "cargo": "Balconista",
-        "periodo": "",
-        "atividades": ""
+        "cargo": "Balconista"
       }
     ],
     "experiencias_adicionais": "",
     "escolaridade": "Superior completo",
     "curso_formacao": "Administração",
     "instituicao_ensino": "Anhanguera",
-    "cursos_qualificacoes": "NR 1, NR 12\nExcel\nWord\nApresentação e noções básicas de Power BI\nLogística integrada empresarial\nAdministração geral\nGestão e controladoria de custos empresariais\nMinicurso relações humanas no trabalho \nProdutividade \nMinicurso inteligência emocional no trabalho de segui\nPlanejamento pessoal de ações \nPacote office \nLiderança e gestão de pessoas na prática",
+    "cursos_qualificacoes": "NR 1, NR 12\r\nExcel\r\nWord\r\nApresentação e noções básicas de Power BI\r\nLogística integrada empresarial\r\nAdministração geral\r\nGestão e controladoria de custos empresariais\r\nMinicurso relações humanas no trabalho \r\nProdutividade \r\nMinicurso inteligência emocional no trabalho de segui\r\nPlanejamento pessoal de ações \r\nPacote office \r\nLiderança e gestão de pessoas na prática",
     "conhecimentos": "Excel, Word, Logística, Produção, Qualidade, Administrativo, Outro: Lean manufacture",
     "maquinas_equipamentos": "De fundição",
     "caracteristicas": "Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Liderança, Foco em resultados",
@@ -786,9 +770,9 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "regiao_interesse": "Andradas, Poços de Caldas, Espírito Santo do Pinhal",
     "disponibilidade_horario": "Comercial, Escala",
     "pretensao_salarial": "Mínimo R$2500,00",
-    "inicio_imediato": "Sim",
-    "resumo_profissional": "Áreas de interesse: Liderança / Gestão, Produção / Operações, Qualidade, Atendimento / Recepção, Serviços Gerais / Apoio, Agrícola / Campo. Profissional com experiência como Líder de turno na empresa Kohler, com 5 a 10 anos na função. Vivência em Acompanhar produção e qualidade, desenvolvimento das equipes, apoio aos colaboradores.. Conhecimentos em Excel, Word, Logística, Produção, Qualidade, Administrativo, Outro: Lean manufacture. Qualificações: NR 1, NR 12\nExcel\nWord\nApresentação e noções básicas de Power BI\nLogística integrada empresarial\nAdministração geral\nGestão e controladoria de custos empresariais\nMinicurso relações humanas no trabalho \nProdutividade \nMinicurso inteligência emocional no trabalho de segui\nPlanejamento pessoal de ações \nPacote office \nLiderança e gestão de pessoas na prática. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Liderança, Foco em resultados.",
-    "curriculo_texto": "FERNANDO A. ALEXANDRE\nAndradas / MG\nWhatsApp: 35997131981 | E-mail: fernandoalexandre448@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Motorista / Entregador(a), Auxiliar / Assistente Administrativo, Líder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Qualidade, Atendimento / Recepção, Serviços Gerais / Apoio, Agrícola / Campo\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Qualidade, Atendimento / Recepção, Serviços Gerais / Apoio, Agrícola / Campo. Profissional com experiência como Líder de turno na empresa Kohler, com 5 a 10 anos na função. Vivência em Acompanhar produção e qualidade, desenvolvimento das equipes, apoio aos colaboradores.. Conhecimentos em Excel, Word, Logística, Produção, Qualidade, Administrativo, Outro: Lean manufacture. Qualificações: NR 1, NR 12\nExcel\nWord\nApresentação e noções básicas de Power BI\nLogística integrada empresarial\nAdministração geral\nGestão e controladoria de custos empresariais\nMinicurso relações humanas no trabalho \nProdutividade \nMinicurso inteligência emocional no trabalho de segui\nPlanejamento pessoal de ações \nPacote office \nLiderança e gestão de pessoas na prática. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Liderança, Foco em resultados.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Líder de turno — Kohler (5 a 10 anos)\nPrincipais atividades: Acompanhar produção e qualidade, desenvolvimento das equipes, apoio aos colaboradores.\nFerramentas/sistemas: Trabalha com o processo de Lean manufacture.\n\n2. Operador de máquina de fundição — Icasa (Março de 2011 a maio de 2016)\nPrincipais atividades: Destacamento de peças e acabamento.\n\n3. Zelador — Instituto de educação Alfa (Junho 2017 a outro de outubro de 2020)\nPrincipais atividades: Cuidar da manutenção e limpeza do local inclusive jardinagem.\n\n4. Balconista — C Q Sab Lanches\n\nFORMAÇÃO\nSuperior completo — Administração — Anhanguera\nEm andamento: Pós graduação em engenharia da qual e pós graduação em Lean manufacture.\n\nCURSOS E QUALIFICAÇÕES\nNR 1, NR 12\nExcel\nWord\nApresentação e noções básicas de Power BI\nLogística integrada empresarial\nAdministração geral\nGestão e controladoria de custos empresariais\nMinicurso relações humanas no trabalho \nProdutividade \nMinicurso inteligência emocional no trabalho de segui\nPlanejamento pessoal de ações \nPacote office \nLiderança e gestão de pessoas na prática\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Logística, Produção, Qualidade, Administrativo, Outro: Lean manufacture\nMáquinas/equipamentos: De fundição\n\nINFORMAÇÕES ADICIONAIS"
+    "inicio_imediato": "",
+    "resumo_profissional": "Áreas de interesse: Liderança / Gestão, Produção / Operações, Qualidade, Atendimento / Recepção, Serviços Gerais / Apoio, Agrícola / Campo. Profissional com experiência como Líder de turno na empresa Kohler, com 5 a 10 anos na função. Vivência em Acompanhar produção e qualidade, desenvolvimento das equipes, apoio aos colaboradores.. Conhecimentos em Excel, Word, Logística, Produção, Qualidade, Administrativo, Outro: Lean manufacture. Qualificações: NR 1, NR 12\r\nExcel\r\nWord\r\nApresentação e noções básicas de Power BI\r\nLogística integrada empresarial\r\nAdministração geral\r\nGestão e controladoria de custos empresariais\r\nMinicurso relações humanas no trabalho \r\nProdutividade \r\nMinicurso inteligência emocional no trabalho de segui\r\nPlanejamento pessoal de ações \r\nPacote office \r\nLiderança e gestão de pessoas na prática. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Liderança, Foco em resultados.",
+    "curriculo_texto": "FERNANDO A. ALEXANDRE\nAndradas / MG\nWhatsApp: 35997131981 | E-mail: fernandoalexandre448@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Motorista / Entregador(a), Auxiliar / Assistente Administrativo, Líder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Qualidade, Atendimento / Recepção, Serviços Gerais / Apoio, Agrícola / Campo\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Qualidade, Atendimento / Recepção, Serviços Gerais / Apoio, Agrícola / Campo. Profissional com experiência como Líder de turno na empresa Kohler, com 5 a 10 anos na função. Vivência em Acompanhar produção e qualidade, desenvolvimento das equipes, apoio aos colaboradores.. Conhecimentos em Excel, Word, Logística, Produção, Qualidade, Administrativo, Outro: Lean manufacture. Qualificações: NR 1, NR 12\r\nExcel\r\nWord\r\nApresentação e noções básicas de Power BI\r\nLogística integrada empresarial\r\nAdministração geral\r\nGestão e controladoria de custos empresariais\r\nMinicurso relações humanas no trabalho \r\nProdutividade \r\nMinicurso inteligência emocional no trabalho de segui\r\nPlanejamento pessoal de ações \r\nPacote office \r\nLiderança e gestão de pessoas na prática. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Liderança, Foco em resultados.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Líder de turno — Kohler (5 a 10 anos)\nPrincipais atividades: Acompanhar produção e qualidade, desenvolvimento das equipes, apoio aos colaboradores.\nFerramentas/sistemas: Trabalha com o processo de Lean manufacture.\n\n2. Operador de máquina de fundição — Icasa (Março de 2011 a maio de 2016)\nPrincipais atividades: Destacamento de peças e acabamento.\n\n3. Zelador — Instituto de educação Alfa (Junho 2017 a outro de outubro de 2020)\nPrincipais atividades: Cuidar da manutenção e limpeza do local inclusive jardinagem.\n\n4. Balconista — C Q Sab Lanches\n\nFORMAÇÃO\nSuperior completo — Administração — Anhanguera\nEm andamento: Pós graduação em engenharia da qual e pós graduação em Lean manufacture.\n\nCURSOS E QUALIFICAÇÕES\nNR 1, NR 12\r\nExcel\r\nWord\r\nApresentação e noções básicas de Power BI\r\nLogística integrada empresarial\r\nAdministração geral\r\nGestão e controladoria de custos empresariais\r\nMinicurso relações humanas no trabalho \r\nProdutividade \r\nMinicurso inteligência emocional no trabalho de segui\r\nPlanejamento pessoal de ações \r\nPacote office \r\nLiderança e gestão de pessoas na prática\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Logística, Produção, Qualidade, Administrativo, Outro: Lean manufacture\nMáquinas/equipamentos: De fundição\n\nINFORMAÇÕES ADICIONAIS"
   },
   {
     "id": "CV-1788300951563-luziele-dionisio-falda-luzieledionisio-g",
@@ -816,7 +800,7 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "ultima_empresa": "Kohler",
     "ultimo_cargo": "Técnico de Processos",
     "tempo_ultima_funcao": "2 a 5 anos",
-    "atividades_ultima_experiencia": "- Formulação, ajuste e desenvolvimento de massas cerâmicas e esmaltes, incluindo otimização de cores, desempenho e estabilidade dos produtos.\n- Desenvolvimento de projetos de redução de custos, com otimização de massas e esmaltes sem comprometer a qualidade.\n- Realização e interpretação de análises dilatométricas e reológicas, aplicando os resultados na otimização e ajuste de processos.\n- Desenvolvimento e validação de novas matérias-primas, com caracterização físico-química e avaliação de viabilidade técnica.\n- Investigação e controle de defeitos em peças acabadas, atuando na identificação de causas e implementação de ações corretivas.\n- Liderança na implantação e monitoramento do 5S, promovendo organização, padronização e eficiência nos postos de trabalho, com conquista do título de Campeão do 5S em competição interna.\n- Proposição e implementação de melhorias em processos e postos de trabalho, com foco em eficiência, qualidade e redução de desperdícios.\n- Execução de análises laboratoriais para controle de qualidade, utilizando técnicas de titulação, espectrofotometria, gravimetria, sedígrafo e área superficial.\n- Gestão do recebimento, organização e rastreabilidade de matérias-primas utilizadas nos processos de massas e esmaltes.\n- Elaboração de relatórios técnicos, atas e apresentações, garantindo registro, análise e comunicação dos resultados.",
+    "atividades_ultima_experiencia": "- Formulação, ajuste e desenvolvimento de massas cerâmicas e esmaltes, incluindo otimização de cores, desempenho e estabilidade dos produtos.\r\n- Desenvolvimento de projetos de redução de custos, com otimização de massas e esmaltes sem comprometer a qualidade.\r\n- Realização e interpretação de análises dilatométricas e reológicas, aplicando os resultados na otimização e ajuste de processos.\r\n- Desenvolvimento e validação de novas matérias-primas, com caracterização físico-química e avaliação de viabilidade técnica.\r\n- Investigação e controle de defeitos em peças acabadas, atuando na identificação de causas e implementação de ações corretivas.\r\n- Liderança na implantação e monitoramento do 5S, promovendo organização, padronização e eficiência nos postos de trabalho, com conquista do título de Campeão do 5S em competição interna.\r\n- Proposição e implementação de melhorias em processos e postos de trabalho, com foco em eficiência, qualidade e redução de desperdícios.\r\n- Execução de análises laboratoriais para controle de qualidade, utilizando técnicas de titulação, espectrofotometria, gravimetria, sedígrafo e área superficial.\r\n- Gestão do recebimento, organização e rastreabilidade de matérias-primas utilizadas nos processos de massas e esmaltes.\r\n- Elaboração de relatórios técnicos, atas e apresentações, garantindo registro, análise e comunicação dos resultados.",
     "ferramentas_ultima_experiencia": "Excel, word, PowerPoint, dilatômetro, sedígrafo, área superficial",
     "areas_ultima_experiencia": [
       "Engenharia / Técnico"
@@ -827,13 +811,13 @@ export const MOCK_CANDIDATES: Candidate[] = [
         "empresa": "AP Teixeira Laboratório Analítico",
         "cargo": "Técnico em Química",
         "periodo": "Outubro/2023 a janeiro/2024",
-        "atividades": "- Atuação na Gestão da Qualidade Laboratorial, conforme requisitos da ABNT NBR ISO/IEC 17025:2017, com seleção, validação e implementação de POPs.\n- Execução e interpretação de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS.\n- Calibração e verificação de equipamentos laboratoriais de bancada e campo, assegurando a confiabilidade dos resultados analíticos.\n- Avaliação de reagentes, métodos de desinfecção e alternativas de tratamento de efluentes, contribuindo para a melhoria dos processos."
+        "atividades": "- Atuação na Gestão da Qualidade Laboratorial, conforme requisitos da ABNT NBR ISO/IEC 17025:2017, com seleção, validação e implementação de POPs.\r\n- Execução e interpretação de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS.\r\n- Calibração e verificação de equipamentos laboratoriais de bancada e campo, assegurando a confiabilidade dos resultados analíticos.\r\n- Avaliação de reagentes, métodos de desinfecção e alternativas de tratamento de efluentes, contribuindo para a melhoria dos processos."
       },
       {
         "empresa": "MG Ambiental",
         "cargo": "Labortorista",
         "periodo": "Abril/2021 a setembro/2023",
-        "atividades": "- Estruturação e implementação do Sistema de Gestão da Qualidade, com elaboração e revisão de procedimentos e adequação do laboratório aos requisitos da ABNT NBR ISO/IEC 17025:2017, contribuindo para a padronização e confiabilidade dos processos laboratoriais.\n- Gestão de riscos e melhoria contínua, utilizando matriz de riscos para identificação, avaliação e tratamento de potenciais não conformidades e oportunidades de melhoria.\n- Garantia da confiabilidade dos resultados analíticos, por meio da verificação de métodos, participação em Programas de Ensaio de Proficiência (PEP) e acompanhamento da calibração e checagem intermediária de equipamentos.\n- Gestão de recursos e fornecedores laboratoriais, atuando na seleção de fornecedores, aquisição de equipamentos e insumos e planejamento das necessidades do laboratório.\n- Execução e acompanhamento de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS, assegurando o atendimento aos procedimentos e requisitos analíticos.\n- Atuação na investigação de não conformidades ambientais, apoiando a identificação de causas e proposição de soluções para ocorrências relacionadas ao lançamento de efluentes fora dos padrões estabelecidos.\n- Avaliação técnica de soluções para tratamento de efluentes, realizando estudos de viabilidade de técnicas de desinfecção e contribuindo para a busca de alternativas mais eficientes.\n- Controle da rastreabilidade das amostras, com apoio na coleta de efluentes, preenchimento de registros, fichas de coleta e cadeia de custódia, garantindo maior confiabilidade e organização das informações"
+        "atividades": "- Estruturação e implementação do Sistema de Gestão da Qualidade, com elaboração e revisão de procedimentos e adequação do laboratório aos requisitos da ABNT NBR ISO/IEC 17025:2017, contribuindo para a padronização e confiabilidade dos processos laboratoriais.\r\n- Gestão de riscos e melhoria contínua, utilizando matriz de riscos para identificação, avaliação e tratamento de potenciais não conformidades e oportunidades de melhoria.\r\n- Garantia da confiabilidade dos resultados analíticos, por meio da verificação de métodos, participação em Programas de Ensaio de Proficiência (PEP) e acompanhamento da calibração e checagem intermediária de equipamentos.\r\n- Gestão de recursos e fornecedores laboratoriais, atuando na seleção de fornecedores, aquisição de equipamentos e insumos e planejamento das necessidades do laboratório.\r\n- Execução e acompanhamento de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS, assegurando o atendimento aos procedimentos e requisitos analíticos.\r\n- Atuação na investigação de não conformidades ambientais, apoiando a identificação de causas e proposição de soluções para ocorrências relacionadas ao lançamento de efluentes fora dos padrões estabelecidos.\r\n- Avaliação técnica de soluções para tratamento de efluentes, realizando estudos de viabilidade de técnicas de desinfecção e contribuindo para a busca de alternativas mais eficientes.\r\n- Controle da rastreabilidade das amostras, com apoio na coleta de efluentes, preenchimento de registros, fichas de coleta e cadeia de custódia, garantindo maior confiabilidade e organização das informações"
       }
     ],
     "experiencias_adicionais": "",
@@ -849,8 +833,8 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "disponibilidade_horario": "Comercial, 2º turno",
     "pretensao_salarial": "R$ 3700,00",
     "inicio_imediato": "Sim",
-    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos na empresa Kohler, com 2 a 5 anos na função. Vivência em - Formulação, ajuste e desenvolvimento de massas cerâmicas e esmaltes, incluindo otimização de cores, desempenho e estabilidade dos produtos.\n- Desenvolvimento de projetos de redução de custos, com otimização de massas e esmaltes sem comprometer a qualidade.\n- Realização e interpretação de análises dilatométricas e reológicas, aplicando os resultados na otimização e ajuste de processos.\n- Desenvolvimento e validação de novas matérias-primas, com caracterização físico-química e avaliação de viabilidade técnica.\n- Investigação e controle de defeitos em peças acabadas, atuando na identificação de causas e implementação de ações corretivas.\n- Liderança na implantação e monitoramento do 5S, promovendo organização, padronização e eficiência nos postos de trabalho, com conquista do título de Campeão do 5S em competição interna.\n- Proposição e implementação de melhorias em processos e postos de trabalho, com foco em eficiência, qualidade e redução de desperdícios.\n- Execução de análises laboratoriais para controle de qualidade, utilizando técnicas de titulação, espectrofotometria, gravimetria, sedígrafo e área superficial.\n- Gestão do recebimento, organização e rastreabilidade de matérias-primas utilizadas nos processos de massas e esmaltes.\n- Elaboração de relatórios técnicos, atas e apresentações, garantindo registro, análise e comunicação dos resultados.. Conhecimentos em Excel, Word, Informática, Qualidade. Características profissionais declaradas: Responsável, Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade, Facilidade para resolver problemas.",
-    "curriculo_texto": "LUZIELE DIONISIO FALDA\nAndradas / MG\nWhatsApp: (35)997253903 | E-mail: luzieledionisio@gmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nTécnico(a) da Qualidade, Técnico(a), Engenheiro(a)\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos na empresa Kohler, com 2 a 5 anos na função. Vivência em - Formulação, ajuste e desenvolvimento de massas cerâmicas e esmaltes, incluindo otimização de cores, desempenho e estabilidade dos produtos.\n- Desenvolvimento de projetos de redução de custos, com otimização de massas e esmaltes sem comprometer a qualidade.\n- Realização e interpretação de análises dilatométricas e reológicas, aplicando os resultados na otimização e ajuste de processos.\n- Desenvolvimento e validação de novas matérias-primas, com caracterização físico-química e avaliação de viabilidade técnica.\n- Investigação e controle de defeitos em peças acabadas, atuando na identificação de causas e implementação de ações corretivas.\n- Liderança na implantação e monitoramento do 5S, promovendo organização, padronização e eficiência nos postos de trabalho, com conquista do título de Campeão do 5S em competição interna.\n- Proposição e implementação de melhorias em processos e postos de trabalho, com foco em eficiência, qualidade e redução de desperdícios.\n- Execução de análises laboratoriais para controle de qualidade, utilizando técnicas de titulação, espectrofotometria, gravimetria, sedígrafo e área superficial.\n- Gestão do recebimento, organização e rastreabilidade de matérias-primas utilizadas nos processos de massas e esmaltes.\n- Elaboração de relatórios técnicos, atas e apresentações, garantindo registro, análise e comunicação dos resultados.\nFerramentas/sistemas: Excel, word, PowerPoint, dilatômetro, sedígrafo, área superficial\n\n2. Técnico em Química — AP Teixeira Laboratório Analítico (Outubro/2023 a janeiro/2024)\nPrincipais atividades: - Atuação na Gestão da Qualidade Laboratorial, conforme requisitos da ABNT NBR ISO/IEC 17025:2017, com seleção, validação e implementação de POPs.\n- Execução e interpretação de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS.\n- Calibração e verificação de equipamentos laboratoriais de bancada e campo, assegurando a confiabilidade dos resultados analíticos.\n- Avaliação de reagentes, métodos de desinfecção e alternativas de tratamento de efluentes, contribuindo para a melhoria dos processos.\n\n3. Labortorista — MG Ambiental (Abril/2021 a setembro/2023)\nPrincipais atividades: - Estruturação e implementação do Sistema de Gestão da Qualidade, com elaboração e revisão de procedimentos e adequação do laboratório aos requisitos da ABNT NBR ISO/IEC 17025:2017, contribuindo para a padronização e confiabilidade dos processos laboratoriais.\n- Gestão de riscos e melhoria contínua, utilizando matriz de riscos para identificação, avaliação e tratamento de potenciais não conformidades e oportunidades de melhoria.\n- Garantia da confiabilidade dos resultados analíticos, por meio da verificação de métodos, participação em Programas de Ensaio de Proficiência (PEP) e acompanhamento da calibração e checagem intermediária de equipamentos.\n- Gestão de recursos e fornecedores laboratoriais, atuando na seleção de fornecedores, aquisição de equipamentos e insumos e planejamento das necessidades do laboratório.\n- Execução e acompanhamento de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS, assegurando o atendimento aos procedimentos e requisitos analíticos.\n- Atuação na investigação de não conformidades ambientais, apoiando a identificação de causas e proposição de soluções para ocorrências relacionadas ao lançamento de efluentes fora dos padrões estabelecidos.\n- Avaliação técnica de soluções para tratamento de efluentes, realizando estudos de viabilidade de técnicas de desinfecção e contribuindo para a busca de alternativas mais eficientes.\n- Controle da rastreabilidade das amostras, com apoio na coleta de efluentes, preenchimento de registros, fichas de coleta e cadeia de custódia, garantindo maior confiabilidade e organização das informações\n\nFORMAÇÃO\nSuperior completo — Bacharel em Engenharia Química — Instituto Federal do Sul de Minas - Campus Pouso Alegre\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Qualidade\nMáquinas/equipamentos: Cerra de precisão\n\nINFORMAÇÕES ADICIONAIS"
+    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos na empresa Kohler, com 2 a 5 anos na função. Vivência em - Formulação, ajuste e desenvolvimento de massas cerâmicas e esmaltes, incluindo otimização de cores, desempenho e estabilidade dos produtos.\r\n- Desenvolvimento de projetos de redução de custos, com otimização de massas e esmaltes sem comprometer a qualidade.\r\n- Realização e interpretação de análises dilatométricas e reológicas, aplicando os resultados na otimização e ajuste de processos.\r\n- Desenvolvimento e validação de novas matérias-primas, com caracterização físico-química e avaliação de viabilidade técnica.\r\n- Investigação e controle de defeitos em peças acabadas, atuando na identificação de causas e implementação de ações corretivas.\r\n- Liderança na implantação e monitoramento do 5S, promovendo organização, padronização e eficiência nos postos de trabalho, com conquista do título de Campeão do 5S em competição interna.\r\n- Proposição e implementação de melhorias em processos e postos de trabalho, com foco em eficiência, qualidade e redução de desperdícios.\r\n- Execução de análises laboratoriais para controle de qualidade, utilizando técnicas de titulação, espectrofotometria, gravimetria, sedígrafo e área superficial.\r\n- Gestão do recebimento, organização e rastreabilidade de matérias-primas utilizadas nos processos de massas e esmaltes.\r\n- Elaboração de relatórios técnicos, atas e apresentações, garantindo registro, análise e comunicação dos resultados.. Conhecimentos em Excel, Word, Informática, Qualidade. Características profissionais declaradas: Responsável, Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade, Facilidade para resolver problemas.",
+    "curriculo_texto": "LUZIELE DIONISIO FALDA\nAndradas / MG\nWhatsApp: (35)997253903 | E-mail: luzieledionisio@gmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nTécnico(a) da Qualidade, Técnico(a), Engenheiro(a)\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Qualidade, Liderança / Gestão. Profissional com experiência como Técnico de Processos na empresa Kohler, com 2 a 5 anos na função. Vivência em - Formulação, ajuste e desenvolvimento de massas cerâmicas e esmaltes, incluindo otimização de cores, desempenho e estabilidade dos produtos.\r\n- Desenvolvimento de projetos de redução de custos, com otimização de massas e esmaltes sem comprometer a qualidade.\r\n- Realização e interpretação de análises dilatométricas e reológicas, aplicando os resultados na otimização e ajuste de processos.\r\n- Desenvolvimento e validação de novas matérias-primas, com caracterização físico-química e avaliação de viabilidade técnica.\r\n- Investigação e controle de defeitos em peças acabadas, atuando na identificação de causas e implementação de ações corretivas.\r\n- Liderança na implantação e monitoramento do 5S, promovendo organização, padronização e eficiência nos postos de trabalho, com conquista do título de Campeão do 5S em competição interna.\r\n- Proposição e implementação de melhorias em processos e postos de trabalho, com foco em eficiência, qualidade e redução de desperdícios.\r\n- Execução de análises laboratoriais para controle de qualidade, utilizando técnicas de titulação, espectrofotometria, gravimetria, sedígrafo e área superficial.\r\n- Gestão do recebimento, organização e rastreabilidade de matérias-primas utilizadas nos processos de massas e esmaltes.\r\n- Elaboração de relatórios técnicos, atas e apresentações, garantindo registro, análise e comunicação dos resultados.. Conhecimentos em Excel, Word, Informática, Qualidade. Características profissionais declaradas: Responsável, Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Técnico de Processos — Kohler (2 a 5 anos)\nPrincipais atividades: - Formulação, ajuste e desenvolvimento de massas cerâmicas e esmaltes, incluindo otimização de cores, desempenho e estabilidade dos produtos.\r\n- Desenvolvimento de projetos de redução de custos, com otimização de massas e esmaltes sem comprometer a qualidade.\r\n- Realização e interpretação de análises dilatométricas e reológicas, aplicando os resultados na otimização e ajuste de processos.\r\n- Desenvolvimento e validação de novas matérias-primas, com caracterização físico-química e avaliação de viabilidade técnica.\r\n- Investigação e controle de defeitos em peças acabadas, atuando na identificação de causas e implementação de ações corretivas.\r\n- Liderança na implantação e monitoramento do 5S, promovendo organização, padronização e eficiência nos postos de trabalho, com conquista do título de Campeão do 5S em competição interna.\r\n- Proposição e implementação de melhorias em processos e postos de trabalho, com foco em eficiência, qualidade e redução de desperdícios.\r\n- Execução de análises laboratoriais para controle de qualidade, utilizando técnicas de titulação, espectrofotometria, gravimetria, sedígrafo e área superficial.\r\n- Gestão do recebimento, organização e rastreabilidade de matérias-primas utilizadas nos processos de massas e esmaltes.\r\n- Elaboração de relatórios técnicos, atas e apresentações, garantindo registro, análise e comunicação dos resultados.\nFerramentas/sistemas: Excel, word, PowerPoint, dilatômetro, sedígrafo, área superficial\n\n2. Técnico em Química — AP Teixeira Laboratório Analítico (Outubro/2023 a janeiro/2024)\nPrincipais atividades: - Atuação na Gestão da Qualidade Laboratorial, conforme requisitos da ABNT NBR ISO/IEC 17025:2017, com seleção, validação e implementação de POPs.\r\n- Execução e interpretação de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS.\r\n- Calibração e verificação de equipamentos laboratoriais de bancada e campo, assegurando a confiabilidade dos resultados analíticos.\r\n- Avaliação de reagentes, métodos de desinfecção e alternativas de tratamento de efluentes, contribuindo para a melhoria dos processos.\n\n3. Labortorista — MG Ambiental (Abril/2021 a setembro/2023)\nPrincipais atividades: - Estruturação e implementação do Sistema de Gestão da Qualidade, com elaboração e revisão de procedimentos e adequação do laboratório aos requisitos da ABNT NBR ISO/IEC 17025:2017, contribuindo para a padronização e confiabilidade dos processos laboratoriais.\r\n- Gestão de riscos e melhoria contínua, utilizando matriz de riscos para identificação, avaliação e tratamento de potenciais não conformidades e oportunidades de melhoria.\r\n- Garantia da confiabilidade dos resultados analíticos, por meio da verificação de métodos, participação em Programas de Ensaio de Proficiência (PEP) e acompanhamento da calibração e checagem intermediária de equipamentos.\r\n- Gestão de recursos e fornecedores laboratoriais, atuando na seleção de fornecedores, aquisição de equipamentos e insumos e planejamento das necessidades do laboratório.\r\n- Execução e acompanhamento de análises físico-químicas de águas e efluentes, utilizando técnicas de gravimetria, titulação e espectrofotometria UV-VIS, assegurando o atendimento aos procedimentos e requisitos analíticos.\r\n- Atuação na investigação de não conformidades ambientais, apoiando a identificação de causas e proposição de soluções para ocorrências relacionadas ao lançamento de efluentes fora dos padrões estabelecidos.\r\n- Avaliação técnica de soluções para tratamento de efluentes, realizando estudos de viabilidade de técnicas de desinfecção e contribuindo para a busca de alternativas mais eficientes.\r\n- Controle da rastreabilidade das amostras, com apoio na coleta de efluentes, preenchimento de registros, fichas de coleta e cadeia de custódia, garantindo maior confiabilidade e organização das informações\n\nFORMAÇÃO\nSuperior completo — Bacharel em Engenharia Química — Instituto Federal do Sul de Minas - Campus Pouso Alegre\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Qualidade\nMáquinas/equipamentos: Cerra de precisão\n\nINFORMAÇÕES ADICIONAIS"
   },
   {
     "id": "CV-1788347950370-vitor-manoel-joventino-da-silva-garcia-v",
@@ -975,9 +959,9 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "regiao_interesse": "Andradas, Poços de caldas,espírito do pilhal",
     "disponibilidade_horario": "Comercial, 1º turno, 2º turno",
     "pretensao_salarial": "",
-    "inicio_imediato": "Sim",
+    "inicio_imediato": "",
     "resumo_profissional": "Áreas de interesse: Produção / Operações. Profissional com experiência como Operado de máquinas (Fundidor) na empresa Kolher, com 5 a 10 anos na função. Conhecimentos em Produção, Operação de máquinas. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade.",
-    "curriculo_texto": "ALEX DIAS DA SILVA\nAndradas / MG\nWhatsApp: 35997470544 | E-mail: alex_dias2021@outlook.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Operador(a) de Máquina\nÁreas de interesse: Produção / Operações\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações. Profissional com experiência como Operado de máquinas (Fundidor) na empresa Kolher, com 5 a 10 anos na função. Conhecimentos em Produção, Operação de máquinas. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Operado de máquinas (Fundidor) — Kolher (5 a 10 anos)\nFerramentas/sistemas: Máquina na banca de enchimento de fazer as perças.\n\n2. Avicultura — Granja Almeida (1 ano e 5 mes)\nPrincipais atividades: Aveicutura de corte\n\n3. Cultivo de flores — Fazenda Dallas (4 anos e 2 mês)\nPrincipais atividades: Rigação\n\n4. Operador de máquinas — Kolher (8 anos)\nPrincipais atividades: Fundidor\n\nFORMAÇÃO\nFundamental completo\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nProdução, Operação de máquinas\n\nINFORMAÇÕES ADICIONAIS\n"
+    "curriculo_texto": "ALEX DIAS DA SILVA\nAndradas / MG\nWhatsApp: 35997470544 | E-mail: alex_dias2021@outlook.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Operador(a) de Máquina\nÁreas de interesse: Produção / Operações\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações. Profissional com experiência como Operado de máquinas (Fundidor) na empresa Kolher, com 5 a 10 anos na função. Conhecimentos em Produção, Operação de máquinas. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Operado de máquinas (Fundidor) — Kolher (5 a 10 anos)\nFerramentas/sistemas: Máquina na banca de enchimento de fazer as perças.\n\n2. Avicultura — Granja Almeida (1 ano e 5 mes)\nPrincipais atividades: Aveicutura de corte\n\n3. Cultivo de flores — Fazenda Dallas (4 anos e 2 mês)\nPrincipais atividades: Rigação\n\n4. Operador de máquinas — Kolher (8 anos)\nPrincipais atividades: Fundidor\n\nFORMAÇÃO\nFundamental completo\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nProdução, Operação de máquinas\n\nINFORMAÇÕES ADICIONAIS"
   },
   {
     "id": "CV-1788365776325-roni-doniseti-ferraz-roniandradas-hotmai",
@@ -1023,12 +1007,613 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "conhecimentos": "Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade",
     "maquinas_equipamentos": "Empilhadeira, mini carregadeira",
     "caracteristicas": "Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas",
-    "lideranca": "Sim",
+    "lideranca": "Líder e supervisão  11 anos",
     "regiao_interesse": "Andradas , Poços de Caldas e Jundiaí",
     "disponibilidade_horario": "Comercial",
     "pretensao_salarial": "8.000,00",
     "inicio_imediato": "Sim",
     "resumo_profissional": "Áreas de interesse: Liderança / Gestão. Profissional com experiência como Supervisor produção Massa e Esmalte na empresa Kohler, com mais de 10 anos na função. Vivência em Supervisor de produção Massa, Esmalte e ETA. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: Cursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas.",
-    "curriculo_texto": "RONI DONISETI FERRAZ\nAndradas / MG\nWhatsApp: 35988385312 | E-mail: roniandradas@hotmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nLíder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão. Profissional com experiência como Supervisor produção Massa e Esmalte na empresa Kohler, com mais de 10 anos na função. Vivência em Supervisor de produção Massa, Esmalte e ETA. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: Cursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Supervisor produção Massa e Esmalte — Kohler (Mais de 10 anos)\nPrincipais atividades: Supervisor de produção Massa, Esmalte e ETA\nFerramentas/sistemas: Sistema de qualidade pré controles, metrologias de laboratório com equipamentos para liberação dos produtos.\n\n2. Laboratorio — Cerâmica Vila Rica (1998 a 2010)\nPrincipais atividades: Reologia de massa , esmalte , reparos a frio resinas e esmalte para reparos requeima\n\nFORMAÇÃO\nSuperior completo — Tecnologia em Gestão da Qualidade — Universidade Pitágoras Unopar Anhanguera\n\nCURSOS E QUALIFICAÇÕES\nCursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Estoque, Produção, Operação de máquinas, Qualidade\nMáquinas/equipamentos: Empilhadeira, mini carregadeira\n\nINFORMAÇÕES ADICIONAIS\n"
+    "curriculo_texto": "RONI DONISETI FERRAZ\nAndradas / MG\nWhatsApp: 35988385312 | E-mail: roniandradas@hotmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nLíder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão. Profissional com experiência como Supervisor produção Massa e Esmalte na empresa Kohler, com mais de 10 anos na função. Vivência em Supervisor de produção Massa, Esmalte e ETA. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: Cursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Supervisor produção Massa e Esmalte — Kohler (Mais de 10 anos)\nPrincipais atividades: Supervisor de produção Massa, Esmalte e ETA\nFerramentas/sistemas: Sistema de qualidade pré controles, metrologias de laboratório com equipamentos para liberação dos produtos.\n\n2. Laboratorio — Cerâmica Vila Rica (1998 a 2010)\nPrincipais atividades: Reologia de massa , esmalte , reparos a frio resinas e esmalte para reparos requeima\n\nFORMAÇÃO\nSuperior completo — Tecnologia em Gestão da Qualidade — Universidade Pitágoras Unopar Anhanguera\n\nCURSOS E QUALIFICAÇÕES\nCursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Estoque, Produção, Operação de máquinas, Qualidade\nMáquinas/equipamentos: Empilhadeira, mini carregadeira\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788439505760-luiz-henrique-de-souza-souzaluizhenrique",
+    "submittedAt": "03/09/2026, 09:45",
+    "nome_completo": "Luiz Henrique de Souza",
+    "whatsapp": "35992636485",
+    "email": "souzaluizhenrique32@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 31,
+    "cnh": "AB",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Motorista / Transporte",
+    "areas_adicionais_interesse": [
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Manutenção Mecânica",
+      "Qualidade",
+      "Comercial / Vendas"
+    ],
+    "funcoes_interesse": [
+      "Operador(a) de Máquina",
+      "Auxiliar de Logística",
+      "Estoquista / Almoxarife",
+      "Operador(a) de Empilhadeira",
+      "Motorista / Entregador(a)",
+      "Mecânico(a) de Manutenção"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Dependendo do horário",
+    "ultima_empresa": "Kholer",
+    "ultimo_cargo": "Supervisor",
+    "tempo_ultima_funcao": "5 a 10 anos",
+    "atividades_ultima_experiencia": "Inspecionar pecas",
+    "ferramentas_ultima_experiencia": "Bancas aromatizadas",
+    "areas_ultima_experiencia": [
+      "Produção / Operações"
+    ],
+    "possui_outras_experiencias": "",
+    "experiencias_anteriores": [],
+    "experiencias_adicionais": "",
+    "escolaridade": "Médio incompleto",
+    "curso_formacao": "",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "",
+    "conhecimentos": "Vendas, Logística, Produção",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados",
+    "lideranca": "Supervisor de produção 3anos",
+    "regiao_interesse": "Andradas",
+    "disponibilidade_horario": "Comercial, 1º turno",
+    "pretensao_salarial": "A combinar",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Manutenção Mecânica, Qualidade, Comercial / Vendas. Profissional com experiência como Supervisor na empresa Kholer, com 5 a 10 anos na função. Vivência em Inspecionar pecas. Conhecimentos em Vendas, Logística, Produção. Características profissionais declaradas: Responsável, Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados.",
+    "curriculo_texto": "LUIZ HENRIQUE DE SOUZA\nAndradas / MG\nWhatsApp: 35992636485 | E-mail: souzaluizhenrique32@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nOperador(a) de Máquina, Auxiliar de Logística, Estoquista / Almoxarife, Operador(a) de Empilhadeira, Motorista / Entregador(a), Mecânico(a) de Manutenção\nÁreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Manutenção Mecânica, Qualidade, Comercial / Vendas\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Manutenção Mecânica, Qualidade, Comercial / Vendas. Profissional com experiência como Supervisor na empresa Kholer, com 5 a 10 anos na função. Vivência em Inspecionar pecas. Conhecimentos em Vendas, Logística, Produção. Características profissionais declaradas: Responsável, Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Supervisor — Kholer (5 a 10 anos)\nPrincipais atividades: Inspecionar pecas\nFerramentas/sistemas: Bancas aromatizadas\n\nFORMAÇÃO\nMédio incompleto\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nVendas, Logística, Produção\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788439567833-juan-renan-carvalho-batista-juanbatista1",
+    "submittedAt": "03/09/2026, 09:46",
+    "nome_completo": "Juan Renan Carvalho Batista",
+    "whatsapp": "35998609435",
+    "email": "juanbatista1994@gmail.com",
+    "cidade": "Poços de Caldas",
+    "estado": "MG",
+    "idade": 32,
+    "cnh": "Outra - A e B",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Logística / Estoque / Expedição",
+    "areas_adicionais_interesse": [
+      "Qualidade",
+      "Administrativo",
+      "Recursos Humanos / Departamento Pessoal",
+      "Liderança / Gestão"
+    ],
+    "funcoes_interesse": [
+      "Auxiliar de Logística",
+      "Auxiliar de Expedição",
+      "Técnico(a) da Qualidade",
+      "Analista Administrativo",
+      "Analista de RH / DP",
+      "Líder / Encarregado(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Dependendo do horário",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Analista de PPCP",
+    "tempo_ultima_funcao": "1 a 2 anos",
+    "atividades_ultima_experiencia": "Programar produção e embalagem de produtos, movimentação entre depósitos de produção e faturamento, inventário cíclico e geral da planta, recebimento e entrada de produtos importados econtrole de produtos devolvidos.",
+    "ferramentas_ultima_experiencia": "Excel, sistema SAP",
+    "areas_ultima_experiencia": [
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Qualidade",
+      "Administrativo",
+      "Engenharia / Técnico"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Icasa",
+        "cargo": "Fundidor de formas",
+        "periodo": "Out 2012 a set 2014",
+        "atividades": "Fundir moldes em gesso."
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Superior incompleto",
+    "curso_formacao": "Administração",
+    "instituicao_ensino": "Uninter",
+    "cursos_qualificacoes": "",
+    "conhecimentos": "Excel, Word, Estoque, Logística, Administrativo",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Proativo(a), Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Foco em resultados",
+    "lideranca": "Não",
+    "regiao_interesse": "Poços de Caldas",
+    "disponibilidade_horario": "Comercial, 1º turno",
+    "pretensao_salarial": "3.000",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Logística / Estoque / Expedição, Qualidade, Administrativo, Recursos Humanos / Departamento Pessoal, Liderança / Gestão. Profissional com experiência como Analista de PPCP na empresa Kohler, com 1 a 2 anos na função. Vivência em Programar produção e embalagem de produtos, movimentação entre depósitos de produção e faturamento, inventário cíclico e geral da planta, recebimento e entrada de produtos importados econtrole de produtos devolvidos.. Conhecimentos em Excel, Word, Estoque, Logística, Administrativo. Características profissionais declaradas: Responsável, Proativo(a), Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Foco em resultados.",
+    "curriculo_texto": "JUAN RENAN CARVALHO BATISTA\nPoços de Caldas / MG\nWhatsApp: 35998609435 | E-mail: juanbatista1994@gmail.com\nCNH: Outra - A e B\n\nOBJETIVO PROFISSIONAL\nAuxiliar de Logística, Auxiliar de Expedição, Técnico(a) da Qualidade, Analista Administrativo, Analista de RH / DP, Líder / Encarregado(a)\nÁreas de interesse: Logística / Estoque / Expedição, Qualidade, Administrativo, Recursos Humanos / Departamento Pessoal, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Logística / Estoque / Expedição, Qualidade, Administrativo, Recursos Humanos / Departamento Pessoal, Liderança / Gestão. Profissional com experiência como Analista de PPCP na empresa Kohler, com 1 a 2 anos na função. Vivência em Programar produção e embalagem de produtos, movimentação entre depósitos de produção e faturamento, inventário cíclico e geral da planta, recebimento e entrada de produtos importados econtrole de produtos devolvidos.. Conhecimentos em Excel, Word, Estoque, Logística, Administrativo. Características profissionais declaradas: Responsável, Proativo(a), Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Foco em resultados.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Analista de PPCP — Kohler (1 a 2 anos)\nPrincipais atividades: Programar produção e embalagem de produtos, movimentação entre depósitos de produção e faturamento, inventário cíclico e geral da planta, recebimento e entrada de produtos importados econtrole de produtos devolvidos.\nFerramentas/sistemas: Excel, sistema SAP\n\n2. Fundidor de formas — Icasa (Out 2012 a set 2014)\nPrincipais atividades: Fundir moldes em gesso.\n\nFORMAÇÃO\nSuperior incompleto — Administração — Uninter\nEm andamento: Administração\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Estoque, Logística, Administrativo\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788440674423-vanderson-rodrigo-mazarini-vandersonrodr",
+    "submittedAt": "03/09/2026, 10:04",
+    "nome_completo": "Vanderson Rodrigo mazarini",
+    "whatsapp": "35998966415",
+    "email": "Vandersonrodrigo4@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 39,
+    "cnh": "B",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Liderança / Gestão",
+    "areas_adicionais_interesse": [
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Qualidade"
+    ],
+    "funcoes_interesse": [
+      "Operador(a) de Produção",
+      "Operador(a) de Máquina",
+      "Auxiliar de Logística",
+      "Estoquista / Almoxarife",
+      "Separador(a) / Conferente",
+      "Líder / Encarregado(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Dependendo do horário",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Lider",
+    "tempo_ultima_funcao": "Mais de 10 anos",
+    "atividades_ultima_experiencia": "Liderar equipe e trabalhar juntos na entrega",
+    "ferramentas_ultima_experiencia": "Empilhadeira paleteira eletrica",
+    "areas_ultima_experiencia": [
+      "Produção / Operações"
+    ],
+    "possui_outras_experiencias": "Não",
+    "experiencias_anteriores": [],
+    "experiencias_adicionais": "",
+    "escolaridade": "Médio incompleto",
+    "curso_formacao": "",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "Nr10,nr11,nr12,empilhadeira",
+    "conhecimentos": "Produção, Operação de máquinas",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para resolver problemas",
+    "lideranca": "Lider 15 anos",
+    "regiao_interesse": "Andradas",
+    "disponibilidade_horario": "Qualquer horário",
+    "pretensao_salarial": "A combinar",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Liderança / Gestão, Produção / Operações, Logística / Estoque / Expedição, Qualidade. Profissional com experiência como Lider na empresa Kohler, com mais de 10 anos na função. Vivência em Liderar equipe e trabalhar juntos na entrega. Conhecimentos em Produção, Operação de máquinas. Qualificações: Nr10,nr11,nr12,empilhadeira. Características profissionais declaradas: Responsável, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para resolver problemas.",
+    "curriculo_texto": "VANDERSON RODRIGO MAZARINI\nAndradas / MG\nWhatsApp: 35998966415 | E-mail: Vandersonrodrigo4@gmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nOperador(a) de Produção, Operador(a) de Máquina, Auxiliar de Logística, Estoquista / Almoxarife, Separador(a) / Conferente, Líder / Encarregado(a)\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Logística / Estoque / Expedição, Qualidade\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Logística / Estoque / Expedição, Qualidade. Profissional com experiência como Lider na empresa Kohler, com mais de 10 anos na função. Vivência em Liderar equipe e trabalhar juntos na entrega. Conhecimentos em Produção, Operação de máquinas. Qualificações: Nr10,nr11,nr12,empilhadeira. Características profissionais declaradas: Responsável, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Lider — Kohler (Mais de 10 anos)\nPrincipais atividades: Liderar equipe e trabalhar juntos na entrega\nFerramentas/sistemas: Empilhadeira paleteira eletrica\n\nFORMAÇÃO\nMédio incompleto\n\nCURSOS E QUALIFICAÇÕES\nNr10,nr11,nr12,empilhadeira\n\nCONHECIMENTOS PROFISSIONAIS\nProdução, Operação de máquinas\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788440676682-israel-augusto-campos-israel32campos-gma",
+    "submittedAt": "03/09/2026, 10:04",
+    "nome_completo": "ISRAEL AUGUSTO CAMPOS",
+    "whatsapp": "35984490490",
+    "email": "israel32campos@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 46,
+    "cnh": "Outra - AD",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Engenharia / Técnico",
+    "areas_adicionais_interesse": [
+      "Segurança do Trabalho"
+    ],
+    "funcoes_interesse": [
+      "Técnico(a) de Segurança do Trabalho",
+      "Engenheiro(a)"
+    ],
+    "tipo_trabalho": "Indiferente",
+    "disponibilidade_turnos": "Dependendo do horário",
+    "ultima_empresa": "Kohler produtos para cozinhas e banheiros Ltda",
+    "ultimo_cargo": "Técnico de segurança do trabalho",
+    "tempo_ultima_funcao": "Mais de 10 anos",
+    "atividades_ultima_experiencia": "Gestão de normas de segurança \r\nGestão de não conformidade e inspeção \r\nAplicação de treinamentos",
+    "ferramentas_ultima_experiencia": "Sistema Soc",
+    "areas_ultima_experiencia": [
+      "Segurança do Trabalho"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Lavtel indústria e Comércio Ltda",
+        "cargo": "Encarregado de produção",
+        "periodo": "1999 a 2012",
+        "atividades": "Gestão de produção \r\nGestão de pessoas"
+      },
+      {
+        "empresa": "Kohler produtos para cozinhas e banheiros",
+        "cargo": "Supervisor de EHS",
+        "periodo": "2012 a 2020",
+        "atividades": "Gestão de pessoas \r\nGestão de normas \r\nGestão de novos projetos"
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Pós-graduação",
+    "curso_formacao": "Engenharia de segurança do trabalho",
+    "instituicao_ensino": "Faculdade DellVale",
+    "cursos_qualificacoes": "NR 12\r\nNR 35 \r\nNR 33\r\nInstrutor de Brigadista",
+    "conhecimentos": "Excel, Word, Informática, Segurança do trabalho, Compras",
+    "maquinas_equipamentos": "Equipamentos de avaliação ambiental",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Liderança, Bom relacionamento interpessoal",
+    "lideranca": "Encarregado de produção 13 anos\r\nSupervisor de EHS 1 ano",
+    "regiao_interesse": "Andradas, Poços de Caldas, Mogi mirim,Mogi Guaçu",
+    "disponibilidade_horario": "Comercial, 1º turno, 2º turno",
+    "pretensao_salarial": "6.000 a 15.000",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Segurança do Trabalho. Profissional com experiência como Técnico de segurança do trabalho na empresa Kohler produtos para cozinhas e banheiros Ltda, com mais de 10 anos na função. Vivência em Gestão de normas de segurança \r\nGestão de não conformidade e inspeção \r\nAplicação de treinamentos. Conhecimentos em Excel, Word, Informática, Segurança do trabalho, Compras. Qualificações: NR 12\r\nNR 35 \r\nNR 33\r\nInstrutor de Brigadista. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Liderança, Bom relacionamento interpessoal.",
+    "curriculo_texto": "ISRAEL AUGUSTO CAMPOS\nAndradas / MG\nWhatsApp: 35984490490 | E-mail: israel32campos@gmail.com\nCNH: Outra - AD\n\nOBJETIVO PROFISSIONAL\nTécnico(a) de Segurança do Trabalho, Engenheiro(a)\nÁreas de interesse: Engenharia / Técnico, Segurança do Trabalho\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Segurança do Trabalho. Profissional com experiência como Técnico de segurança do trabalho na empresa Kohler produtos para cozinhas e banheiros Ltda, com mais de 10 anos na função. Vivência em Gestão de normas de segurança \r\nGestão de não conformidade e inspeção \r\nAplicação de treinamentos. Conhecimentos em Excel, Word, Informática, Segurança do trabalho, Compras. Qualificações: NR 12\r\nNR 35 \r\nNR 33\r\nInstrutor de Brigadista. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Liderança, Bom relacionamento interpessoal.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Técnico de segurança do trabalho — Kohler produtos para cozinhas e banheiros Ltda (Mais de 10 anos)\nPrincipais atividades: Gestão de normas de segurança \r\nGestão de não conformidade e inspeção \r\nAplicação de treinamentos\nFerramentas/sistemas: Sistema Soc\n\n2. Encarregado de produção — Lavtel indústria e Comércio Ltda (1999 a 2012)\nPrincipais atividades: Gestão de produção \r\nGestão de pessoas\n\n3. Supervisor de EHS — Kohler produtos para cozinhas e banheiros (2012 a 2020)\nPrincipais atividades: Gestão de pessoas \r\nGestão de normas \r\nGestão de novos projetos\n\nFORMAÇÃO\nPós-graduação — Engenharia de segurança do trabalho — Faculdade DellVale\n\nCURSOS E QUALIFICAÇÕES\nNR 12\r\nNR 35 \r\nNR 33\r\nInstrutor de Brigadista\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Segurança do trabalho, Compras\nMáquinas/equipamentos: Equipamentos de avaliação ambiental\n\nINFORMAÇÕES ADICIONAIS\nTenho cursos adicionais voltado para área de perícia trabalhista."
+  },
+  {
+    "id": "CV-1788440766484-reginaldo-de-padua-paduareginaldo41-gmai",
+    "submittedAt": "03/09/2026, 10:06",
+    "nome_completo": "Reginaldo de Pádua",
+    "whatsapp": "55 35 99257-9883",
+    "email": "paduareginaldo41@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 44,
+    "cnh": "A",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Liderança / Gestão",
+    "areas_adicionais_interesse": [
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Motorista / Transporte"
+    ],
+    "funcoes_interesse": [
+      "Líder / Encarregado(a)",
+      "Supervisor(a) / Coordenador(a)"
+    ],
+    "tipo_trabalho": "Indiferente",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Supervisor",
+    "tempo_ultima_funcao": "Mais de 10 anos",
+    "atividades_ultima_experiencia": "Liderar uma equipe de produção, com foco em segurança, produção e qualidade",
+    "ferramentas_ultima_experiencia": "Notebook, celular",
+    "areas_ultima_experiencia": [
+      "Liderança / Gestão"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Casa Geraldo",
+        "cargo": "Chefe de salao",
+        "periodo": "2002 até 2005, mais ou menos",
+        "atividades": "Barmen, garçom, líder da equipe de salao"
+      },
+      {
+        "empresa": "Aldeia velha",
+        "cargo": "Líder dos garçons",
+        "periodo": "2006 até 2010, mais ou menos",
+        "atividades": "Garçom, caixa e líder dos garçons"
+      },
+      {
+        "empresa": "Nao",
+        "cargo": "Nao",
+        "periodo": "Nao",
+        "atividades": "Nao"
+      }
+    ],
+    "experiencias_adicionais": "Nao",
+    "escolaridade": "Médio completo",
+    "curso_formacao": "Garçom, barrem, gestão",
+    "instituicao_ensino": "Senac",
+    "cursos_qualificacoes": "Gestao",
+    "conhecimentos": "Excel, Informática, Estoque, Produção",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados",
+    "lideranca": "Líder de esmaltação 8 anos, supervisor de fluxo e inspeção 7 anos",
+    "regiao_interesse": "Andradas",
+    "disponibilidade_horario": "Comercial, 2º turno",
+    "pretensao_salarial": "No meu último projeto, minha remuneração era de 9,000 mais benefícios, mas vejo o valor da oportunidade e estou disposto a negociar conforme a proposta de benefícios",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Liderança / Gestão, Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte. Profissional com experiência como Supervisor na empresa Kohler, com mais de 10 anos na função. Vivência em Liderar uma equipe de produção, com foco em segurança, produção e qualidade. Conhecimentos em Excel, Informática, Estoque, Produção. Qualificações: Gestao. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados.",
+    "curriculo_texto": "REGINALDO DE PÁDUA\nAndradas / MG\nWhatsApp: 55 35 99257-9883 | E-mail: paduareginaldo41@gmail.com\nCNH: A\n\nOBJETIVO PROFISSIONAL\nLíder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão, Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte. Profissional com experiência como Supervisor na empresa Kohler, com mais de 10 anos na função. Vivência em Liderar uma equipe de produção, com foco em segurança, produção e qualidade. Conhecimentos em Excel, Informática, Estoque, Produção. Qualificações: Gestao. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Supervisor — Kohler (Mais de 10 anos)\nPrincipais atividades: Liderar uma equipe de produção, com foco em segurança, produção e qualidade\nFerramentas/sistemas: Notebook, celular\n\n2. Chefe de salao — Casa Geraldo (2002 até 2005, mais ou menos)\nPrincipais atividades: Barmen, garçom, líder da equipe de salao\n\n3. Líder dos garçons — Aldeia velha (2006 até 2010, mais ou menos)\nPrincipais atividades: Garçom, caixa e líder dos garçons\n\n4. Nao — Nao (Nao)\nPrincipais atividades: Nao\n\nOutras experiências:\nNao\n\nFORMAÇÃO\nMédio completo — Garçom, barrem, gestão — Senac\n\nCURSOS E QUALIFICAÇÕES\nGestao\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Informática, Estoque, Produção\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788442009022-paulo-guilherme-miolo-gui-miolo2019-gmai",
+    "submittedAt": "03/09/2026, 10:26",
+    "nome_completo": "Paulo Guilherme miolo",
+    "whatsapp": "35 992395726",
+    "email": "Gui.miolo2019@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 48,
+    "cnh": "C",
+    "veiculo_proprio": "Não",
+    "area_principal_interesse": "Qualidade",
+    "areas_adicionais_interesse": [
+      "Administrativo",
+      "Contábil / Fiscal",
+      "Tecnologia / TI"
+    ],
+    "funcoes_interesse": [
+      "Técnico(a) da Qualidade",
+      "Vendedor(a) / Consultor(a) Comercial",
+      "Suporte / TI"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Kohker",
+    "ultimo_cargo": "Sênior",
+    "tempo_ultima_funcao": "5 a 10 anos",
+    "atividades_ultima_experiencia": "Classificador  retocador cipeiro  brigasista meio ambiente",
+    "ferramentas_ultima_experiencia": "Empilhadeira",
+    "areas_ultima_experiencia": [
+      "Produção / Operações"
+    ],
+    "possui_outras_experiencias": "",
+    "experiencias_anteriores": [],
+    "experiencias_adicionais": "",
+    "escolaridade": "Superior incompleto",
+    "curso_formacao": "Ciências contabeis",
+    "instituicao_ensino": "Anhanguera",
+    "cursos_qualificacoes": "",
+    "conhecimentos": "Excel, Word, Informática, Atendimento ao cliente, Vendas, Estoque, Logística, Expedição, Produção, Operação de máquinas, Qualidade, Segurança do trabalho, Administrativo, Financeiro, Recursos Humanos, Contabilidade",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade, Foco em resultados, Facilidade para resolver problemas",
+    "lideranca": "",
+    "regiao_interesse": "",
+    "disponibilidade_horario": "Qualquer horário",
+    "pretensao_salarial": "",
+    "inicio_imediato": "",
+    "resumo_profissional": "Áreas de interesse: Qualidade, Administrativo, Contábil / Fiscal, Tecnologia / TI. Profissional com experiência como Sênior na empresa Kohker, com 5 a 10 anos na função. Vivência em Classificador  retocador cipeiro  brigasista meio ambiente. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Estoque, Logística, Expedição, Produção, Operação de máquinas, Qualidade, Segurança do trabalho, Administrativo, Financeiro, Recursos Humanos, Contabilidade. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade, Foco em resultados, Facilidade para resolver problemas.",
+    "curriculo_texto": "PAULO GUILHERME MIOLO\nAndradas / MG\nWhatsApp: 35 992395726 | E-mail: Gui.miolo2019@gmail.com\nCNH: C\n\nOBJETIVO PROFISSIONAL\nTécnico(a) da Qualidade, Vendedor(a) / Consultor(a) Comercial, Suporte / TI\nÁreas de interesse: Qualidade, Administrativo, Contábil / Fiscal, Tecnologia / TI\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Qualidade, Administrativo, Contábil / Fiscal, Tecnologia / TI. Profissional com experiência como Sênior na empresa Kohker, com 5 a 10 anos na função. Vivência em Classificador  retocador cipeiro  brigasista meio ambiente. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Estoque, Logística, Expedição, Produção, Operação de máquinas, Qualidade, Segurança do trabalho, Administrativo, Financeiro, Recursos Humanos, Contabilidade. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade, Foco em resultados, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Sênior — Kohker (5 a 10 anos)\nPrincipais atividades: Classificador  retocador cipeiro  brigasista meio ambiente\nFerramentas/sistemas: Empilhadeira\n\nFORMAÇÃO\nSuperior incompleto — Ciências contabeis — Anhanguera\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Atendimento ao cliente, Vendas, Estoque, Logística, Expedição, Produção, Operação de máquinas, Qualidade, Segurança do trabalho, Administrativo, Financeiro, Recursos Humanos, Contabilidade\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788442274954-roseane-pereira-da-silva-goncalves-rosea",
+    "submittedAt": "03/09/2026, 10:31",
+    "nome_completo": "Roseane Pereira da Silva Gonçalves",
+    "whatsapp": "35992472355",
+    "email": "roseanegonalves1986@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 40,
+    "cnh": "AB",
+    "veiculo_proprio": "Não",
+    "area_principal_interesse": "Produção / Operações",
+    "areas_adicionais_interesse": [
+      "Logística / Estoque / Expedição",
+      "Qualidade"
+    ],
+    "funcoes_interesse": [
+      "Auxiliar / Ajudante de Produção",
+      "Operador(a) de Produção",
+      "Operador(a) de Máquina",
+      "Preparador(a) / Regulador(a) de Máquina",
+      "Estoquista / Almoxarife"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Dependendo do horário",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Operador de shanque",
+    "tempo_ultima_funcao": "Mais de 10 anos",
+    "atividades_ultima_experiencia": "Produção",
+    "ferramentas_ultima_experiencia": "",
+    "areas_ultima_experiencia": [
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Motorista / Transporte",
+      "Qualidade",
+      "Liderança / Gestão"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Trabalho rural swart rosas",
+        "cargo": "Produção",
+        "periodo": "2003/2007",
+        "atividades": "Produção de rosa"
+      },
+      {
+        "empresa": "Sítio lagoa dourada",
+        "cargo": "Produção",
+        "periodo": "2007/2012",
+        "atividades": "Produção de flores"
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Médio completo",
+    "curso_formacao": "Técnico em contabilidade",
+    "instituicao_ensino": "Senc",
+    "cursos_qualificacoes": "Técnico em contabilidade",
+    "conhecimentos": "Excel",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender",
+    "lideranca": "Não",
+    "regiao_interesse": "Andradas",
+    "disponibilidade_horario": "Comercial, 1º turno, 2º turno",
+    "pretensao_salarial": "3000",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade. Profissional com experiência como Operador de shanque na empresa Kohler, com mais de 10 anos na função. Vivência em Produção. Conhecimentos em Excel. Qualificações: Técnico em contabilidade. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender.",
+    "curriculo_texto": "ROSEANE PEREIRA DA SILVA GONÇALVES\nAndradas / MG\nWhatsApp: 35992472355 | E-mail: roseanegonalves1986@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Operador(a) de Máquina, Preparador(a) / Regulador(a) de Máquina, Estoquista / Almoxarife\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade. Profissional com experiência como Operador de shanque na empresa Kohler, com mais de 10 anos na função. Vivência em Produção. Conhecimentos em Excel. Qualificações: Técnico em contabilidade. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Operador de shanque — Kohler (Mais de 10 anos)\nPrincipais atividades: Produção\n\n2. Produção — Trabalho rural swart rosas (2003/2007)\nPrincipais atividades: Produção de rosa\n\n3. Produção — Sítio lagoa dourada (2007/2012)\nPrincipais atividades: Produção de flores\n\nFORMAÇÃO\nMédio completo — Técnico em contabilidade — Senc\n\nCURSOS E QUALIFICAÇÕES\nTécnico em contabilidade\n\nCONHECIMENTOS PROFISSIONAIS\nExcel\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788442723275-luiz-fernando-inocencio-luizinocencio-co",
+    "submittedAt": "03/09/2026, 10:38",
+    "nome_completo": "Luiz Fernando inocencio",
+    "whatsapp": "19 9 9999 0407",
+    "email": "Luizinocencio.com.br@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 42,
+    "cnh": "Outra - A D",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Produção / Operações",
+    "areas_adicionais_interesse": [
+      "Logística / Estoque / Expedição",
+      "Motorista / Transporte",
+      "Liderança / Gestão"
+    ],
+    "funcoes_interesse": [
+      "Operador(a) de Produção",
+      "Operador(a) de Máquina",
+      "Separador(a) / Conferente",
+      "Operador(a) de Empilhadeira",
+      "Auxiliar de Expedição",
+      "Motorista / Entregador(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Coca cola",
+    "ultimo_cargo": "Operador de empilhadeira",
+    "tempo_ultima_funcao": "5 a 10 anos",
+    "atividades_ultima_experiencia": "Estoque",
+    "ferramentas_ultima_experiencia": "Empilhadeira \r\nColetores",
+    "areas_ultima_experiencia": [
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Motorista / Transporte",
+      "Liderança / Gestão"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Kohler",
+        "cargo": "Líder"
+      },
+      {
+        "empresa": "Coca cola",
+        "cargo": "Operador de Empilhadeira"
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Médio completo",
+    "curso_formacao": "Operador de Empilhadeira",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "Operador de Empilhadeira \r\nLiderança",
+    "conhecimentos": "Estoque, Logística, Expedição, Produção",
+    "maquinas_equipamentos": "Empilhadeira",
+    "caracteristicas": "Responsável, Organizado(a), Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Bom relacionamento interpessoal",
+    "lideranca": "Líder\r\n6 anos",
+    "regiao_interesse": "",
+    "disponibilidade_horario": "Qualquer horário",
+    "pretensao_salarial": "",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte, Liderança / Gestão. Profissional com experiência como Operador de empilhadeira na empresa Coca cola, com 5 a 10 anos na função. Vivência em Estoque. Conhecimentos em Estoque, Logística, Expedição, Produção. Qualificações: Operador de Empilhadeira \r\nLiderança. Características profissionais declaradas: Responsável, Organizado(a), Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Bom relacionamento interpessoal.",
+    "curriculo_texto": "LUIZ FERNANDO INOCENCIO\nAndradas / MG\nWhatsApp: 19 9 9999 0407 | E-mail: Luizinocencio.com.br@gmail.com\nCNH: Outra - A D\n\nOBJETIVO PROFISSIONAL\nOperador(a) de Produção, Operador(a) de Máquina, Separador(a) / Conferente, Operador(a) de Empilhadeira, Auxiliar de Expedição, Motorista / Entregador(a)\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte, Liderança / Gestão. Profissional com experiência como Operador de empilhadeira na empresa Coca cola, com 5 a 10 anos na função. Vivência em Estoque. Conhecimentos em Estoque, Logística, Expedição, Produção. Qualificações: Operador de Empilhadeira \r\nLiderança. Características profissionais declaradas: Responsável, Organizado(a), Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Bom relacionamento interpessoal.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Operador de empilhadeira — Coca cola (5 a 10 anos)\nPrincipais atividades: Estoque\nFerramentas/sistemas: Empilhadeira \r\nColetores\n\n2. Líder — Kohler\n\n3. Operador de Empilhadeira — Coca cola\n\nFORMAÇÃO\nMédio completo — Operador de Empilhadeira\n\nCURSOS E QUALIFICAÇÕES\nOperador de Empilhadeira \r\nLiderança\n\nCONHECIMENTOS PROFISSIONAIS\nEstoque, Logística, Expedição, Produção\nMáquinas/equipamentos: Empilhadeira\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788443057603-paulo-ricardo-braz-paulo-r-b25-hotmail-c",
+    "submittedAt": "03/09/2026, 10:44",
+    "nome_completo": "Paulo Ricardo Braz",
+    "whatsapp": "36999878867",
+    "email": "paulo.r.b25@hotmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 38,
+    "cnh": "AB",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Manutenção Mecânica",
+    "areas_adicionais_interesse": [
+      "Motorista / Transporte",
+      "Contábil / Fiscal",
+      "Recursos Humanos / Departamento Pessoal"
+    ],
+    "funcoes_interesse": [
+      "Preparador(a) / Regulador(a) de Máquina",
+      "Motorista / Entregador(a)",
+      "Mecânico(a) de Manutenção"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Kholer",
+    "ultimo_cargo": "Tc mecânico",
+    "tempo_ultima_funcao": "1 a 2 anos",
+    "atividades_ultima_experiencia": "Bomba peneumunia mas tem experiência em várias áreas da mecânica",
+    "ferramentas_ultima_experiencia": "De tudo um pouco",
+    "areas_ultima_experiencia": [
+      "Manutenção Mecânica"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Icasa",
+        "cargo": "Mecânico",
+        "periodo": "Fiori",
+        "atividades": "Solda lixadeira pintura"
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Técnico",
+    "curso_formacao": "Tc mecânico",
+    "instituicao_ensino": "Etec",
+    "cursos_qualificacoes": "Vários e informática",
+    "conhecimentos": "Excel, Word, Informática, Manutenção, Mecânica",
+    "maquinas_equipamentos": "Máquina pesada",
+    "caracteristicas": "Responsável, Pontual, Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Facilidade para resolver problemas, Bom relacionamento interpessoal",
+    "lideranca": "Não",
+    "regiao_interesse": "Qualquer cidade",
+    "disponibilidade_horario": "Qualquer horário",
+    "pretensao_salarial": "A combinar",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Manutenção Mecânica, Motorista / Transporte, Contábil / Fiscal, Recursos Humanos / Departamento Pessoal. Profissional com experiência como Tc mecânico na empresa Kholer, com 1 a 2 anos na função. Vivência em Bomba peneumunia mas tem experiência em várias áreas da mecânica. Conhecimentos em Excel, Word, Informática, Manutenção, Mecânica. Qualificações: Vários e informática. Características profissionais declaradas: Responsável, Pontual, Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Facilidade para resolver problemas, Bom relacionamento interpessoal.",
+    "curriculo_texto": "PAULO RICARDO BRAZ\nAndradas / MG\nWhatsApp: 36999878867 | E-mail: paulo.r.b25@hotmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nPreparador(a) / Regulador(a) de Máquina, Motorista / Entregador(a), Mecânico(a) de Manutenção\nÁreas de interesse: Manutenção Mecânica, Motorista / Transporte, Contábil / Fiscal, Recursos Humanos / Departamento Pessoal\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Manutenção Mecânica, Motorista / Transporte, Contábil / Fiscal, Recursos Humanos / Departamento Pessoal. Profissional com experiência como Tc mecânico na empresa Kholer, com 1 a 2 anos na função. Vivência em Bomba peneumunia mas tem experiência em várias áreas da mecânica. Conhecimentos em Excel, Word, Informática, Manutenção, Mecânica. Qualificações: Vários e informática. Características profissionais declaradas: Responsável, Pontual, Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Facilidade para resolver problemas, Bom relacionamento interpessoal.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Tc mecânico — Kholer (1 a 2 anos)\nPrincipais atividades: Bomba peneumunia mas tem experiência em várias áreas da mecânica\nFerramentas/sistemas: De tudo um pouco\n\n2. Mecânico — Icasa (Fiori)\nPrincipais atividades: Solda lixadeira pintura\n\nFORMAÇÃO\nTécnico — Tc mecânico — Etec\n\nCURSOS E QUALIFICAÇÕES\nVários e informática\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Manutenção, Mecânica\nMáquinas/equipamentos: Máquina pesada\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788443087477-lucas-lourenco-caetano-lucaslourencocaet",
+    "submittedAt": "03/09/2026, 10:44",
+    "nome_completo": "Lucas Lourenço Caetano",
+    "whatsapp": "35999859710",
+    "email": "lucaslourencocaetano@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 22,
+    "cnh": "AB",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Produção / Operações",
+    "areas_adicionais_interesse": [
+      "Logística / Estoque / Expedição",
+      "Motorista / Transporte"
+    ],
+    "funcoes_interesse": [
+      "Auxiliar / Ajudante de Produção",
+      "Operador(a) de Produção",
+      "Operador(a) de Máquina",
+      "Estoquista / Almoxarife",
+      "Operador(a) de Empilhadeira",
+      "Motorista / Entregador(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Kholler",
+    "ultimo_cargo": "Fundador operador de máquinas shanks ||",
+    "tempo_ultima_funcao": "1 a 2 anos",
+    "atividades_ultima_experiencia": "Fazia louças sanitárias spam bacias de colagem",
+    "ferramentas_ultima_experiencia": "Torno, raspas, esponjas, manipulador etc.",
+    "areas_ultima_experiencia": [
+      "Produção / Operações",
+      "Qualidade"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Serbet",
+        "cargo": "Operador de estacionamento rotativo",
+        "periodo": "21/03/2023 a 01/06/2024",
+        "atividades": "Monitor as vagas e carros que estava usando o estacionamento rotativo zona azul."
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Médio incompleto",
+    "curso_formacao": "",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "",
+    "conhecimentos": "Atendimento ao cliente, Vendas, Produção, Operação de máquinas, Qualidade",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade",
+    "lideranca": "Não",
+    "regiao_interesse": "Andradas",
+    "disponibilidade_horario": "Qualquer horário",
+    "pretensao_salarial": "2500",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte. Profissional com experiência como Fundador operador de máquinas shanks || na empresa Kholler, com 1 a 2 anos na função. Vivência em Fazia louças sanitárias spam bacias de colagem. Conhecimentos em Atendimento ao cliente, Vendas, Produção, Operação de máquinas, Qualidade. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade.",
+    "curriculo_texto": "LUCAS LOURENÇO CAETANO\nAndradas / MG\nWhatsApp: 35999859710 | E-mail: lucaslourencocaetano@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Operador(a) de Máquina, Estoquista / Almoxarife, Operador(a) de Empilhadeira, Motorista / Entregador(a)\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte. Profissional com experiência como Fundador operador de máquinas shanks || na empresa Kholler, com 1 a 2 anos na função. Vivência em Fazia louças sanitárias spam bacias de colagem. Conhecimentos em Atendimento ao cliente, Vendas, Produção, Operação de máquinas, Qualidade. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Fundador operador de máquinas shanks || — Kholler (1 a 2 anos)\nPrincipais atividades: Fazia louças sanitárias spam bacias de colagem\nFerramentas/sistemas: Torno, raspas, esponjas, manipulador etc.\n\n2. Operador de estacionamento rotativo — Serbet (21/03/2023 a 01/06/2024)\nPrincipais atividades: Monitor as vagas e carros que estava usando o estacionamento rotativo zona azul.\n\nFORMAÇÃO\nMédio incompleto\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nAtendimento ao cliente, Vendas, Produção, Operação de máquinas, Qualidade\n\nINFORMAÇÕES ADICIONAIS"
   }
 ];
