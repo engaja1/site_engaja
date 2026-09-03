@@ -1615,5 +1615,196 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "inicio_imediato": "Sim",
     "resumo_profissional": "Áreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte. Profissional com experiência como Fundador operador de máquinas shanks || na empresa Kholler, com 1 a 2 anos na função. Vivência em Fazia louças sanitárias spam bacias de colagem. Conhecimentos em Atendimento ao cliente, Vendas, Produção, Operação de máquinas, Qualidade. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade.",
     "curriculo_texto": "LUCAS LOURENÇO CAETANO\nAndradas / MG\nWhatsApp: 35999859710 | E-mail: lucaslourencocaetano@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Operador(a) de Máquina, Estoquista / Almoxarife, Operador(a) de Empilhadeira, Motorista / Entregador(a)\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Motorista / Transporte. Profissional com experiência como Fundador operador de máquinas shanks || na empresa Kholler, com 1 a 2 anos na função. Vivência em Fazia louças sanitárias spam bacias de colagem. Conhecimentos em Atendimento ao cliente, Vendas, Produção, Operação de máquinas, Qualidade. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Trabalho bem em equipe, Facilidade para aprender, Agilidade.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Fundador operador de máquinas shanks || — Kholler (1 a 2 anos)\nPrincipais atividades: Fazia louças sanitárias spam bacias de colagem\nFerramentas/sistemas: Torno, raspas, esponjas, manipulador etc.\n\n2. Operador de estacionamento rotativo — Serbet (21/03/2023 a 01/06/2024)\nPrincipais atividades: Monitor as vagas e carros que estava usando o estacionamento rotativo zona azul.\n\nFORMAÇÃO\nMédio incompleto\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nAtendimento ao cliente, Vendas, Produção, Operação de máquinas, Qualidade\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788445180291-silvania-gomes-da-silva-silvaniagoms017-",
+    "submittedAt": "03/09/2026, 11:19",
+    "nome_completo": "Silvânia Gomes da Silva",
+    "whatsapp": "35991088740",
+    "email": "silvaniagoms017@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 41,
+    "cnh": "AB",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Produção / Operações",
+    "areas_adicionais_interesse": [
+      "Logística / Estoque / Expedição",
+      "Qualidade",
+      "Liderança / Gestão",
+      "Serviços Gerais / Apoio",
+      "Agrícola / Campo"
+    ],
+    "funcoes_interesse": [
+      "Auxiliar / Ajudante de Produção",
+      "Operador(a) de Produção",
+      "Líder / Encarregado(a)"
+    ],
+    "tipo_trabalho": "Indiferente",
+    "disponibilidade_turnos": "Dependendo do horário",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Fundição",
+    "tempo_ultima_funcao": "2 a 5 anos",
+    "atividades_ultima_experiencia": "Produção de louça sanitária,ex:caixa,cuba, lavatório etc.",
+    "ferramentas_ultima_experiencia": "Operadora de máquina shanks.",
+    "areas_ultima_experiencia": [
+      "Produção / Operações"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Rosera florada da serra",
+        "cargo": "Liderança",
+        "periodo": "5 anos",
+        "atividades": "Organizar equipe, separar pedidos, atender clientes"
+      },
+      {
+        "empresa": "Dephai",
+        "cargo": "Ajudante de produção",
+        "periodo": "2anos",
+        "atividades": "Chicote de carro"
+      },
+      {
+        "empresa": "Alstromelia lagoa dourada",
+        "cargo": "Na coleta da produção e embalagem",
+        "periodo": "Roseira florada da serra",
+        "atividades": "Colheita embalagem de rosa"
+      }
+    ],
+    "experiencias_adicionais": "Tomates fonte verde \r\nColheita,e pesagem de tomate.",
+    "escolaridade": "Médio completo",
+    "curso_formacao": "Liderança computação básica",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "",
+    "conhecimentos": "Excel, Word, Informática",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança",
+    "lideranca": "Na roseira no campo e no barracão",
+    "regiao_interesse": "Em Andradas",
+    "disponibilidade_horario": "1º turno",
+    "pretensao_salarial": "Uns 2,500",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão, Serviços Gerais / Apoio, Agrícola / Campo. Profissional com experiência como Fundição na empresa Kohler, com 2 a 5 anos na função. Vivência em Produção de louça sanitária,ex:caixa,cuba, lavatório etc.. Conhecimentos em Excel, Word, Informática. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança.",
+    "curriculo_texto": "SILVÂNIA GOMES DA SILVA\nAndradas / MG\nWhatsApp: 35991088740 | E-mail: silvaniagoms017@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Líder / Encarregado(a)\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão, Serviços Gerais / Apoio, Agrícola / Campo\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão, Serviços Gerais / Apoio, Agrícola / Campo. Profissional com experiência como Fundição na empresa Kohler, com 2 a 5 anos na função. Vivência em Produção de louça sanitária,ex:caixa,cuba, lavatório etc.. Conhecimentos em Excel, Word, Informática. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Fundição — Kohler (2 a 5 anos)\nPrincipais atividades: Produção de louça sanitária,ex:caixa,cuba, lavatório etc.\nFerramentas/sistemas: Operadora de máquina shanks.\n\n2. Liderança — Rosera florada da serra (5 anos)\nPrincipais atividades: Organizar equipe, separar pedidos, atender clientes\n\n3. Ajudante de produção — Dephai (2anos)\nPrincipais atividades: Chicote de carro\n\n4. Na coleta da produção e embalagem — Alstromelia lagoa dourada (Roseira florada da serra)\nPrincipais atividades: Colheita embalagem de rosa\n\nOutras experiências:\nTomates fonte verde \r\nColheita,e pesagem de tomate.\n\nFORMAÇÃO\nMédio completo — Liderança computação básica\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1788446536665-ricardo-silva-santos-ricardosilvasantos1",
+    "submittedAt": "03/09/2026, 11:42",
+    "nome_completo": "Ricardo Silva Santos",
+    "whatsapp": "35998659801",
+    "email": "ricardosilvasantos1519@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 24,
+    "cnh": "Não",
+    "veiculo_proprio": "Não",
+    "area_principal_interesse": "Produção / Operações",
+    "areas_adicionais_interesse": [
+      "Logística / Estoque / Expedição",
+      "Qualidade",
+      "Marketing / Comunicação",
+      "Tecnologia / TI"
+    ],
+    "funcoes_interesse": [
+      "Estoquista / Almoxarife",
+      "Marketing / Comunicação",
+      "Suporte / TI",
+      "Líder / Encarregado(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Forneiro",
+    "tempo_ultima_funcao": "2 a 5 anos",
+    "atividades_ultima_experiencia": "Atuei na operação de fornos industriais e na movimentação de materiais.Era responsável pelo carregamento de vagonetas ultilizando o manipulador mecânico,garantindo o abastecimento contínuo da linha de produção e seguindo rigorosamente as normas de segurança da empresa.",
+    "ferramentas_ultima_experiencia": "Operava o manipulador mecânico para carregar as vagonetas e utilizava o rebocador industrial para fazer a movimentação segura dessas cargas até os fornos.Além da parte operacional,usava o computador para digitar e registrar as peças no sistema da empresa",
+    "areas_ultima_experiencia": [
+      "Produção / Operações"
+    ],
+    "possui_outras_experiencias": "Não",
+    "experiencias_anteriores": [],
+    "experiencias_adicionais": "",
+    "escolaridade": "Médio completo",
+    "curso_formacao": "Atualmente estou fazendo um curso de informática",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "Tenho o ensino médio completo.Minha Maior qualificação é a experiência prática que ganhei no dia a dia da produção,operando equipamentos como o manipulador, o rebocador e utilizando o computador para o controle de peças.",
+    "conhecimentos": "Informática, Produção",
+    "maquinas_equipamentos": "Tenho experiência prática na operação de fornos industriais de alta temperatura, manipulador mecânico para o carregamento de cargas e rebocador industrial para a movimentação de vagonetas.Além disso, opero o computador para a digitação,registro e controle de fluxo de peças no sistema de produção.",
+    "caracteristicas": "Responsável, Organizado(a), Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas",
+    "lideranca": "Não",
+    "regiao_interesse": "Meu foco principal é Andradas, mas tenho total interesse e disponibilidade para trabalhar em cidades vizinhas da região, como poços de Caldas, Espírito santo do pinhal ou são João da boa vista , caso a empresa ofereça trasporte fretado ou ajuda de custo .",
+    "disponibilidade_horario": "Comercial",
+    "pretensao_salarial": "No momento, não tenho um valor fixo fechado.Estou aberto a entender a proposta da empresa para o cargo e agradeço se puderem avaliar meu perfil dentro da tabela salarial praticada por vocês para essa função.",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Marketing / Comunicação, Tecnologia / TI. Profissional com experiência como Forneiro na empresa Kohler, com 2 a 5 anos na função. Vivência em \"Atuei na operação de fornos industriais e na movimentação de materiais.Era responsável pelo carregamento de vagonetas ultilizando o manipulador mecânico,garantindo o abastecimento contínuo da linha de produção e seguindo rigorosamente as normas de segurança da empresa.\". Conhecimentos em Informática, Produção. Qualificações: \"Tenho o ensino médio completo.Minha Maior qualificação é a experiência prática que ganhei no dia a dia da produção,operando equipamentos como o manipulador, o rebocador e utilizando o computador para o controle de peças.\". Características profissionais declaradas: Responsável, Organizado(a), Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.",
+    "curriculo_texto": "RICARDO SILVA SANTOS\nAndradas / MG\nWhatsApp: 35998659801 | E-mail: ricardosilvasantos1519@gmail.com\nCNH: Não\n\nOBJETIVO PROFISSIONAL\nEstoquista / Almoxarife, Marketing / Comunicação, Suporte / TI, Líder / Encarregado(a)\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Marketing / Comunicação, Tecnologia / TI\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Marketing / Comunicação, Tecnologia / TI. Profissional com experiência como Forneiro na empresa Kohler, com 2 a 5 anos na função. Vivência em \"Atuei na operação de fornos industriais e na movimentação de materiais.Era responsável pelo carregamento de vagonetas ultilizando o manipulador mecânico,garantindo o abastecimento contínuo da linha de produção e seguindo rigorosamente as normas de segurança da empresa.\". Conhecimentos em Informática, Produção. Qualificações: \"Tenho o ensino médio completo.Minha Maior qualificação é a experiência prática que ganhei no dia a dia da produção,operando equipamentos como o manipulador, o rebocador e utilizando o computador para o controle de peças.\". Características profissionais declaradas: Responsável, Organizado(a), Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Forneiro — Kohler (2 a 5 anos)\nPrincipais atividades: \"Atuei na operação de fornos industriais e na movimentação de materiais.Era responsável pelo carregamento de vagonetas ultilizando o manipulador mecânico,garantindo o abastecimento contínuo da linha de produção e seguindo rigorosamente as normas de segurança da empresa.\"\nFerramentas/sistemas: \"Operava o manipulador mecânico para carregar as vagonetas e utilizava o rebocador industrial para fazer a movimentação segura dessas cargas até os fornos.Além da parte operacional,usava o computador para digitar e registrar as peças no sistema da empresa\"\n\nFORMAÇÃO\nMédio completo — Atualmente estou fazendo um curso de informática\nEm andamento: Informática\n\nCURSOS E QUALIFICAÇÕES\n\"Tenho o ensino médio completo.Minha Maior qualificação é a experiência prática que ganhei no dia a dia da produção,operando equipamentos como o manipulador, o rebocador e utilizando o computador para o controle de peças.\"\n\nCONHECIMENTOS PROFISSIONAIS\nInformática, Produção\nMáquinas/equipamentos: Tenho experiência prática na operação de fornos industriais de alta temperatura, manipulador mecânico para o carregamento de cargas e rebocador industrial para a movimentação de vagonetas.Além disso, opero o computador para a digitação,registro e controle de fluxo de peças no sistema de produção.\n\nINFORMAÇÕES ADICIONAIS\n\"Gostaria de destacar minha facilidade para trabalhar em equipe e meu forte compromisso com a segurança e a organização do ambiente de trabalho.Por ter trabalhado diretamente com fornos industriais e cargas pesadas, entendo perfeitamente a importância de seguir regras rígidas,usar EPIs corretamente e manter a atenção total para garantir que a produção flua sem acidentes.\""
+  },
+  {
+    "id": "CV-1788446544442-melissa-de-carvalho-reimer-melissa-reime",
+    "submittedAt": "03/09/2026, 11:42",
+    "nome_completo": "Melissa de Carvalho Reimer",
+    "whatsapp": "19995017509",
+    "email": "melissa.reimer7bb@gmail.com",
+    "cidade": "Poços de Caldas",
+    "estado": "MG",
+    "idade": 23,
+    "cnh": "B",
+    "veiculo_proprio": "Não",
+    "area_principal_interesse": "Engenharia / Técnico",
+    "areas_adicionais_interesse": [
+      "Administrativo",
+      "Tecnologia / TI"
+    ],
+    "funcoes_interesse": [
+      "Auxiliar / Assistente Administrativo",
+      "Analista Administrativo",
+      "Técnico(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Não",
+    "ultima_empresa": "Kohler Co",
+    "ultimo_cargo": "Técnica de processos",
+    "tempo_ultima_funcao": "Menos de 1 ano",
+    "atividades_ultima_experiencia": "- Atuação no acompanhamento, análise e melhoria dos processos produtivos, com suporte direto à operação e à gestão e análise de indicadores da área.\r\n- Participação em reuniões entre todas as áreas, treinamentos e rotinas operacionais, contribuindo com análises e auditorias para tomada de decisão.\r\n- Realização de cronoanálises, estudos de tempo e acompanhamento de tempos de ciclo, buscando ganhos de produtividade e eficiência.\r\n- Participação no programa TPM e acompanhamento da rotina operacional de 2 robôs de esmaltação.\r\n- Suporte direto à operação na identificação, desenvolvimento e implementação de melhorias.\r\n- Análise de causas de defeitos, realização de testes baseados na metodologia VDEP e validação de soluções com foco na redução de perdas e melhoria da qualidade.\r\n- +45 melhorias realizadas em 6 meses junto ao time, atuando na identificação de oportunidades e implementação das ações.\r\n- Desenvolvimento de relatórios, apresentações, diagramas de concentração, dashboards e indicadores para acompanhamento dos processos.\r\n- Participação em projetos de redução de custos e consumo de recursos, envolvendo energia, gás, água e diesel.\r\n- Atuação em iniciativas de 5S, segurança, ergonomia, produtividade e redução de defeitos, contribuindo para uma evolução de 60% no resultado de 5S.\r\n- Acompanhamento de OPEX de dois setores, apoiando o controle e análise dos custos operacionais.\r\n- Participação em análises relacionadas a rendimento, layout de enfornamento e eficiência dos processos de produção.\r\n- Atuação com foco em melhoria contínua, eficiência operacional, qualidade, redução de perdas e desenvolvimento de processos.",
+    "ferramentas_ultima_experiencia": "SAP, EPRO, EXCEL, SKETCH UP, POWER POINT, POWER BI",
+    "areas_ultima_experiencia": [
+      "Engenharia / Técnico"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Kohler co",
+        "cargo": "Assistente de engenharia de processos",
+        "periodo": "Set/25 a jun/26",
+        "atividades": "• Desenvolvimento e implementação de pré-controles e monitoramentos para a área de Esmaltação, acompanhando variáveis críticas do processo, antecipando desvios e apoiando a tomada de decisão baseada em dados.\r\n• Elaboração, revisão e atualização de SOPs (Procedimentos Operacionais Padrão), garantindo a padronização dos processos e conformidade operacional.\r\n• Gestão do OPEX de dois setores (Esmaltação e forno), realizando controle orçamentário, análise de custos e acompanhamento das previsões de fechamento mensal.\r\n• Atuação estratégica em Melhoria Contínua, promovendo a otimização de processos industriais com foco em eficiência, qualidade e produtividade.\r\n• Análise e otimização de fluxos de trabalho, identificando oportunidades para redução de desperdícios e aumento da performance operacional.\r\n• Monitoramento e gestão de KPIs, utilizando análise de dados (Excel e Power BI) para apoiar a tomada de decisão e direcionar planos de ação.\r\n• Desenvolvimento e implementação de melhorias voltadas à resolução de problemas e aumento da eficiência dos processos produtivos.\r\n• Elaboração de apresentações gerenciais com indicadores de produtividade, qualidade e yield da planta, apoiando o alinhamento estratégico da liderança.\r\n• Participação ativa em iniciativas de segurança, ergonomia, 5S e melhoria contínua, fortalecendo a cultura de excelência operacional"
+      },
+      {
+        "empresa": "Kohler co",
+        "cargo": "Estagiária de engenharia de processos",
+        "periodo": "Ago/25 a set/25",
+        "atividades": "Atuação como estagiária de engenharia de processos do forno:\r\n• Análise e otimização de processos produtivos, identificando oportunidades de melhoria contínua e aumento da eficiência operacional.\r\n• Monitoramento e análise de KPIs, apoiando a tomada de decisão por meio de indicadores de desempenho.\r\n• Gestão e sustentação do programa 5S, promovendo organização, padronização e segurança no ambiente produtivo.\r\n• Elaboração de apresentações de yield e produtividade para reuniões gerenciais, transformando dados em informações para suporte à liderança.\r\n• Atuação direta no chão de fábrica, realizando análise de processos, coleta de dados.\r\n• Aplicação de conceitos de Lean Manufacturing e melhoria contínua em projetos de otimização de processos."
+      },
+      {
+        "empresa": "Kohler Co",
+        "cargo": "Estagiária de almoxarifado",
+        "periodo": "Abr/24 a ago/25",
+        "atividades": "• Gestão do fluxo de documentos fiscais (entrada e saída), assegurando conformidade e acuracidade dos processos.\r\n• Controle de estoque por meio da metodologia Kanban, contribuindo para maior eficiência logística e redução de lead time.\r\n• Liderança de área do programa 5S, fortalecendo a organização e a produtividade do almoxarifado.\r\n• Interface com Compras e Produção para alinhamento do fluxo de materiais e programação de entregas, garantindo o abastecimento das linhas.\r\n• Recebimento, conferência e movimentação de materiais com foco na confiabilidade dos estoques.\r\n• Gestão de estoque no SAP e participação ativa em projetos de melhoria contínua e otimização de processos."
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Superior incompleto",
+    "curso_formacao": "Engenharia de produção",
+    "instituicao_ensino": "Universidade federal de Alfenas",
+    "cursos_qualificacoes": "Excel, power bi, liderança e empreendedorismo, comunicação e oratória, gestão e mercado financeiro",
+    "conhecimentos": "Excel, Word, Atendimento ao cliente, Produção, Segurança do trabalho, Administrativo",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Foco em resultados, Facilidade para resolver problemas",
+    "lideranca": "Realizava apenas a gestão do estagiário da área por 11 meses",
+    "regiao_interesse": "Andradas, Poços de Caldas",
+    "disponibilidade_horario": "1º turno",
+    "pretensao_salarial": "R$3500,00 - disponível para negociar",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Administrativo, Tecnologia / TI. Profissional com experiência como Técnica de processos na empresa Kohler Co, com menos de 1 ano na função. Vivência em - Atuação no acompanhamento, análise e melhoria dos processos produtivos, com suporte direto à operação e à gestão e análise de indicadores da área.\r\n- Participação em reuniões entre todas as áreas, treinamentos e rotinas operacionais, contribuindo com análises e auditorias para tomada de decisão.\r\n- Realização de cronoanálises, estudos de tempo e acompanhamento de tempos de ciclo, buscando ganhos de produtividade e eficiência.\r\n- Participação no programa TPM e acompanhamento da rotina operacional de 2 robôs de esmaltação.\r\n- Suporte direto à operação na identificação, desenvolvimento e implementação de melhorias.\r\n- Análise de causas de defeitos, realização de testes baseados na metodologia VDEP e validação de soluções com foco na redução de perdas e melhoria da qualidade.\r\n- +45 melhorias realizadas em 6 meses junto ao time, atuando na identificação de oportunidades e implementação das ações.\r\n- Desenvolvimento de relatórios, apresentações, diagramas de concentração, dashboards e indicadores para acompanhamento dos processos.\r\n- Participação em projetos de redução de custos e consumo de recursos, envolvendo energia, gás, água e diesel.\r\n- Atuação em iniciativas de 5S, segurança, ergonomia, produtividade e redução de defeitos, contribuindo para uma evolução de 60% no resultado de 5S.\r\n- Acompanhamento de OPEX de dois setores, apoiando o controle e análise dos custos operacionais.\r\n- Participação em análises relacionadas a rendimento, layout de enfornamento e eficiência dos processos de produção.\r\n- Atuação com foco em melhoria contínua, eficiência operacional, qualidade, redução de perdas e desenvolvimento de processos.. Conhecimentos em Excel, Word, Atendimento ao cliente, Produção, Segurança do trabalho, Administrativo. Qualificações: Excel, power bi, liderança e empreendedorismo, comunicação e oratória, gestão e mercado financeiro. Características profissionais declaradas: Responsável, Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Foco em resultados, Facilidade para resolver problemas.",
+    "curriculo_texto": "MELISSA DE CARVALHO REIMER\nPoços de Caldas / MG\nWhatsApp: 19995017509 | E-mail: melissa.reimer7bb@gmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Assistente Administrativo, Analista Administrativo, Técnico(a)\nÁreas de interesse: Engenharia / Técnico, Administrativo, Tecnologia / TI\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Administrativo, Tecnologia / TI. Profissional com experiência como Técnica de processos na empresa Kohler Co, com menos de 1 ano na função. Vivência em - Atuação no acompanhamento, análise e melhoria dos processos produtivos, com suporte direto à operação e à gestão e análise de indicadores da área.\r\n- Participação em reuniões entre todas as áreas, treinamentos e rotinas operacionais, contribuindo com análises e auditorias para tomada de decisão.\r\n- Realização de cronoanálises, estudos de tempo e acompanhamento de tempos de ciclo, buscando ganhos de produtividade e eficiência.\r\n- Participação no programa TPM e acompanhamento da rotina operacional de 2 robôs de esmaltação.\r\n- Suporte direto à operação na identificação, desenvolvimento e implementação de melhorias.\r\n- Análise de causas de defeitos, realização de testes baseados na metodologia VDEP e validação de soluções com foco na redução de perdas e melhoria da qualidade.\r\n- +45 melhorias realizadas em 6 meses junto ao time, atuando na identificação de oportunidades e implementação das ações.\r\n- Desenvolvimento de relatórios, apresentações, diagramas de concentração, dashboards e indicadores para acompanhamento dos processos.\r\n- Participação em projetos de redução de custos e consumo de recursos, envolvendo energia, gás, água e diesel.\r\n- Atuação em iniciativas de 5S, segurança, ergonomia, produtividade e redução de defeitos, contribuindo para uma evolução de 60% no resultado de 5S.\r\n- Acompanhamento de OPEX de dois setores, apoiando o controle e análise dos custos operacionais.\r\n- Participação em análises relacionadas a rendimento, layout de enfornamento e eficiência dos processos de produção.\r\n- Atuação com foco em melhoria contínua, eficiência operacional, qualidade, redução de perdas e desenvolvimento de processos.. Conhecimentos em Excel, Word, Atendimento ao cliente, Produção, Segurança do trabalho, Administrativo. Qualificações: Excel, power bi, liderança e empreendedorismo, comunicação e oratória, gestão e mercado financeiro. Características profissionais declaradas: Responsável, Proativo(a), Comunicativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Foco em resultados, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Técnica de processos — Kohler Co (Menos de 1 ano)\nPrincipais atividades: - Atuação no acompanhamento, análise e melhoria dos processos produtivos, com suporte direto à operação e à gestão e análise de indicadores da área.\r\n- Participação em reuniões entre todas as áreas, treinamentos e rotinas operacionais, contribuindo com análises e auditorias para tomada de decisão.\r\n- Realização de cronoanálises, estudos de tempo e acompanhamento de tempos de ciclo, buscando ganhos de produtividade e eficiência.\r\n- Participação no programa TPM e acompanhamento da rotina operacional de 2 robôs de esmaltação.\r\n- Suporte direto à operação na identificação, desenvolvimento e implementação de melhorias.\r\n- Análise de causas de defeitos, realização de testes baseados na metodologia VDEP e validação de soluções com foco na redução de perdas e melhoria da qualidade.\r\n- +45 melhorias realizadas em 6 meses junto ao time, atuando na identificação de oportunidades e implementação das ações.\r\n- Desenvolvimento de relatórios, apresentações, diagramas de concentração, dashboards e indicadores para acompanhamento dos processos.\r\n- Participação em projetos de redução de custos e consumo de recursos, envolvendo energia, gás, água e diesel.\r\n- Atuação em iniciativas de 5S, segurança, ergonomia, produtividade e redução de defeitos, contribuindo para uma evolução de 60% no resultado de 5S.\r\n- Acompanhamento de OPEX de dois setores, apoiando o controle e análise dos custos operacionais.\r\n- Participação em análises relacionadas a rendimento, layout de enfornamento e eficiência dos processos de produção.\r\n- Atuação com foco em melhoria contínua, eficiência operacional, qualidade, redução de perdas e desenvolvimento de processos.\nFerramentas/sistemas: SAP, EPRO, EXCEL, SKETCH UP, POWER POINT, POWER BI\n\n2. Assistente de engenharia de processos — Kohler co (Set/25 a jun/26)\nPrincipais atividades: • Desenvolvimento e implementação de pré-controles e monitoramentos para a área de Esmaltação, acompanhando variáveis críticas do processo, antecipando desvios e apoiando a tomada de decisão baseada em dados.\r\n• Elaboração, revisão e atualização de SOPs (Procedimentos Operacionais Padrão), garantindo a padronização dos processos e conformidade operacional.\r\n• Gestão do OPEX de dois setores (Esmaltação e forno), realizando controle orçamentário, análise de custos e acompanhamento das previsões de fechamento mensal.\r\n• Atuação estratégica em Melhoria Contínua, promovendo a otimização de processos industriais com foco em eficiência, qualidade e produtividade.\r\n• Análise e otimização de fluxos de trabalho, identificando oportunidades para redução de desperdícios e aumento da performance operacional.\r\n• Monitoramento e gestão de KPIs, utilizando análise de dados (Excel e Power BI) para apoiar a tomada de decisão e direcionar planos de ação.\r\n• Desenvolvimento e implementação de melhorias voltadas à resolução de problemas e aumento da eficiência dos processos produtivos.\r\n• Elaboração de apresentações gerenciais com indicadores de produtividade, qualidade e yield da planta, apoiando o alinhamento estratégico da liderança.\r\n• Participação ativa em iniciativas de segurança, ergonomia, 5S e melhoria contínua, fortalecendo a cultura de excelência operacional\n\n3. Estagiária de engenharia de processos — Kohler co (Ago/25 a set/25)\nPrincipais atividades: Atuação como estagiária de engenharia de processos do forno:\r\n• Análise e otimização de processos produtivos, identificando oportunidades de melhoria contínua e aumento da eficiência operacional.\r\n• Monitoramento e análise de KPIs, apoiando a tomada de decisão por meio de indicadores de desempenho.\r\n• Gestão e sustentação do programa 5S, promovendo organização, padronização e segurança no ambiente produtivo.\r\n• Elaboração de apresentações de yield e produtividade para reuniões gerenciais, transformando dados em informações para suporte à liderança.\r\n• Atuação direta no chão de fábrica, realizando análise de processos, coleta de dados.\r\n• Aplicação de conceitos de Lean Manufacturing e melhoria contínua em projetos de otimização de processos.\n\n4. Estagiária de almoxarifado — Kohler Co (Abr/24 a ago/25)\nPrincipais atividades: • Gestão do fluxo de documentos fiscais (entrada e saída), assegurando conformidade e acuracidade dos processos.\r\n• Controle de estoque por meio da metodologia Kanban, contribuindo para maior eficiência logística e redução de lead time.\r\n• Liderança de área do programa 5S, fortalecendo a organização e a produtividade do almoxarifado.\r\n• Interface com Compras e Produção para alinhamento do fluxo de materiais e programação de entregas, garantindo o abastecimento das linhas.\r\n• Recebimento, conferência e movimentação de materiais com foco na confiabilidade dos estoques.\r\n• Gestão de estoque no SAP e participação ativa em projetos de melhoria contínua e otimização de processos.\n\nFORMAÇÃO\nSuperior incompleto — Engenharia de produção — Universidade federal de Alfenas\nEm andamento: Engenharia de produção- (anteriormente feito faculdade tecnológica de gestão da produção industrial)\n\nCURSOS E QUALIFICAÇÕES\nExcel, power bi, liderança e empreendedorismo, comunicação e oratória, gestão e mercado financeiro\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Atendimento ao cliente, Produção, Segurança do trabalho, Administrativo\n\nINFORMAÇÕES ADICIONAIS\nPossuo rápida adaptação a habilidade de aprendizado, meu maior foco é resultado e construção de um ambiente bom de trabalho"
   }
 ];
