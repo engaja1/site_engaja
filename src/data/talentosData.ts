@@ -913,5 +913,122 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "inicio_imediato": "Não",
     "resumo_profissional": "Áreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Serviços Gerais / Apoio. Profissional com experiência como RETOCADOR na empresa Kohler Brasil, com 2 a 5 anos na função. Vivência em Retocar peças com defeito, que vinhão de outros setores.. Conhecimentos em Produção, Outro: Trabalho em restaurante, ou bar , como barmem e garçom. Qualificações: Não tenho mais pretendo começar fazer.. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Liderança, Foco em resultados.",
     "curriculo_texto": "VITOR MANOEL JOVENTINO DA SILVA GARCIA\nAndradas / MG\nWhatsApp: 35997040566 | E-mail: vitormanoeljoventino@gmail.com\nCNH: Não\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Estoquista / Almoxarife, Separador(a) / Conferente, Serviços Gerais, Outro, Empresa louças sanitária, RETOCADOR\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Serviços Gerais / Apoio\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações, Logística / Estoque / Expedição, Qualidade, Serviços Gerais / Apoio. Profissional com experiência como RETOCADOR na empresa Kohler Brasil, com 2 a 5 anos na função. Vivência em Retocar peças com defeito, que vinhão de outros setores.. Conhecimentos em Produção, Outro: Trabalho em restaurante, ou bar , como barmem e garçom. Qualificações: Não tenho mais pretendo começar fazer.. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Trabalho bem em equipe, Liderança, Foco em resultados.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. RETOCADOR — Kohler Brasil (2 a 5 anos)\nPrincipais atividades: Retocar peças com defeito, que vinhão de outros setores.\nFerramentas/sistemas: Caneta pneumática, bico de ar, retifica.\n\n2. Ajudante de fundidor — Ajudante de fundidor na Icasa (8 meses)\nPrincipais atividades: Trabalhei na lavita, na roça mais subir pra qualidade depois de 2 meses, só que saí antes de exercer o cargo, tava precisando de dinheiro e fui prá outra empresa\n\nFORMAÇÃO\nMédio completo — Não tenho — Escolar DR Alcides Mosconi\n\nCURSOS E QUALIFICAÇÕES\nNão tenho mais pretendo começar fazer.\n\nCONHECIMENTOS PROFISSIONAIS\nProdução, Outro: Trabalho em restaurante, ou bar , como barmem e garçom\nMáquinas/equipamentos: Caneta pneumática bico de ar retifica\n\nINFORMAÇÕES ADICIONAIS\nNão"
+  },
+  {
+    "id": "CV-1788361335124-alex-dias-da-silva-alex-dias2021-outlook",
+    "submittedAt": "02/09/2026, 12:02",
+    "nome_completo": "Alex Dias da Silva",
+    "whatsapp": "35997470544",
+    "email": "alex_dias2021@outlook.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 34,
+    "cnh": "B",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Produção / Operações",
+    "areas_adicionais_interesse": [],
+    "funcoes_interesse": [
+      "Auxiliar / Ajudante de Produção",
+      "Operador(a) de Produção",
+      "Operador(a) de Máquina"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Kolher",
+    "ultimo_cargo": "Operado de máquinas (Fundidor)",
+    "tempo_ultima_funcao": "5 a 10 anos",
+    "atividades_ultima_experiencia": "",
+    "ferramentas_ultima_experiencia": "Máquina na banca de enchimento de fazer as perças.",
+    "areas_ultima_experiencia": [
+      "Produção / Operações"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Granja Almeida",
+        "cargo": "Avicultura",
+        "periodo": "1 ano e 5 mes",
+        "atividades": "Aveicutura de corte"
+      },
+      {
+        "empresa": "Fazenda Dallas",
+        "cargo": "Cultivo de flores",
+        "periodo": "4 anos e 2 mês",
+        "atividades": "Rigação"
+      },
+      {
+        "empresa": "Kolher",
+        "cargo": "Operador de máquinas",
+        "periodo": "8 anos",
+        "atividades": "Fundidor"
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Fundamental completo",
+    "curso_formacao": "",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "",
+    "conhecimentos": "Produção, Operação de máquinas",
+    "maquinas_equipamentos": "",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade",
+    "lideranca": "Não",
+    "regiao_interesse": "Andradas, Poços de caldas,espírito do pilhal",
+    "disponibilidade_horario": "Comercial, 1º turno, 2º turno",
+    "pretensao_salarial": "",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Produção / Operações. Profissional com experiência como Operado de máquinas (Fundidor) na empresa Kolher, com 5 a 10 anos na função. Conhecimentos em Produção, Operação de máquinas. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade.",
+    "curriculo_texto": "ALEX DIAS DA SILVA\nAndradas / MG\nWhatsApp: 35997470544 | E-mail: alex_dias2021@outlook.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Operador(a) de Máquina\nÁreas de interesse: Produção / Operações\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações. Profissional com experiência como Operado de máquinas (Fundidor) na empresa Kolher, com 5 a 10 anos na função. Conhecimentos em Produção, Operação de máquinas. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Agilidade.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Operado de máquinas (Fundidor) — Kolher (5 a 10 anos)\nFerramentas/sistemas: Máquina na banca de enchimento de fazer as perças.\n\n2. Avicultura — Granja Almeida (1 ano e 5 mes)\nPrincipais atividades: Aveicutura de corte\n\n3. Cultivo de flores — Fazenda Dallas (4 anos e 2 mês)\nPrincipais atividades: Rigação\n\n4. Operador de máquinas — Kolher (8 anos)\nPrincipais atividades: Fundidor\n\nFORMAÇÃO\nFundamental completo\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nProdução, Operação de máquinas\n\nINFORMAÇÕES ADICIONAIS\n"
+  },
+  {
+    "id": "CV-1788365776325-roni-doniseti-ferraz-roniandradas-hotmai",
+    "submittedAt": "02/09/2026, 13:16",
+    "nome_completo": "Roni Doniseti Ferraz",
+    "whatsapp": "35988385312",
+    "email": "roniandradas@hotmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 44,
+    "cnh": "B",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Liderança / Gestão",
+    "areas_adicionais_interesse": [],
+    "funcoes_interesse": [
+      "Líder / Encarregado(a)",
+      "Supervisor(a) / Coordenador(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Sim",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Supervisor produção Massa e Esmalte",
+    "tempo_ultima_funcao": "Mais de 10 anos",
+    "atividades_ultima_experiencia": "Supervisor de produção Massa, Esmalte e ETA",
+    "ferramentas_ultima_experiencia": "Sistema de qualidade pré controles, metrologias de laboratório com equipamentos para liberação dos produtos.",
+    "areas_ultima_experiencia": [
+      "Liderança / Gestão"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Cerâmica Vila Rica",
+        "cargo": "Laboratorio",
+        "periodo": "1998 a 2010",
+        "atividades": "Reologia de massa , esmalte , reparos a frio resinas e esmalte para reparos requeima"
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Superior completo",
+    "curso_formacao": "Tecnologia em Gestão da Qualidade",
+    "instituicao_ensino": "Universidade Pitágoras Unopar Anhanguera",
+    "cursos_qualificacoes": "Cursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica",
+    "conhecimentos": "Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade",
+    "maquinas_equipamentos": "Empilhadeira, mini carregadeira",
+    "caracteristicas": "Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas",
+    "lideranca": "Sim",
+    "regiao_interesse": "Andradas , Poços de Caldas e Jundiaí",
+    "disponibilidade_horario": "Comercial",
+    "pretensao_salarial": "8.000,00",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Liderança / Gestão. Profissional com experiência como Supervisor produção Massa e Esmalte na empresa Kohler, com mais de 10 anos na função. Vivência em Supervisor de produção Massa, Esmalte e ETA. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: Cursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas.",
+    "curriculo_texto": "RONI DONISETI FERRAZ\nAndradas / MG\nWhatsApp: 35988385312 | E-mail: roniandradas@hotmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nLíder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão. Profissional com experiência como Supervisor produção Massa e Esmalte na empresa Kohler, com mais de 10 anos na função. Vivência em Supervisor de produção Massa, Esmalte e ETA. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: Cursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Supervisor produção Massa e Esmalte — Kohler (Mais de 10 anos)\nPrincipais atividades: Supervisor de produção Massa, Esmalte e ETA\nFerramentas/sistemas: Sistema de qualidade pré controles, metrologias de laboratório com equipamentos para liberação dos produtos.\n\n2. Laboratorio — Cerâmica Vila Rica (1998 a 2010)\nPrincipais atividades: Reologia de massa , esmalte , reparos a frio resinas e esmalte para reparos requeima\n\nFORMAÇÃO\nSuperior completo — Tecnologia em Gestão da Qualidade — Universidade Pitágoras Unopar Anhanguera\n\nCURSOS E QUALIFICAÇÕES\nCursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Estoque, Produção, Operação de máquinas, Qualidade\nMáquinas/equipamentos: Empilhadeira, mini carregadeira\n\nINFORMAÇÕES ADICIONAIS\n"
   }
 ];
