@@ -85,7 +85,8 @@ export const AREAS_LIST: AreaOption[] = [
   { id: "engenharia_tecnico", name: "Engenharia / Técnico", iconName: "Cpu", description: "Projetos técnicos, engenharia de processos e utilidades." },
   { id: "lideranca_gestao", name: "Liderança / Gestão", iconName: "Award", description: "Gestão de equipes, supervisão, coordenação e gerência." },
   { id: "servicos_gerais_apoio", name: "Serviços Gerais / Apoio", iconName: "Sparkles", description: "Conservação, limpeza, portaria e apoio operacional." },
-  { id: "agricola_campo", name: "Agrícola / Campo", iconName: "Wheat", description: "Operações agrícolas, cultivo, manejo de campo e agronegócio." }
+  { id: "agricola_campo", name: "Agrícola / Campo", iconName: "Wheat", description: "Operações agrícolas, cultivo, manejo de campo e agronegócio." },
+  { id: "ceramista_modelador", name: "Ceramista / Modelador", iconName: "Layers", description: "Confecção de moldes, matrizes, modelagem cerâmica e louças sanitárias." }
 ];
 
 export const MOCK_CANDIDATES: Candidate[] = [
@@ -1999,6 +2000,7 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "veiculo_proprio": "Sim",
     "area_principal_interesse": "Produção / Operações",
     "areas_adicionais_interesse": [
+      "Ceramista / Modelador",
       "Qualidade",
       "Administrativo",
       "Financeiro",
@@ -2024,7 +2026,8 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "ferramentas_ultima_experiencia": "Ferramentas para medição com precisão",
     "areas_ultima_experiencia": [
       "Produção / Operações",
-      "Outros"
+      "Outros",
+      "Ceramista / Modelador"
     ],
     "possui_outras_experiencias": "Sim",
     "experiencias_anteriores": [

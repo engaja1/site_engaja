@@ -45,6 +45,7 @@ import {
   Award,
   Sparkles,
   Wheat,
+  Layers,
   Search,
   MapPin,
   Briefcase,
@@ -87,6 +88,7 @@ const ICON_MAP: Record<string, any> = {
   Award,
   Sparkles,
   Wheat,
+  Layers,
 };
 
 // Accent normalization helper
@@ -116,7 +118,8 @@ const AREA_KEYWORDS_MAP: Record<string, string[]> = {
   "Engenharia / Técnico": ["engenharia", "engenheiro", "projetista", "autocad", "desenho tecnico", "processos industriais"],
   "Liderança / Gestão": ["lider", "lideranca", "gerente", "supervisor", "coordenador", "encarregado", "gestor", "chefe", "fundador", "diretor"],
   "Serviços Gerais / Apoio": ["servicos gerais", "limpeza", "conservacao", "portaria", "porteiro", "zelador", "auxiliar de limpeza"],
-  "Agrícola / Campo": ["agricola", "campo", "colheita", "safra", "cultivo", "fazenda", "tratorista", "manejo agricola"]
+  "Agrícola / Campo": ["agricola", "campo", "colheita", "safra", "cultivo", "fazenda", "tratorista", "manejo agricola"],
+  "Ceramista / Modelador": ["ceramista", "modelador", "matrizeiro", "moldes", "modelagem", "retocador", "fundidor", "fundicao", "louca sanitaria", "matriz", "gabarito", "icasa", "kohler"]
 };
 
 // Helper function to check if candidate matches an area by Experience
