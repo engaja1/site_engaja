@@ -61,7 +61,9 @@ import {
   UserCheck,
   Target,
   SlidersHorizontal,
+  LogOut,
 } from "lucide-react";
+import { TalentosPasswordGate } from "@/components/talentos/TalentosPasswordGate";
 
 // Icon mapping helper
 const ICON_MAP: Record<string, any> = {
@@ -113,6 +115,10 @@ const candidateMatchesInterest = (cand: Candidate, areaName: string): boolean =>
 };
 
 export default function Talentos() {
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => {
+    return sessionStorage.getItem("talentos_authenticated") === "true";
+  });
+
   const [selectedArea, setSelectedArea] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCandidate, setSelectedCandidate] = useState<Candidate | null>(null);
@@ -121,6 +127,11 @@ export default function Talentos() {
   const [filterMode, setFilterMode] = useState<"experiencia" | "interesse" | "ambos">("experiencia");
   const [tempoExp, setTempoExp] = useState<string>("todos");
   const [tipoTrabalho, setTipoTrabalho] = useState<string>("todos");
+
+  const handleLogout = () => {
+    sessionStorage.removeItem("talentos_authenticated");
+    setIsAuthenticated(false);
+  };
 
   // Calculate candidate count per area dynamically based on filterMode
   const candidateCountsByArea = useMemo(() => {
@@ -194,6 +205,10 @@ export default function Talentos() {
     });
   }, [selectedArea, filterMode, tempoExp, tipoTrabalho, searchQuery]);
 
+  if (!isAuthenticated) {
+    return <TalentosPasswordGate onSuccess={() => setIsAuthenticated(true)} />;
+  }
+
   return (
     <Layout>
       <Helmet>
@@ -208,9 +223,20 @@ export default function Talentos() {
       <section className="relative bg-gradient-to-b from-primary/10 via-background to-background py-12 lg:py-16 border-b border-border">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="max-w-3xl mx-auto text-center space-y-4">
-            <Badge className="bg-primary/20 text-primary hover:bg-primary/30 text-sm font-semibold px-4 py-1 rounded-full border border-primary/30">
-              Banco de Talentos Engaja
-            </Badge>
+            <div className="flex items-center justify-center gap-2">
+              <Badge className="bg-primary/20 text-primary hover:bg-primary/30 text-sm font-semibold px-4 py-1 rounded-full border border-primary/30">
+                Banco de Talentos Engaja
+              </Badge>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={handleLogout}
+                className="text-xs text-muted-foreground hover:text-destructive gap-1 px-2 py-1 h-auto font-medium"
+                title="Bloquear/Sair da visualização"
+              >
+                <LogOut className="h-3.5 w-3.5" /> Bloquear
+              </Button>
+            </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground tracking-tight">
               Conectando Empresas aos Melhores Profissionais
             </h1>
