@@ -89,29 +89,71 @@ const ICON_MAP: Record<string, any> = {
   Wheat,
 };
 
+// Accent normalization helper
+const normalizeText = (str?: string): string => {
+  if (!str) return "";
+  return str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+};
+
+// Domain-specific keywords for precise experience matching per area
+const AREA_KEYWORDS_MAP: Record<string, string[]> = {
+  "Produção / Operações": ["producao", "operador", "operadora", "ajudante de producao", "auxiliar de producao", "linha de montagem", "torneiro", "soldador", "colador", "prensa", "maquinista", "extrusora", "montador", "fabrica", "processo produtivo", "louca", "sanitaria"],
+  "Logística / Estoque / Expedição": ["logistica", "estoquista", "almoxarife", "expedicao", "conferente de carga", "movimentacao de carga", "armazenamento", "estoque", "carregador", "embalador", "paletizacao"],
+  "Motorista / Transporte": ["motorista", "entregador", "condutor", "transporte de cargas", "frota", "veiculo", "caminhao", "zona azul", "estacionamento rotativo"],
+  "Manutenção Mecânica": ["mecanico", "manutencao mecanica", "serralheiro", "torneiro mecanico", "lubrificador", "ajustador mecanico"],
+  "Manutenção Elétrica / Eletromecânica": ["eletricista", "eletromecanico", "eletrotecnico", "manutencao eletrica", "comandos eletricos"],
+  "Qualidade": ["inspetor de qualidade", "auditor de qualidade", "controle de qualidade", "garantia da qualidade", "iso 9001", "metrologia", "inspecao de qualidade"],
+  "Segurança do Trabalho": ["seguranca do trabalho", "tst", "tecnico em seguranca", "sipat", "epi", "cipa", "insalubridade"],
+  "Administrativo": ["administrativo", "auxiliar administrativo", "assistente administrativo", "escritorio", "rotinas administrativas", "digitador"],
+  "Financeiro": ["financeiro", "contas a pagar", "contas a receber", "tesouraria", "caixa", "faturamento", "analista financeiro"],
+  "Contábil / Fiscal": ["contabil", "fiscal", "escrituracao fiscal", "impostos", "tributario", "contador", "balanco"],
+  "Recursos Humanos / Departamento Pessoal": ["recursos humanos", "departamento pessoal", "recrutamento", "selecao", "folha de pagamento", "gestao de pessoas"],
+  "Compras / Suprimentos": ["compras", "comprador", "suprimentos", "procurement", "cotacoes", "negociacao com fornecedores"],
+  "Comercial / Vendas": ["vendedor", "vendedora", "vendas", "consultor de vendas", "representante comercial", "televendas"],
+  "Atendimento / Recepção": ["atendimento ao cliente", "recepcao", "recepcionista", "telefonia", "telemarketing", "sac"],
+  "Marketing / Comunicação": ["marketing", "comunicacao", "redes sociais", "designer", "publicidade"],
+  "Tecnologia / TI": ["tecnologia da informacao", "suporte tecnico", "desenvolvedor", "programador", "infraestrutura de ti", "analista de ti", "tecnico em informatica"],
+  "Engenharia / Técnico": ["engenharia", "engenheiro", "projetista", "autocad", "desenho tecnico", "processos industriais"],
+  "Liderança / Gestão": ["lider", "lideranca", "gerente", "supervisor", "coordenador", "encarregado", "gestor", "chefe", "fundador", "diretor"],
+  "Serviços Gerais / Apoio": ["servicos gerais", "limpeza", "conservacao", "portaria", "porteiro", "zelador", "auxiliar de limpeza"],
+  "Agrícola / Campo": ["agricola", "campo", "colheita", "safra", "cultivo", "fazenda", "tratorista", "manejo agricola"]
+};
+
 // Helper function to check if candidate matches an area by Experience
 const candidateMatchesExperience = (cand: Candidate, areaName: string): boolean => {
-  if (cand.areas_ultima_experiencia?.includes(areaName)) return true;
-  
-  // Keyword check in past roles & activities
-  const areaKeywords = areaName.toLowerCase().split("/").map(k => k.trim());
-  const searchText = [
-    cand.ultimo_cargo,
+  const cleanAreaName = normalizeText(areaName);
+
+  // 1. Direct match in areas_ultima_experiencia
+  if (cand.areas_ultima_experiencia?.some(a => normalizeText(a) === cleanAreaName)) {
+    return true;
+  }
+
+  // 2. Check job titles/roles
+  const ultimoCargoNorm = normalizeText(cand.ultimo_cargo);
+  const expsCargoNorm = (cand.experiencias_anteriores || []).map(e => normalizeText(e.cargo)).join(" ");
+  const rolesText = `${ultimoCargoNorm} ${expsCargoNorm}`;
+
+  const keywords = AREA_KEYWORDS_MAP[areaName] || [];
+  if (keywords.some(kw => rolesText.includes(kw))) {
+    return true;
+  }
+
+  // 3. Fallback: Check activity details & tools
+  const activitiesText = normalizeText([
     cand.atividades_ultima_experiencia,
     cand.ferramentas_ultima_experiencia,
     cand.conhecimentos,
-    ...(cand.experiencias_anteriores?.map(e => `${e.cargo} ${e.atividades}`) || [])
-  ].filter(Boolean).join(" ").toLowerCase();
+    ...(cand.experiencias_anteriores?.map(e => `${e.atividades}`) || [])
+  ].filter(Boolean).join(" "));
 
-  return areaKeywords.some(kw => kw.length > 3 && searchText.includes(kw));
+  return keywords.some(kw => activitiesText.includes(kw));
 };
 
 // Helper function to check if candidate matches an area by Interest
 const candidateMatchesInterest = (cand: Candidate, areaName: string): boolean => {
-  return (
-    cand.area_principal_interesse === areaName ||
-    (cand.areas_adicionais_interesse?.includes(areaName) ?? false)
-  );
+  const cleanAreaName = normalizeText(areaName);
+  if (normalizeText(cand.area_principal_interesse) === cleanAreaName) return true;
+  return (cand.areas_adicionais_interesse || []).some(a => normalizeText(a) === cleanAreaName);
 };
 
 export default function Talentos() {
@@ -173,10 +215,12 @@ export default function Talentos() {
       // 2. Filter by Experience Duration (tempo_ultima_funcao)
       if (tempoExp !== "todos") {
         if (!cand.tempo_ultima_funcao) return false;
-        if (tempoExp === "1_2" && !cand.tempo_ultima_funcao.includes("1 a 2")) return false;
-        if (tempoExp === "2_5" && !cand.tempo_ultima_funcao.includes("2 a 5")) return false;
-        if (tempoExp === "5_10" && !cand.tempo_ultima_funcao.includes("5 a 10")) return false;
-        if (tempoExp === "mais_10" && !cand.tempo_ultima_funcao.includes("Mais de 10")) return false;
+        const tempoNorm = normalizeText(cand.tempo_ultima_funcao);
+        if (tempoExp === "menos_1" && !tempoNorm.includes("menos de 1")) return false;
+        if (tempoExp === "1_2" && !tempoNorm.includes("1 a 2")) return false;
+        if (tempoExp === "2_5" && !tempoNorm.includes("2 a 5")) return false;
+        if (tempoExp === "5_10" && !tempoNorm.includes("5 a 10")) return false;
+        if (tempoExp === "mais_10" && !tempoNorm.includes("mais de 10")) return false;
       }
 
       // 3. Filter by Work Type (tipo_trabalho)
@@ -184,21 +228,29 @@ export default function Talentos() {
         if (cand.tipo_trabalho !== tipoTrabalho) return false;
       }
 
-      // 4. Filter by Search Query
+      // 4. Filter by Search Query (accent-insensitive multi-field search)
       if (searchQuery.trim()) {
-        const query = searchQuery.toLowerCase();
-        const matchesName = cand.nome_completo.toLowerCase().includes(query);
-        const matchesCity = cand.cidade.toLowerCase().includes(query);
-        const matchesRole = cand.ultimo_cargo?.toLowerCase().includes(query) || false;
-        const matchesFunctions = cand.funcoes_interesse.some((f) =>
-          f.toLowerCase().includes(query)
-        );
-        const matchesTools = cand.ferramentas_ultima_experiencia?.toLowerCase().includes(query) || false;
-        const matchesKnowledge = cand.conhecimentos?.toLowerCase().includes(query) || false;
+        const query = normalizeText(searchQuery);
 
-        if (!matchesName && !matchesCity && !matchesRole && !matchesFunctions && !matchesTools && !matchesKnowledge) {
-          return false;
-        }
+        const fieldsToSearch = [
+          cand.nome_completo,
+          cand.cidade,
+          cand.estado,
+          cand.ultimo_cargo,
+          cand.ultima_empresa,
+          cand.atividades_ultima_experiencia,
+          cand.ferramentas_ultima_experiencia,
+          cand.conhecimentos,
+          cand.escolaridade,
+          cand.curso_formacao,
+          cand.instituicao_ensino,
+          cand.curriculo_texto,
+          ...(cand.funcoes_interesse || []),
+          ...(cand.experiencias_anteriores?.flatMap((e) => [e.empresa, e.cargo, e.atividades]) || [])
+        ];
+
+        const hasMatch = fieldsToSearch.some((field) => field && normalizeText(field).includes(query));
+        if (!hasMatch) return false;
       }
 
       return true;
@@ -332,6 +384,7 @@ export default function Talentos() {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="todos">Todos os tempos de experiência</SelectItem>
+                    <SelectItem value="menos_1">Menos de 1 ano</SelectItem>
                     <SelectItem value="1_2">1 a 2 anos</SelectItem>
                     <SelectItem value="2_5">2 a 5 anos</SelectItem>
                     <SelectItem value="5_10">5 a 10 anos</SelectItem>
@@ -476,7 +529,7 @@ export default function Talentos() {
 
               {tempoExp !== "todos" && (
                 <Badge variant="outline" className="bg-background border-border gap-1">
-                  Exp: {tempoExp === "1_2" ? "1-2 anos" : tempoExp === "2_5" ? "2-5 anos" : tempoExp === "5_10" ? "5-10 anos" : "+10 anos"}
+                  Exp: {tempoExp === "menos_1" ? "< 1 ano" : tempoExp === "1_2" ? "1-2 anos" : tempoExp === "2_5" ? "2-5 anos" : tempoExp === "5_10" ? "5-10 anos" : "+10 anos"}
                 </Badge>
               )}
 
