@@ -3803,5 +3803,76 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "inicio_imediato": "Sim",
     "resumo_profissional": "Áreas de interesse: Produção / Operações. Profissional com experiência como Espetor na empresa Kholer, com 2 a 5 anos na função. Vivência em Revisão de peças,e avaliação de defeitos. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Estoque, Logística, Produção, Qualidade. Qualificações: Auxiliar administrativo, enformatica , inteligência artificial,  brigadista , animais peçonhentos ,. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.",
     "curriculo_texto": "JOSÉ MURILO DOS SANTOS\nAndradas / MG\nWhatsApp: 35 99867-6535 | E-mail: Josemurilosantos458@gmail.com\nCNH: Não\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Produção, Auxiliar de Logística, Auxiliar / Inspetor(a) da Qualidade, Auxiliar / Assistente Administrativo, Auxiliar / Assistente de RH / DP\nÁreas de interesse: Produção / Operações\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Produção / Operações. Profissional com experiência como Espetor na empresa Kholer, com 2 a 5 anos na função. Vivência em Revisão de peças,e avaliação de defeitos. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Estoque, Logística, Produção, Qualidade. Qualificações: Auxiliar administrativo, enformatica , inteligência artificial,  brigadista , animais peçonhentos ,. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Espetor — Kholer (2 a 5 anos)\nPrincipais atividades: Revisão de peças,e avaliação de defeitos\nFerramentas/sistemas: Lanternas , raspa , e prancheta para atualização dos gráficos de qualidade\n\n2. Auxiliar de produção — Fábrica de bolachas (Fevereiro 2019 a agosto de 2020)\nPrincipais atividades: Auxiliar de produção\n\n3. Espetor — Kholer (Revisão de peças e avaliações)\nPrincipais atividades: Verificava as peças, com defeitos tais como = rachos , retraçoes,  entrei na empresa em 2020 a 2026 motivo= a fábrica encerrou suas atividades.\n\nFORMAÇÃO\nMédio completo — Auxiliar admissão,  enformatica,  inteligente artificial,  brigadista , — Alcides mosconi\n\nCURSOS E QUALIFICAÇÕES\nAuxiliar administrativo, enformatica , inteligência artificial,  brigadista , animais peçonhentos ,\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Atendimento ao cliente, Vendas, Estoque, Logística, Produção, Qualidade\nMáquinas/equipamentos: Computador,  entre outros....\n\nINFORMAÇÕES ADICIONAIS\nTrabalho em equipe,"
+  },
+  {
+    "id": "CV-1790176936006-giovana-carvalho-canton-giovanacarvalho1",
+    "submittedAt": "23/09/2026, 12:22",
+    "nome_completo": "Giovana Carvalho Canton",
+    "whatsapp": "35910228947",
+    "email": "giovanacarvalho1704@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 29,
+    "cnh": "B",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Engenharia / Técnico",
+    "areas_adicionais_interesse": [
+      "Engenharia / Técnico",
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Qualidade",
+      "Liderança / Gestão"
+    ],
+    "funcoes_interesse": [
+      "Engenheiro(a)",
+      "Supervisor(a) / Coordenador(a)"
+    ],
+    "tipo_trabalho": "Indiferente",
+    "disponibilidade_turnos": "Não",
+    "ultima_empresa": "Kohler",
+    "ultimo_cargo": "Coordenadora de Produção",
+    "tempo_ultima_funcao": "Menos de 1 ano",
+    "atividades_ultima_experiencia": "• Coordenação da produção e gestão da equipe.\n• Acompanhamento de indicadores, metas e resultados.\n• Análise e melhoria de processos, produtividade e qualidade.\n• Interface com áreas multidisciplinares e solução de problemas.",
+    "ferramentas_ultima_experiencia": "Excel, Power BI, Pacote Office, SAP e sistema de compras.",
+    "areas_ultima_experiencia": [
+      "Produção / Operações",
+      "Engenharia / Técnico"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Kohler",
+        "cargo": "Engenheira de Processos Senior",
+        "periodo": "2024-2025",
+        "atividades": "• Responsável pela orientação e acompanhamento dos técnicos de processos.\n• Gestão e análise de indicadores de processos e produção.\n• Desenvolvimento e implementação de melhorias e projetos técnicos.\n• Análise de problemas e definição de ações para otimização dos processos."
+      },
+      {
+        "empresa": "Kohler",
+        "cargo": "Engenheira de Processos Pleno",
+        "periodo": "2022-2024",
+        "atividades": "• Coordenação de projetos para redução de defeitos e falhas.\n• Acompanhamento de engenheiros e equipe de ferramentaria.\n• Treinamento de novos colaboradores na metodologia Lean.\n• Implementação de melhorias com impacto em qualidade e eficiência."
+      },
+      {
+        "empresa": "Kohler",
+        "cargo": "Engenheira de Processos Jr",
+        "periodo": "2021-2022",
+        "atividades": "• Acompanhamento de indicadores e processos produtivos.\n• Participação em projetos de melhoria e redução de perdas.\n• Análise e solução de problemas de processo.\n• Elaboração de estudos técnicos e suporte às áreas produtivas.\n• Participação em estudo técnico no México para avaliação e troca de conhecimentos sobre processos."
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Superior completo",
+    "curso_formacao": "Engenharia de Produção",
+    "instituicao_ensino": "UNIFAE",
+    "cursos_qualificacoes": "Excel avançado, Power Bi intermediário, Pocote office, Ia para relatórios, Inglês avançado",
+    "conhecimentos": "Excel, Word, Informática, Atendimento ao cliente, Vendas, Produção, Qualidade, Outro: Processos",
+    "maquinas_equipamentos": "Instrumentos de medições como paquímetros, balanças, durometros, sonagages.",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados, Facilidade para resolver problemas",
+    "lideranca": "Sim - Liderança de 3 áreas produtivas por nove meses\nLiderança de time técnico por mais de 3 anos",
+    "regiao_interesse": "Andradas, Espírito santo do pinhal, Mogi Guaçu, Campinas",
+    "disponibilidade_horario": "Comercial",
+    "pretensao_salarial": "Se for para sair da cidade acima de 8000, se for homem office 5000 atende",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão. Profissional com experiência como Coordenadora de Produção na empresa Kohler, com menos de 1 ano na função. Vivência em • Coordenação da produção e gestão da equipe.\n• Acompanhamento de indicadores, metas e resultados.\n• Análise e melhoria de processos, produtividade e qualidade.\n• Interface com áreas multidisciplinares e solução de problemas.. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Produção, Qualidade, Outro: Processos. Qualificações: Excel avançado, Power Bi intermediário, Pocote office, Ia para relatórios, Inglês avançado. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados, Facilidade para resolver problemas.",
+    "curriculo_texto": "GIOVANA CARVALHO CANTON\nAndradas / MG\nWhatsApp: 35910228947 | E-mail: giovanacarvalho1704@gmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nEngenheiro(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão. Profissional com experiência como Coordenadora de Produção na empresa Kohler, com menos de 1 ano na função. Vivência em • Coordenação da produção e gestão da equipe.\n• Acompanhamento de indicadores, metas e resultados.\n• Análise e melhoria de processos, produtividade e qualidade.\n• Interface com áreas multidisciplinares e solução de problemas.. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Produção, Qualidade, Outro: Processos. Qualificações: Excel avançado, Power Bi intermediário, Pocote office, Ia para relatórios, Inglês avançado. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Coordenadora de Produção — Kohler (Menos de 1 ano)\nPrincipais atividades: • Coordenação da produção e gestão da equipe.\n• Acompanhamento de indicadores, metas e resultados.\n• Análise e melhoria de processos, produtividade e qualidade.\n• Interface com áreas multidisciplinares e solução de problemas.\nFerramentas/sistemas: Excel, Power BI, Pacote Office, SAP e sistema de compras.\n\n2. Engenheira de Processos Senior — Kohler (2024-2025)\nPrincipais atividades: • Responsável pela orientação e acompanhamento dos técnicos de processos.\n• Gestão e análise de indicadores de processos e produção.\n• Desenvolvimento e implementação de melhorias e projetos técnicos.\n• Análise de problemas e definição de ações para otimização dos processos.\n\n3. Engenheira de Processos Pleno — Kohler (2022-2024)\nPrincipais atividades: • Coordenação de projetos para redução de defeitos e falhas.\n• Acompanhamento de engenheiros e equipe de ferramentaria.\n• Treinamento de novos colaboradores na metodologia Lean.\n• Implementação de melhorias com impacto em qualidade e eficiência.\n\n4. Engenheira de Processos Jr — Kohler (2021-2022)\nPrincipais atividades: • Acompanhamento de indicadores e processos produtivos.\n• Participação em projetos de melhoria e redução de perdas.\n• Análise e solução de problemas de processo.\n• Elaboração de estudos técnicos e suporte às áreas produtivas.\n• Participação em estudo técnico no México para avaliação e troca de conhecimentos sobre processos.\n\nFORMAÇÃO\nSuperior completo — Engenharia de Produção — UNIFAE\n\nCURSOS E QUALIFICAÇÕES\nExcel avançado, Power Bi intermediário, Pocote office, Ia para relatórios, Inglês avançado\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Atendimento ao cliente, Vendas, Produção, Qualidade, Outro: Processos\nMáquinas/equipamentos: Instrumentos de medições como paquímetros, balanças, durometros, sonagages.\n\nINFORMAÇÕES ADICIONAIS"
   }
 ];
