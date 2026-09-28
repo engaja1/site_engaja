@@ -1050,62 +1050,6 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "curriculo_texto": "RONI DONISETI FERRAZ\nAndradas / MG\nWhatsApp: 35988385312 | E-mail: roniandradas@hotmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nLíder / Encarregado(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Liderança / Gestão. Profissional com experiência como Supervisor produção Massa e Esmalte na empresa Kohler, com mais de 10 anos na função. Vivência em Supervisor de produção Massa, Esmalte e ETA. Conhecimentos em Excel, Word, Estoque, Produção, Operação de máquinas, Qualidade. Qualificações: Cursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica. Características profissionais declaradas: Responsável, Organizado(a), Comprometido(a), Comunicativo(a), Trabalho bem em equipe, Liderança, Atenção aos detalhes, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Supervisor produção Massa e Esmalte — Kohler (Mais de 10 anos)\nPrincipais atividades: Supervisor de produção Massa, Esmalte e ETA\nFerramentas/sistemas: Sistema de qualidade pré controles, metrologias de laboratório com equipamentos para liberação dos produtos.\n\n2. Laboratorio — Cerâmica Vila Rica (1998 a 2010)\nPrincipais atividades: Reologia de massa , esmalte , reparos a frio resinas e esmalte para reparos requeima\n\nFORMAÇÃO\nSuperior completo — Tecnologia em Gestão da Qualidade — Universidade Pitágoras Unopar Anhanguera\n\nCURSOS E QUALIFICAÇÕES\nCursos de liderança, espectro fotômetro , Lean Manufacturing e outros relacionados à cerâmica\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Estoque, Produção, Operação de máquinas, Qualidade\nMáquinas/equipamentos: Empilhadeira, mini carregadeira\n\nINFORMAÇÕES ADICIONAIS"
   },
   {
-    "id": "CV-1788439505760-luiz-henrique-de-souza-souzaluizhenrique",
-    "submittedAt": "03/09/2026, 09:45",
-    "nome_completo": "Luiz Henrique de Souza",
-    "whatsapp": "35992636485",
-    "email": "souzaluizhenrique32@gmail.com",
-    "cidade": "Andradas",
-    "estado": "MG",
-    "idade": 31,
-    "cnh": "AB",
-    "veiculo_proprio": "Sim",
-    "area_principal_interesse": "Motorista / Transporte",
-    "areas_adicionais_interesse": [
-      "Motorista / Transporte",
-      "Produção / Operações",
-      "Logística / Estoque / Expedição",
-      "Manutenção Mecânica",
-      "Qualidade",
-      "Comercial / Vendas"
-    ],
-    "funcoes_interesse": [
-      "Operador(a) de Máquina",
-      "Auxiliar de Logística",
-      "Estoquista / Almoxarife",
-      "Operador(a) de Empilhadeira",
-      "Motorista / Entregador(a)",
-      "Mecânico(a) de Manutenção"
-    ],
-    "tipo_trabalho": "Presencial",
-    "disponibilidade_turnos": "Dependendo do horário",
-    "ultima_empresa": "Kholer",
-    "ultimo_cargo": "Supervisor",
-    "tempo_ultima_funcao": "5 a 10 anos",
-    "atividades_ultima_experiencia": "Inspecionar pecas",
-    "ferramentas_ultima_experiencia": "Bancas aromatizadas",
-    "areas_ultima_experiencia": [
-      "Produção / Operações"
-    ],
-    "possui_outras_experiencias": "Não",
-    "experiencias_anteriores": [],
-    "experiencias_adicionais": "",
-    "escolaridade": "Médio incompleto",
-    "curso_formacao": "",
-    "instituicao_ensino": "",
-    "cursos_qualificacoes": "",
-    "conhecimentos": "Vendas, Logística, Produção",
-    "maquinas_equipamentos": "",
-    "caracteristicas": "Responsável, Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados",
-    "lideranca": "Sim - Supervisor de produção 3anos",
-    "regiao_interesse": "Andradas",
-    "disponibilidade_horario": "Comercial, 1º turno",
-    "pretensao_salarial": "A combinar",
-    "inicio_imediato": "Sim",
-    "resumo_profissional": "Áreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Manutenção Mecânica, Qualidade, Comercial / Vendas. Profissional com experiência como Supervisor na empresa Kholer, com 5 a 10 anos na função. Vivência em Inspecionar pecas. Conhecimentos em Vendas, Logística, Produção. Características profissionais declaradas: Responsável, Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados.",
-    "curriculo_texto": "LUIZ HENRIQUE DE SOUZA\nAndradas / MG\nWhatsApp: 35992636485 | E-mail: souzaluizhenrique32@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nOperador(a) de Máquina, Auxiliar de Logística, Estoquista / Almoxarife, Operador(a) de Empilhadeira, Motorista / Entregador(a), Mecânico(a) de Manutenção\nÁreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Manutenção Mecânica, Qualidade, Comercial / Vendas\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Manutenção Mecânica, Qualidade, Comercial / Vendas. Profissional com experiência como Supervisor na empresa Kholer, com 5 a 10 anos na função. Vivência em Inspecionar pecas. Conhecimentos em Vendas, Logística, Produção. Características profissionais declaradas: Responsável, Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Atenção aos detalhes, Foco em resultados.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Supervisor — Kholer (5 a 10 anos)\nPrincipais atividades: Inspecionar pecas\nFerramentas/sistemas: Bancas aromatizadas\n\nFORMAÇÃO\nMédio incompleto\n\nCURSOS E QUALIFICAÇÕES\nNão informados\n\nCONHECIMENTOS PROFISSIONAIS\nVendas, Logística, Produção\n\nINFORMAÇÕES ADICIONAIS"
-  },
-  {
     "id": "CV-1788439567833-juan-renan-carvalho-batista-juanbatista1",
     "submittedAt": "03/09/2026, 09:46",
     "nome_completo": "Juan Renan Carvalho Batista",
@@ -3874,5 +3818,65 @@ export const MOCK_CANDIDATES: Candidate[] = [
     "inicio_imediato": "Sim",
     "resumo_profissional": "Áreas de interesse: Engenharia / Técnico, Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão. Profissional com experiência como Coordenadora de Produção na empresa Kohler, com menos de 1 ano na função. Vivência em • Coordenação da produção e gestão da equipe.\n• Acompanhamento de indicadores, metas e resultados.\n• Análise e melhoria de processos, produtividade e qualidade.\n• Interface com áreas multidisciplinares e solução de problemas.. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Produção, Qualidade, Outro: Processos. Qualificações: Excel avançado, Power Bi intermediário, Pocote office, Ia para relatórios, Inglês avançado. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados, Facilidade para resolver problemas.",
     "curriculo_texto": "GIOVANA CARVALHO CANTON\nAndradas / MG\nWhatsApp: 35910228947 | E-mail: giovanacarvalho1704@gmail.com\nCNH: B\n\nOBJETIVO PROFISSIONAL\nEngenheiro(a), Supervisor(a) / Coordenador(a)\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Engenharia / Técnico, Produção / Operações, Logística / Estoque / Expedição, Qualidade, Liderança / Gestão. Profissional com experiência como Coordenadora de Produção na empresa Kohler, com menos de 1 ano na função. Vivência em • Coordenação da produção e gestão da equipe.\n• Acompanhamento de indicadores, metas e resultados.\n• Análise e melhoria de processos, produtividade e qualidade.\n• Interface com áreas multidisciplinares e solução de problemas.. Conhecimentos em Excel, Word, Informática, Atendimento ao cliente, Vendas, Produção, Qualidade, Outro: Processos. Qualificações: Excel avançado, Power Bi intermediário, Pocote office, Ia para relatórios, Inglês avançado. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Comprometido(a), Facilidade para aprender, Agilidade, Foco em resultados, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Coordenadora de Produção — Kohler (Menos de 1 ano)\nPrincipais atividades: • Coordenação da produção e gestão da equipe.\n• Acompanhamento de indicadores, metas e resultados.\n• Análise e melhoria de processos, produtividade e qualidade.\n• Interface com áreas multidisciplinares e solução de problemas.\nFerramentas/sistemas: Excel, Power BI, Pacote Office, SAP e sistema de compras.\n\n2. Engenheira de Processos Senior — Kohler (2024-2025)\nPrincipais atividades: • Responsável pela orientação e acompanhamento dos técnicos de processos.\n• Gestão e análise de indicadores de processos e produção.\n• Desenvolvimento e implementação de melhorias e projetos técnicos.\n• Análise de problemas e definição de ações para otimização dos processos.\n\n3. Engenheira de Processos Pleno — Kohler (2022-2024)\nPrincipais atividades: • Coordenação de projetos para redução de defeitos e falhas.\n• Acompanhamento de engenheiros e equipe de ferramentaria.\n• Treinamento de novos colaboradores na metodologia Lean.\n• Implementação de melhorias com impacto em qualidade e eficiência.\n\n4. Engenheira de Processos Jr — Kohler (2021-2022)\nPrincipais atividades: • Acompanhamento de indicadores e processos produtivos.\n• Participação em projetos de melhoria e redução de perdas.\n• Análise e solução de problemas de processo.\n• Elaboração de estudos técnicos e suporte às áreas produtivas.\n• Participação em estudo técnico no México para avaliação e troca de conhecimentos sobre processos.\n\nFORMAÇÃO\nSuperior completo — Engenharia de Produção — UNIFAE\n\nCURSOS E QUALIFICAÇÕES\nExcel avançado, Power Bi intermediário, Pocote office, Ia para relatórios, Inglês avançado\n\nCONHECIMENTOS PROFISSIONAIS\nExcel, Word, Informática, Atendimento ao cliente, Vendas, Produção, Qualidade, Outro: Processos\nMáquinas/equipamentos: Instrumentos de medições como paquímetros, balanças, durometros, sonagages.\n\nINFORMAÇÕES ADICIONAIS"
+  },
+  {
+    "id": "CV-1790386554553-luiz-henrique-de-souza-souzaluizhenrique",
+    "submittedAt": "25/09/2026, 22:35",
+    "nome_completo": "Luiz Henrique de Souza",
+    "whatsapp": "35992636485",
+    "email": "souzaluizhenrique32@gmail.com",
+    "cidade": "Andradas",
+    "estado": "MG",
+    "idade": 31,
+    "cnh": "AB",
+    "veiculo_proprio": "Sim",
+    "area_principal_interesse": "Motorista / Transporte",
+    "areas_adicionais_interesse": [
+      "Motorista / Transporte",
+      "Produção / Operações",
+      "Logística / Estoque / Expedição",
+      "Comercial / Vendas"
+    ],
+    "funcoes_interesse": [
+      "Auxiliar / Ajudante de Produção",
+      "Operador(a) de Máquina",
+      "Auxiliar de Logística",
+      "Estoquista / Almoxarife",
+      "Operador(a) de Empilhadeira",
+      "Motorista / Entregador(a)"
+    ],
+    "tipo_trabalho": "Presencial",
+    "disponibilidade_turnos": "Dependendo do horário",
+    "ultima_empresa": "Kholer",
+    "ultimo_cargo": "Especialista",
+    "tempo_ultima_funcao": "5 a 10 anos",
+    "atividades_ultima_experiencia": "Especionar peças",
+    "ferramentas_ultima_experiencia": "Máquina elétricas",
+    "areas_ultima_experiencia": [
+      "Produção / Operações",
+      "Motorista / Transporte"
+    ],
+    "possui_outras_experiencias": "Sim",
+    "experiencias_anteriores": [
+      {
+        "empresa": "Trevisan móveis",
+        "cargo": "Empilhadeira"
+      }
+    ],
+    "experiencias_adicionais": "",
+    "escolaridade": "Médio incompleto",
+    "curso_formacao": "",
+    "instituicao_ensino": "",
+    "cursos_qualificacoes": "Empilhadeira",
+    "conhecimentos": "Estoque, Produção, Operação de máquinas",
+    "maquinas_equipamentos": "Empilhadeira \nMáquina de corte de mdf",
+    "caracteristicas": "Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas",
+    "lideranca": "Sim - Líder 2 anos",
+    "regiao_interesse": "Região de Andradas ou outras",
+    "disponibilidade_horario": "Comercial, 1º turno",
+    "pretensao_salarial": "Ao combinar",
+    "inicio_imediato": "Sim",
+    "resumo_profissional": "Áreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Comercial / Vendas. Profissional com experiência como Especialista na empresa Kholer, com 5 a 10 anos na função. Vivência em Especionar peças. Conhecimentos em Estoque, Produção, Operação de máquinas. Qualificações: Empilhadeira. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.",
+    "curriculo_texto": "LUIZ HENRIQUE DE SOUZA\nAndradas / MG\nWhatsApp: 35992636485 | E-mail: souzaluizhenrique32@gmail.com\nCNH: AB\n\nOBJETIVO PROFISSIONAL\nAuxiliar / Ajudante de Produção, Operador(a) de Máquina, Auxiliar de Logística, Estoquista / Almoxarife, Operador(a) de Empilhadeira, Motorista / Entregador(a)\nÁreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Comercial / Vendas\n\nRESUMO PROFISSIONAL\nÁreas de interesse: Motorista / Transporte, Produção / Operações, Logística / Estoque / Expedição, Comercial / Vendas. Profissional com experiência como Especialista na empresa Kholer, com 5 a 10 anos na função. Vivência em Especionar peças. Conhecimentos em Estoque, Produção, Operação de máquinas. Qualificações: Empilhadeira. Características profissionais declaradas: Responsável, Organizado(a), Pontual, Proativo(a), Trabalho bem em equipe, Facilidade para aprender, Liderança, Facilidade para resolver problemas.\n\nEXPERIÊNCIAS PROFISSIONAIS\n1. Especialista — Kholer (5 a 10 anos)\nPrincipais atividades: Especionar peças\nFerramentas/sistemas: Máquina elétricas\n\n2. Empilhadeira — Trevisan móveis\n\nFORMAÇÃO\nMédio incompleto\n\nCURSOS E QUALIFICAÇÕES\nEmpilhadeira\n\nCONHECIMENTOS PROFISSIONAIS\nEstoque, Produção, Operação de máquinas\nMáquinas/equipamentos: Empilhadeira \nMáquina de corte de mdf\n\nINFORMAÇÕES ADICIONAIS"
   }
 ];
