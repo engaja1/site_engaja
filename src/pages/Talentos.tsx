@@ -3,9 +3,10 @@ import { Helmet } from "react-helmet-async";
 import { Layout } from "@/components/layout/Layout";
 import {
   AREAS_LIST,
-  MOCK_CANDIDATES,
+  getCandidatesForTenant,
   Candidate,
 } from "@/data/talentosData";
+import { TalentosTenant } from "@/config/talentosPasswords";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -164,6 +165,11 @@ export default function Talentos() {
     return sessionStorage.getItem("talentos_authenticated") === "true";
   });
 
+  const [tenant, setTenant] = useState<TalentosTenant>(() => {
+    const stored = sessionStorage.getItem("talentos_tenant");
+    return stored === "kohler" ? "kohler" : "engaja";
+  });
+
   const [selectedArea, setSelectedArea] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCandidate, setSelectedCandidate] = useState<Candidate | null>(null);
@@ -175,13 +181,20 @@ export default function Talentos() {
 
   const handleLogout = () => {
     sessionStorage.removeItem("talentos_authenticated");
+    sessionStorage.removeItem("talentos_tenant");
+    sessionStorage.removeItem("talentos_tenant_name");
     setIsAuthenticated(false);
   };
+
+  // Base list of candidates according to authenticated tenant
+  const baseCandidates = useMemo(() => {
+    return getCandidatesForTenant(tenant);
+  }, [tenant]);
 
   // Calculate candidate count per area dynamically based on filterMode
   const candidateCountsByArea = useMemo(() => {
     const counts: Record<string, number> = {};
-    MOCK_CANDIDATES.forEach((cand) => {
+    baseCandidates.forEach((cand) => {
       AREAS_LIST.forEach((area) => {
         let matches = false;
         if (filterMode === "experiencia") {
@@ -197,11 +210,11 @@ export default function Talentos() {
       });
     });
     return counts;
-  }, [filterMode]);
+  }, [filterMode, baseCandidates]);
 
   // Filter candidates based on selected area, filterMode, niche filters, and search query
   const filteredCandidates = useMemo(() => {
-    return MOCK_CANDIDATES.filter((cand) => {
+    return baseCandidates.filter((cand) => {
       // 1. Filter by Area according to active filterMode
       if (selectedArea) {
         let matchesArea = false;
@@ -261,7 +274,14 @@ export default function Talentos() {
   }, [selectedArea, filterMode, tempoExp, tipoTrabalho, searchQuery]);
 
   if (!isAuthenticated) {
-    return <TalentosPasswordGate onSuccess={() => setIsAuthenticated(true)} />;
+    return (
+      <TalentosPasswordGate
+        onSuccess={(authTenant) => {
+          setTenant(authTenant);
+          setIsAuthenticated(true);
+        }}
+      />
+    );
   }
 
   return (
@@ -278,9 +298,12 @@ export default function Talentos() {
       <section className="relative bg-gradient-to-b from-primary/10 via-background to-background py-12 lg:py-16 border-b border-border">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="max-w-3xl mx-auto text-center space-y-4">
-            <div className="flex items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-2 flex-wrap">
               <Badge className="bg-primary/20 text-primary hover:bg-primary/30 text-sm font-semibold px-4 py-1 rounded-full border border-primary/30">
-                Banco de Talentos Engaja
+                {tenant === "kohler" ? "Banco de Talentos — Kohler" : "Banco de Talentos — Engaja"}
+              </Badge>
+              <Badge variant="outline" className="text-xs text-muted-foreground">
+                {tenant === "kohler" ? "Base Kohler (59 talentos)" : "Acesso Completo (Engaja + Kohler)"}
               </Badge>
               <Button
                 variant="ghost"
@@ -289,7 +312,7 @@ export default function Talentos() {
                 className="text-xs text-muted-foreground hover:text-destructive gap-1 px-2 py-1 h-auto font-medium"
                 title="Bloquear/Sair da visualização"
               >
-                <LogOut className="h-3.5 w-3.5" /> Bloquear
+                <LogOut className="h-3.5 w-3.5" /> Sair
               </Button>
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground tracking-tight">
@@ -473,7 +496,7 @@ export default function Talentos() {
                   variant={selectedArea === null ? "secondary" : "outline"}
                   className="text-xs font-bold"
                 >
-                  {MOCK_CANDIDATES.length}
+                  {baseCandidates.length}
                 </Badge>
               </div>
               <span className="font-semibold text-sm line-clamp-2">Todas as Áreas</span>

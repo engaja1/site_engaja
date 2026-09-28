@@ -10,10 +10,10 @@ import {
 } from "@/components/ui/input-otp";
 import { Lock, Shield, AlertCircle, KeyRound, Eye, EyeOff } from "lucide-react";
 import logoHeader from "@/assets/logo-header.webp";
-import { validateTalentosPassword } from "@/config/talentosPasswords";
+import { getTalentosAuth, TalentosTenant } from "@/config/talentosPasswords";
 
 interface TalentosPasswordGateProps {
-  onSuccess: () => void;
+  onSuccess: (tenant: TalentosTenant) => void;
 }
 
 export function TalentosPasswordGate({ onSuccess }: TalentosPasswordGateProps) {
@@ -25,10 +25,13 @@ export function TalentosPasswordGate({ onSuccess }: TalentosPasswordGateProps) {
     const code = codeToTest ?? pin;
     if (code.length < 6) return;
 
-    if (validateTalentosPassword(code)) {
+    const auth = getTalentosAuth(code);
+    if (auth) {
       setError(false);
       sessionStorage.setItem("talentos_authenticated", "true");
-      onSuccess();
+      sessionStorage.setItem("talentos_tenant", auth.id);
+      sessionStorage.setItem("talentos_tenant_name", auth.name);
+      onSuccess(auth.id);
     } else {
       setError(true);
     }
