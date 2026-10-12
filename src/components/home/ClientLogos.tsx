@@ -79,7 +79,7 @@ export function ClientLogos({ compact = false, large = false }: { compact?: bool
   return (
     <section className={cn(
       "overflow-hidden",
-      compact ? "py-2 bg-transparent border-none" : "py-8 sm:py-10 md:py-12 bg-muted/30 border-y border-border/50"
+      compact ? "py-2 bg-transparent border-none" : "py-10 sm:py-14 md:py-16 bg-muted/30 border-y border-border/50"
     )}>
       {!compact && (
         <div className="container mb-6 sm:mb-8">
@@ -94,7 +94,7 @@ export function ClientLogos({ compact = false, large = false }: { compact?: bool
         className="group flex overflow-hidden"
         style={
           {
-            "--gap": compact ? "1.5rem" : "2rem",
+            "--gap": compact ? "1.5rem" : "3rem",
             "--duration": "60s",
           } as React.CSSProperties
         }
@@ -102,22 +102,22 @@ export function ClientLogos({ compact = false, large = false }: { compact?: bool
         {/* First copy of logos */}
         <div className={cn(
           "flex shrink-0 animate-[marquee_var(--duration)_linear_infinite] group-hover:[animation-play-state:paused]",
-          compact ? "gap-[var(--gap)]" : "gap-[var(--gap)] sm:gap-10 md:gap-12"
+          compact ? "gap-[var(--gap)] items-center" : "gap-[var(--gap)] sm:gap-12 md:gap-16 items-center"
         )}>
           {clients.map((client) => (
             <div
               key={client.name}
               className={cn(
-                "flex items-center justify-center",
-                compact ? "w-20 h-10 sm:w-24 sm:h-12" : large ? "w-44 h-24 sm:w-56 sm:h-32 md:w-64 md:h-36" : "w-36 h-20 sm:w-44 sm:h-24 md:w-52 md:h-28"
+                "flex items-center justify-center transition-transform duration-300 hover:scale-105",
+                compact ? "w-24 h-12 sm:w-28 sm:h-14" : large ? "w-52 h-28 sm:w-64 sm:h-36 md:w-72 md:h-40" : "w-44 h-24 sm:w-52 sm:h-28 md:w-60 md:h-32"
               )}
             >
               <img
                 src={client.logo}
                 alt={`Logo ${client.name}`}
                 className={cn(
-                  "object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100",
-                  compact ? "max-h-8 max-w-20 sm:max-h-10 sm:max-w-24" : large ? "max-h-20 max-w-40 sm:max-h-28 sm:max-w-52 md:max-h-32 md:max-w-60" : "max-h-16 max-w-32 sm:max-h-20 sm:max-w-40 md:max-h-24 md:max-w-48"
+                  "object-contain transition-all duration-300",
+                  compact ? "max-h-10 max-w-24 sm:max-h-12 sm:max-w-28" : large ? "max-h-24 max-w-48 sm:max-h-32 sm:max-w-60 md:max-h-36 md:max-w-68" : "max-h-20 max-w-40 sm:max-h-24 sm:max-w-48 md:max-h-28 md:max-w-56"
                 )}
                 loading="lazy"
               />
@@ -129,7 +129,7 @@ export function ClientLogos({ compact = false, large = false }: { compact?: bool
         <div
           className={cn(
             "flex shrink-0 animate-[marquee_var(--duration)_linear_infinite] group-hover:[animation-play-state:paused]",
-            compact ? "gap-[var(--gap)]" : "gap-[var(--gap)] sm:gap-10 md:gap-12"
+            compact ? "gap-[var(--gap)] items-center" : "gap-[var(--gap)] sm:gap-12 md:gap-16 items-center"
           )}
           aria-hidden="true"
         >
@@ -137,16 +137,16 @@ export function ClientLogos({ compact = false, large = false }: { compact?: bool
             <div
               key={`${client.name}-copy`}
               className={cn(
-                "flex items-center justify-center",
-                compact ? "w-20 h-10 sm:w-24 sm:h-12" : large ? "w-44 h-24 sm:w-56 sm:h-32 md:w-64 md:h-36" : "w-36 h-20 sm:w-44 sm:h-24 md:w-52 md:h-28"
+                "flex items-center justify-center transition-transform duration-300 hover:scale-105",
+                compact ? "w-24 h-12 sm:w-28 sm:h-14" : large ? "w-52 h-28 sm:w-64 sm:h-36 md:w-72 md:h-40" : "w-44 h-24 sm:w-52 sm:h-28 md:w-60 md:h-32"
               )}
             >
               <img
                 src={client.logo}
                 alt=""
                 className={cn(
-                  "object-contain grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100",
-                  compact ? "max-h-8 max-w-20 sm:max-h-10 sm:max-w-24" : large ? "max-h-20 max-w-40 sm:max-h-28 sm:max-w-52 md:max-h-32 md:max-w-60" : "max-h-16 max-w-32 sm:max-h-20 sm:max-w-40 md:max-h-24 md:max-w-48"
+                  "object-contain transition-all duration-300",
+                  compact ? "max-h-10 max-w-24 sm:max-h-12 sm:max-w-28" : large ? "max-h-24 max-w-48 sm:max-h-32 sm:max-w-60 md:max-h-36 md:max-w-68" : "max-h-20 max-w-40 sm:max-h-24 sm:max-w-48 md:max-h-28 md:max-w-56"
                 )}
                 loading="lazy"
               />
